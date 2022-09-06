@@ -1,10 +1,10 @@
 import Pkg
 Pkg.activate(;temp=true)
 
-lines = readlines("top packages sorted with deps.txt")
+lines = readlines("top_packages_sorted_with_deps.txt")
 
 # test
-# lines = lines[1:50]
+lines = lines[1:50]
 
 
 
@@ -34,7 +34,7 @@ lines = readlines("top packages sorted with deps.txt")
 # ➜  Documents sudo rm -rf ~/.julia/packages  
 
 
-filename = "pkg load times.csv"
+filename = "pkg_load_times.csv"
 
 file_output = Ref("name,install_time,load_time1,load_time2\n")
 

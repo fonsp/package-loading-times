@@ -215,7 +215,7 @@ sorted_names_with_deps = [
 ]
 
 # ╔═╡ 2161f2d2-858d-4edf-ae33-eca9d9ef4980
-write("top packages sorted with deps.txt", join(sorted_names_with_deps, "\n"))
+write("top_packages_sorted_with_deps.txt", join(sorted_names_with_deps, "\n"))
 
 # ╔═╡ fee23f41-5427-440f-8e3c-9a4509873219
 latest_version = general_registry.in_memory_registry[pp.path *"/Versions.toml"]  |> TOML.parse |> keys |> collect .|> VersionNumber |> maximum

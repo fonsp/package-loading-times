@@ -1,0 +1,73 @@
+name: Export Pluto notebooks
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+# When two jobs run in parallel, cancel the older ones, to make sure that the website is generated from the most recent commit.
+concurrency:
+    group: pluto-export
+    cancel-in-progress: true
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout this repository
+              uses: actions/checkout@v2
+
+            - name: Install Julia
+              uses: julia-actions/setup-julia@v1
+              with:
+                  version: 1.8
+
+            - name: Get Julia depot path
+              id: finddepot
+              run: |
+                julia -e '
+                  println("::set-output name=JULIA_DEPOT::", DEPOT_PATH |> first)'
+
+            - name: Get most downloaded packages
+              run: |
+                julia -e 'using Pkg
+                  Pkg.activate(mktempdir())
+                  Pkg.add([
+                    Pkg.PackageSpec(name="PlutoSliderServer", version="0.3.2-0.3"),
+                  ])
+
+                  import PlutoSliderServer
+
+                  PlutoSliderServer.run_notebook("most_downloaded_packages.jl";
+                  )'
+
+            - uses: actions/upload-artifact@v3
+              with:
+                name: most-popular-packages
+                path: top_packages_sorted_with_deps.txt
+            
+            - uses: actions/upload-artifact@v3
+              with:
+                name: most-popular-packages-notebook
+                path: most_downloaded_packages.html
+            
+            - name: Clear Julia depot
+              run: rm -rf ${{ steps.finddepot.outputs.JULIA_DEPOT }}
+
+            - name: 🚀
+              run: julia measure_loading_times.jl
+
+            - uses: actions/upload-artifact@v3
+              with:
+                name: pkg-load-times
+                path: pkg_load_times.txt        
+                
+            # - name: Prepare gh-pages
+                
+  
+            # - name: Deploy to gh-pages
+            #   uses: JamesIves/github-pages-deploy-action@releases/v3
+            #   with:
+            #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            #       BRANCH: gh-pages
+            #       FOLDER: .
