@@ -6,10 +6,10 @@ ENV["JULIA_PKG_PRECOMPILE_AUTO"] = "false"
 lines = readlines("top_packages_sorted_with_deps.txt")
 
 # test
-lines = lines[1:50]
+# lines = lines[1:50]
 
 # We add Example.jl at the start to take the blame for precompilation of Pkg.jl, since people never load this package in the real world.
-# lines = ["Example", lines...]
+lines = ["Example", lines...]
 
 
 
@@ -41,7 +41,7 @@ lines = lines[1:50]
 
 filename = "pkg_load_times.csv"
 
-file_output = Ref("name,install_time,precompile_time,load_time1,load_time2\n")
+file_output = Ref("name,install_time,precompile_time,load_time1\n")
 
 
 
@@ -84,18 +84,18 @@ for line in lines
         @info "First load time"
         load_time1 = load_time()
         
-        @info "Second load time"
-        load_time2 = load_time()
+        # @info "Second load time"
+        # load_time2 = load_time()
         
         
-        @info "time" install_time precompile_time load_time1 load_time2
+        @info "time" install_time precompile_time load_time1
         
-        file_output[] *= "$(package),$install_time,$precompile_time,$load_time1,$load_time2\n"
+        file_output[] *= "$(package),$install_time,$precompile_time,$load_time1\n"
         write(filename, file_output[])
     catch e
         @error "Failed to do package!" package exception=(e, catch_backtrace())
         
-        file_output[] *= "$(package),NaN,NaN,NaN,NaN\n"
+        file_output[] *= "$(package),NaN,NaN,NaN\n"
         write(filename, file_output[])
     end
         
