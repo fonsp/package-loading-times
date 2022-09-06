@@ -38,7 +38,7 @@ jobs:
 
                   import PlutoSliderServer
 
-                  PlutoSliderServer.run_notebook("most_downloaded_packages.jl";
+                  PlutoSliderServer.export_notebook("most_downloaded_packages.jl";
                   )'
 
             - uses: actions/upload-artifact@v3
