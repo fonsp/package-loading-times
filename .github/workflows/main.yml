@@ -60,7 +60,7 @@ jobs:
             - uses: actions/upload-artifact@v3
               with:
                 name: pkg-load-times
-                path: pkg_load_times.txt        
+                path: pkg_load_times.csv        
                 
             # - name: Prepare gh-pages
                 
