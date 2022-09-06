@@ -102,7 +102,7 @@ filter(startswith(pp.path), general_registry.in_memory_registry |> keys)
 
 
 # ╔═╡ d32adabf-5bdf-4622-ac42-f31bff1d007b
-top_uuids = popular[ 1:1000, :package_uuid]
+top_uuids = popular[ 1:2000, :package_uuid]
 
 # ╔═╡ 1a18c3e7-aaf3-4a21-9a06-a94e37650f9a
 top_entries = [general_registry.pkgs[UUID(u)] for u in top_uuids]
