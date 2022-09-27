@@ -20,7 +20,7 @@ jobs:
             - name: Install Julia
               uses: julia-actions/setup-julia@v1
               with:
-                  version: 1.8
+                  version: "1.8.1"
 
             - name: Get Julia depot path
               id: finddepot
