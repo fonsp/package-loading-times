@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.11
+# v0.19.14
 
 using Markdown
 using InteractiveUtils
@@ -101,17 +101,39 @@ pp = general_registry.pkgs[UUID("91a5bcdd-55d7-5caf-9e0b-520d859cae80")]
 filter(startswith(pp.path), general_registry.in_memory_registry |> keys)
 
 
+# ╔═╡ f0b251d4-c538-472b-9ce3-e2b1ea8d3481
+struct StdlibEntry
+	name::String
+	uuid::UUID
+	version::Union{Nothing,VersionNumber}
+end
+
+# ╔═╡ e1818210-c67c-420b-a4e1-64df56c64fc2
+const stdlib_entries = [StdlibEntry(v[1], k, v[2]) for (k,v) in Pkg.Types.stdlibs()]
+
+# ╔═╡ 3a04e925-7c34-4ef1-acbe-dea9199033d9
+const stdlib_registry = Dict(e.uuid => e for e in stdlib_entries)
+
+# ╔═╡ 76f026c3-3610-4fab-81b6-8380f35fb1c2
+const Entry = Union{PkgEntry, StdlibEntry}
+
 # ╔═╡ d32adabf-5bdf-4622-ac42-f31bff1d007b
-top_uuids = popular[ 1:500, :package_uuid]
+top_uuids = popular[ 1:1000, :package_uuid]
 
 # ╔═╡ 1a18c3e7-aaf3-4a21-9a06-a94e37650f9a
-top_entries = [general_registry.pkgs[UUID(u)] for u in top_uuids]
+top_entries = vcat(
+	stdlib_entries,
+	[general_registry.pkgs[UUID(u)] for u in top_uuids],
+)
+
+# ╔═╡ 14077034-878e-4bcd-9468-fb6f9141aaad
+# dependencies(stdlib_entries[15]) |> collect
+
+# ╔═╡ 05cf4427-ff70-473b-ab32-74ef28f26404
+# TOML.parsefile(joinpath(Pkg.Types.stdlib_path("LinearAlgebra"), "Project.toml"))
 
 # ╔═╡ 43223cc7-3af8-4780-a5cc-289b31851fee
 getindex
-
-# ╔═╡ 876da4cd-23e4-4caa-ae8f-e32d994f8f20
-
 
 # ╔═╡ 75f9cb1d-85c5-4c2b-82e4-bcba298ca950
 import TOML
@@ -122,31 +144,47 @@ perw = general_registry.in_memory_registry[pp.path *"/Deps.toml"] |> TOML.parse
 # ╔═╡ 5fcb704e-5878-4674-bc75-f4d4a70aed63
 vs = map(Pkg.Types.VersionRange, collect(keys(perw)))
 
+# ╔═╡ b5ba884e-fd95-4131-b1ee-dfcefcbdf3af
+deps = perw
+
+# ╔═╡ 57312b16-9296-40cb-ac9a-861f38433d44
+function dependencies(entry::StdlibEntry)
+	project = TOML.parsefile(joinpath(Pkg.Types.stdlib_path(entry.name), "Project.toml"))
+
+	deps = get(project, "deps", Dict{String,Any}())
+
+	uuids = UUID.(values(deps))
+
+	Iterators.filter(!isnothing, (
+		get(stdlib_registry, u, nothing)
+		for u in uuids
+	))
+	# Entry[]
+end
+
+# ╔═╡ fee23f41-5427-440f-8e3c-9a4509873219
+latest_version(entry::PkgEntry) = general_registry.in_memory_registry[entry.path *"/Versions.toml"]  |> TOML.parse |> keys |> collect .|> VersionNumber |> maximum
+
+# ╔═╡ 4f68daba-efec-421f-947e-4e14b447ef8b
+latest_version .∈ vs
+
 # ╔═╡ e447c427-e63b-464f-bbb4-4d2104f2a32e
 function dependencies(entry::PkgEntry)
 	deps = general_registry.in_memory_registry[entry.path *"/Deps.toml"] |> TOML.parse
 
-	latest_version = general_registry.in_memory_registry[entry.path *"/Versions.toml"]  |> TOML.parse |> keys |> collect .|> VersionNumber |> maximum
-
-	# found = Set{UUID}()
-	# for (range_str, val) in deps
-	# 	if latest_version ∈ Pkg.Types.VersionRange(range_str)
-	# 		union!(found, Iterators.map(UUID, values(val)))
-	# 	end
-	# end
-	# found
+	v = latest_version(entry)
 
 	uuids = union!(
 		Set{UUID}(), 
 		(
 			Iterators.map(UUID, values(val))
 			for (range_str, val) in deps 
-			if latest_version ∈ Pkg.Types.VersionRange(range_str)
+			if v ∈ Pkg.Types.VersionRange(range_str)
 		)...
 	)
 
 	Iterators.filter(!isnothing, (
-		get(general_registry.pkgs, u, nothing)
+		get(general_registry.pkgs, u, get(stdlib_registry, u, nothing))
 		for u in uuids
 	))
 end
@@ -155,10 +193,10 @@ end
 dsd = dependencies(pp) |> collect
 
 # ╔═╡ afb17c6b-fd9b-4b29-aea2-28bee8f4d2ea
-function sort_by_deps(entry::PkgEntry)
+function sort_by_deps(entry::Entry)
 	deps = dependencies(entry)
 
-	union!(PkgEntry[], (
+	union!(Entry[], (
 		sort_by_deps(d) for d in deps
 		)...,
 		[entry]
@@ -169,7 +207,7 @@ end
 r = sort_by_deps(pp)
 
 # ╔═╡ 79fd7a4c-2637-4a73-9539-73d624f5a0d0
-function sort_by_deps2!(found::Vector{PkgEntry}, entry::PkgEntry)
+function sort_by_deps2!(found::Vector{Entry}, entry::Entry)
 	if entry ∉ found
 		deps = dependencies(entry)
 	
@@ -183,11 +221,11 @@ function sort_by_deps2!(found::Vector{PkgEntry}, entry::PkgEntry)
 end
 
 # ╔═╡ 3d17fd95-bbc3-4ba6-95a8-fa776301be41
-r2 = sort_by_deps2!(PkgEntry[], pp)
+r2 = sort_by_deps2!(Entry[], pp)
 
 # ╔═╡ 4252936f-5435-4d62-a5a2-c5dacc936c6f
 sorted_top = let
-	result = PkgEntry[]
+	result = Entry[]
 	for entry in top_entries
 		sort_by_deps2!(result, entry)
 	end
@@ -214,17 +252,30 @@ sorted_names_with_deps = [
 	for p in sorted_top
 ]
 
+# ╔═╡ da6c519b-f35b-48d2-a897-dbbe58a69711
+Text(join(sorted_names_with_deps, "\n"))
+
 # ╔═╡ 2161f2d2-858d-4edf-ae33-eca9d9ef4980
 write("top_packages_sorted_with_deps.txt", join(sorted_names_with_deps, "\n"))
 
-# ╔═╡ fee23f41-5427-440f-8e3c-9a4509873219
-latest_version = general_registry.in_memory_registry[pp.path *"/Versions.toml"]  |> TOML.parse |> keys |> collect .|> VersionNumber |> maximum
+# ╔═╡ f2fb2e4f-5862-49d4-9fc1-a15f76e2da48
+latest_version(pp)
 
-# ╔═╡ 4f68daba-efec-421f-947e-4e14b447ef8b
-latest_version .∈ vs
+# ╔═╡ 876da4cd-23e4-4caa-ae8f-e32d994f8f20
+uuids = union!(
+	Set{UUID}(), 
+	(
+		Iterators.map(UUID, values(val))
+		for (range_str, val) in deps 
+		if latest_version(pp) ∈ Pkg.Types.VersionRange(range_str)
+	)...
+)
 
-# ╔═╡ 8ca1e420-d626-496e-abde-3437306679b8
-
+# ╔═╡ 8bef7abd-963c-4edf-aca2-bbcbf22099cf
+[
+	get(general_registry.pkgs, u, nothing)
+	for u in uuids
+]
 
 # ╔═╡ 94c2ae47-7350-42e8-abb9-7be7e624110a
 methodswith(PkgEntry)
@@ -260,7 +311,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.8.0"
 manifest_format = "2.0"
-project_hash = "8db559192792204a097e5b53cbe7e2447bf63bed"
+project_hash = "0d632e5f62a16c8df8641582938c83a61dd08c4d"
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -630,6 +681,10 @@ version = "17.4.0+0"
 # ╠═fb69f248-9b78-44f5-9cd7-8d49dc2c17c3
 # ╠═2a3a7470-6520-43b9-9877-95c18379cae0
 # ╠═d5b284e8-48e4-45ff-b60e-897441ec1a79
+# ╠═f0b251d4-c538-472b-9ce3-e2b1ea8d3481
+# ╠═e1818210-c67c-420b-a4e1-64df56c64fc2
+# ╠═3a04e925-7c34-4ef1-acbe-dea9199033d9
+# ╠═76f026c3-3610-4fab-81b6-8380f35fb1c2
 # ╠═b8592dff-07d0-4ae4-b69e-64cc74bd17cc
 # ╠═5fcb704e-5878-4674-bc75-f4d4a70aed63
 # ╠═4f68daba-efec-421f-947e-4e14b447ef8b
@@ -646,13 +701,19 @@ version = "17.4.0+0"
 # ╠═e1bff052-a0a2-41a4-ac75-495e6d2d62a9
 # ╠═50aeef93-d2b6-464e-8aed-2fab5a6d172f
 # ╠═1aebde1a-1221-43f4-8c3b-e7ae54c3528e
+# ╠═da6c519b-f35b-48d2-a897-dbbe58a69711
 # ╠═2161f2d2-858d-4edf-ae33-eca9d9ef4980
+# ╠═14077034-878e-4bcd-9468-fb6f9141aaad
+# ╠═05cf4427-ff70-473b-ab32-74ef28f26404
+# ╠═57312b16-9296-40cb-ac9a-861f38433d44
 # ╠═e447c427-e63b-464f-bbb4-4d2104f2a32e
 # ╠═43223cc7-3af8-4780-a5cc-289b31851fee
 # ╠═fee23f41-5427-440f-8e3c-9a4509873219
+# ╠═f2fb2e4f-5862-49d4-9fc1-a15f76e2da48
+# ╠═b5ba884e-fd95-4131-b1ee-dfcefcbdf3af
 # ╠═876da4cd-23e4-4caa-ae8f-e32d994f8f20
+# ╠═8bef7abd-963c-4edf-aca2-bbcbf22099cf
 # ╠═75f9cb1d-85c5-4c2b-82e4-bcba298ca950
-# ╠═8ca1e420-d626-496e-abde-3437306679b8
 # ╠═94c2ae47-7350-42e8-abb9-7be7e624110a
 # ╠═9836a44e-2eab-4e4d-be75-2e7d801198c7
 # ╟─00000000-0000-0000-0000-000000000001
