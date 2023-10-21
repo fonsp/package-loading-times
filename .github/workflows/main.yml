@@ -1,8 +1,5 @@
-name: Export Pluto notebooks
+name: Measure loading times
 on:
-    push:
-        branches:
-            - main
     workflow_dispatch:
 
 # When two jobs run in parallel, cancel the older ones
