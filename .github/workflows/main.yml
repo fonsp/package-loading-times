@@ -5,7 +5,7 @@ on:
             - main
     workflow_dispatch:
 
-# When two jobs run in parallel, cancel the older ones, to make sure that the website is generated from the most recent commit.
+# When two jobs run in parallel, cancel the older ones
 concurrency:
     group: pluto-export
     cancel-in-progress: true
@@ -13,14 +13,21 @@ concurrency:
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
+
+        strategy:
+            fail-fast: false
+            matrix:
+                julia-version: ["1.6", "1.8", "1.9", "~1.10.0-0"]
+                os: [ubuntu-latest, windows-latest]
+
         steps:
             - name: Checkout this repository
-              uses: actions/checkout@v2
+              uses: actions/checkout@v3
 
             - name: Install Julia
               uses: julia-actions/setup-julia@v1
               with:
-                  version: "1.8.1"
+                  version: ${{ matrix.julia-version }}
 
             - name: Get Julia depot path
               id: finddepot
@@ -43,12 +50,12 @@ jobs:
 
             - uses: actions/upload-artifact@v3
               with:
-                name: most-popular-packages
+                name: most-popular-packages ${{ matrix.os }} ${{ matrix.julia-version }}
                 path: top_packages_sorted_with_deps.txt
             
             - uses: actions/upload-artifact@v3
               with:
-                name: most-popular-packages-notebook
+                name: most-popular-packages-notebook ${{ matrix.os }} ${{ matrix.julia-version }}
                 path: most_downloaded_packages.html
             
             - name: Clear Julia depot
@@ -59,15 +66,6 @@ jobs:
 
             - uses: actions/upload-artifact@v3
               with:
-                name: pkg-load-times
-                path: pkg_load_times.csv        
+                name: pkg-load-times ${{ matrix.os }} ${{ matrix.julia-version }}
+                path: pkg_load_times.csv
                 
-            # - name: Prepare gh-pages
-                
-  
-            # - name: Deploy to gh-pages
-            #   uses: JamesIves/github-pages-deploy-action@releases/v3
-            #   with:
-            #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            #       BRANCH: gh-pages
-            #       FOLDER: .
