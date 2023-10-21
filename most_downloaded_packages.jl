@@ -96,7 +96,14 @@ struct StdlibEntry
 end
 
 # ╔═╡ e1818210-c67c-420b-a4e1-64df56c64fc2
-const stdlib_entries = [StdlibEntry(v[1], k, v[2]) for (k,v) in Pkg.Types.stdlibs()]
+const stdlib_entries = [
+	if v isa String
+		StdlibEntry(v, k, nothing) 
+	else
+		StdlibEntry(v[1], k, v[2]) 
+	end
+	for (k,v) in Pkg.Types.stdlibs()
+]
 
 # ╔═╡ 3a04e925-7c34-4ef1-acbe-dea9199033d9
 const stdlib_registry = Dict(e.uuid => e for e in stdlib_entries)

@@ -48,6 +48,8 @@ file_output = Ref("name,install_time,precompile_time,load_time1\n")
 
 for line in lines
     package, deps... = split(line,",")
+    filter!(!isequal("julia"), deps)
+
     try
         @info "# New package" package deps
         
