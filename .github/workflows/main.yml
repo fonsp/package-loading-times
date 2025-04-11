@@ -38,6 +38,7 @@ jobs:
                   Pkg.activate(mktempdir())
                   Pkg.add([
                     Pkg.PackageSpec(name="PlutoSliderServer", version="1"),
+                    Pkg.PackageSpec(name="Pluto", rev="51b3e7b"), # for Julia 1.12 compat
                   ])
 
                   import PlutoSliderServer
