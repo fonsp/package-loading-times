@@ -14,15 +14,15 @@ jobs:
         strategy:
             fail-fast: false
             matrix:
-                julia-version: ["1.6", "1.9", "1.10", "~1.11.0-0"]
-                os: [ubuntu-latest, windows-latest]
+                julia-version: ["1.9", "1.10", "1.11", "~1.12.0-0"]
+                os: [ubuntu-latest, macos-latest]
 
         steps:
             - name: Checkout this repository
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             - name: Install Julia
-              uses: julia-actions/setup-julia@v1
+              uses: julia-actions/setup-julia@v2
               with:
                   version: ${{ matrix.julia-version }}
 
@@ -37,7 +37,7 @@ jobs:
                 julia -e 'using Pkg
                   Pkg.activate(mktempdir())
                   Pkg.add([
-                    Pkg.PackageSpec(name="PlutoSliderServer", version="0.3.2-0.3"),
+                    Pkg.PackageSpec(name="PlutoSliderServer", version="1"),
                   ])
 
                   import PlutoSliderServer
@@ -45,12 +45,12 @@ jobs:
                   PlutoSliderServer.export_notebook("most_downloaded_packages.jl";
                   )'
 
-            - uses: actions/upload-artifact@v3
+            - uses: actions/upload-artifact@v4
               with:
                 name: most-popular-packages ${{ matrix.os }} ${{ matrix.julia-version }}
                 path: top_packages_sorted_with_deps.txt
             
-            - uses: actions/upload-artifact@v3
+            - uses: actions/upload-artifact@v4
               with:
                 name: most-popular-packages-notebook ${{ matrix.os }} ${{ matrix.julia-version }}
                 path: most_downloaded_packages.html
@@ -61,7 +61,7 @@ jobs:
             - name: 🚀
               run: julia measure_loading_times.jl
 
-            - uses: actions/upload-artifact@v3
+            - uses: actions/upload-artifact@v4
               with:
                 name: pkg-load-times ${{ matrix.os }} ${{ matrix.julia-version }}
                 path: pkg_load_times.csv
