@@ -46,11 +46,13 @@ jobs:
                   )'
 
             - uses: actions/upload-artifact@v4
+              if: always()
               with:
                 name: most-popular-packages ${{ matrix.os }} ${{ matrix.julia-version }}
                 path: top_packages_sorted_with_deps.txt
             
             - uses: actions/upload-artifact@v4
+              if: always()
               with:
                 name: most-popular-packages-notebook ${{ matrix.os }} ${{ matrix.julia-version }}
                 path: most_downloaded_packages.html
@@ -62,6 +64,7 @@ jobs:
               run: julia measure_loading_times.jl
 
             - uses: actions/upload-artifact@v4
+              if: always()
               with:
                 name: pkg-load-times ${{ matrix.os }} ${{ matrix.julia-version }}
                 path: pkg_load_times.csv
