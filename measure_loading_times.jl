@@ -50,10 +50,11 @@ lines = ["Pkg", lines...]
 
 data = Dict{String,Any}()
 
-d(x,y,z) = Dict(
+d(x,y,z,v) = Dict(
     "install_time" => x,
     "precompile_time" => y,
     "load_time1" => z,
+    "version" => v,
 )
 
 peakflops_result = peakflops()
@@ -66,8 +67,8 @@ function submit()
             "time" => start_time,
             "julia_version" => string(VERSION),
             "versioninfo" => sprint(versioninfo),
-            "machine" => Sys.MACHINE,
-            "os" => Sys.iswindows() ? "Windows" : Sys.isapple() ? "macOS" : Sys.KERNEL,
+            "machine" => string(Sys.MACHINE),
+            "os" => Sys.iswindows() ? "Windows" : Sys.isapple() ? "macOS" : string(Sys.KERNEL),
             "peakflops" => peakflops_result,
             "version" => 1,
             "results" => data,
@@ -103,7 +104,10 @@ for (i,line) in enumerate(lines)
                 """
                 $(join(("import $(dep); " for dep in deps)))
                 t = @elapsed import $(package);
-                print(t);
+                print(repr((
+                    time=t,
+                    version=isdefined(Base, :pkgversion) ? Base.pkgversion($(package)) : nothing,
+                )));
                 exit();
                 """
             )`
@@ -113,11 +117,15 @@ for (i,line) in enumerate(lines)
             catch
                 ""
             end
-            something(tryparse(Float64, output), NaN)
+            try
+                eval(Meta.parse(output))
+            catch
+                (time=NaN, version=nothing)
+            end
         end
         
         @info "First load time"
-        load_time1 = load_time()
+        load_time1, loaded_version = load_time()
         
         # @info "Second load time"
         # load_time2 = load_time()
@@ -126,14 +134,14 @@ for (i,line) in enumerate(lines)
         
         
         
-        @info "time" install_time precompile_time load_time1
+        @info "time" install_time precompile_time load_time1 loaded_version
         
-        data[package] = d(install_time, precompile_time, load_time1)
+        data[package] = d(install_time, precompile_time, load_time1, string(loaded_version))
         submit()
     catch e
         @error "Failed to do package!" package exception=(e, catch_backtrace())
         
-        data[package] = d(NaN, NaN, NaN)
+        data[package] = d(NaN, NaN, NaN, nothing)
         submit()
     end
         
