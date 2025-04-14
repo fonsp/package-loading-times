@@ -30,7 +30,9 @@ jobs:
               id: finddepot
               run: |
                 julia -e '
-                  println("::set-output name=JULIA_DEPOT::", DEPOT_PATH |> first)'
+                  depot_path = first(DEPOT_PATH)
+                  write("JULIA_DEPOT", depot_path)'
+                echo "JULIA_DEPOT=$(cat JULIA_DEPOT)" >> $GITHUB_ENV
 
             - name: Get most downloaded packages
               run: |
@@ -73,4 +75,4 @@ jobs:
               with:
                 name: pkg-load-times ${{ matrix.os }} ${{ matrix.julia-version }}
                 path: pkg_load_times.csv
-                
+
