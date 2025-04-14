@@ -25,12 +25,9 @@ exports.handler = async () => {
       .filter(entry => entry.isDirectory() && !entry.name.startsWith('.')) // Exclude hidden/system directories
       .map(entry => path.join(baseDir, entry.name));
 
-    const allowedDirs = workspaceDirs.filter(dir => {
-      const dirName = path.basename(dir);
-      return dirName.match(/^\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}-\d{3}_julia_\d+\.\d+(\.\d+)?(-[a-zA-Z0-9]+)?$/) || dirName === 'output';
-    });
+    
 
-    const files = allowedDirs.flatMap(dir => getFilePaths(dir));
+    const files = workspaceDirs.flatMap(dir => getFilePaths(dir));
     const relativeFiles = files.map(file => path.relative(baseDir, file));
 
     return {
