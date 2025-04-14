@@ -1,0 +1,7333 @@
+julia_version = "1.10.9"
+time = 2025-04-14T11:06:27.369Z
+peakflops = 8.813080631361053e10
+versioninfo = """Julia Version 1.10.9\nCommit 5595d20a287 (2025-03-10 12:51 UTC)\nBuild Info:\n  Official https://julialang.org/ release\nPlatform Info:\n  OS: Linux (x86_64-linux-gnu)\n  CPU: 4 × AMD EPYC 7763 64-Core Processor\n  WORD_SIZE: 64\n  LIBM: libopenlibm\n  LLVM: libLLVM-15.0.7 (ORCJIT, znver3)\nThreads: 1 default, 0 interactive, 1 GC (on 4 virtual cores)\nEnvironment:\n  JULIA_DEPOT = /home/runner/.julia\n  JULIA_PKG_PRECOMPILE_AUTO = false\n"""
+machine = "x86_64-linux-gnu"
+version = 1
+os = "Linux"
+
+[results.FastLapackInterface]
+precompile_time = 1.096796157
+install_time = 0.113886467
+load_time1 = 0.003571558
+version = "2.0.4"
+
+[results.Kerberos_krb5_jll]
+precompile_time = 0.44538821
+install_time = 0.456445903
+load_time1 = 0.004415211
+version = "1.21.3+0"
+
+[results.Peaks]
+precompile_time = 0.645246933
+install_time = 0.14571293
+load_time1 = 0.004462913
+version = "0.5.3"
+
+[results.IrrationalConstants]
+precompile_time = 1.068596068
+install_time = 0.097869213
+load_time1 = 0.008466206
+version = "0.2.4"
+
+[results.Clang_jll]
+precompile_time = 0.804056626
+install_time = 14.156808057
+load_time1 = 0.007247478
+version = "15.0.7+10"
+
+[results.JuliaInterpreter]
+precompile_time = 8.372555368
+install_time = 0.108304451
+load_time1 = 0.03156086
+version = "0.9.44"
+
+[results.Luxor]
+precompile_time = 9.703722076
+install_time = 1.719131453
+load_time1 = 0.060279887
+version = "4.2.0"
+
+[results.AtomsBase]
+precompile_time = 1.921003698
+install_time = 0.273982741
+load_time1 = 0.005124623
+version = "0.5.1"
+
+[results.NVTX_jll]
+precompile_time = 0.434083157
+install_time = 0.480542712
+load_time1 = 0.003999787
+version = "3.1.1+0"
+
+[results.UnsafeArrays]
+precompile_time = 0.37905388
+install_time = 0.12177597
+load_time1 = 0.00278293
+version = "1.0.7"
+
+[results.MKL]
+precompile_time = 0.470696898
+install_time = 0.207246726
+load_time1 = 0.059767391
+version = "0.8.0"
+
+[results.Latexify]
+precompile_time = 2.08416257
+install_time = 0.722391461
+load_time1 = 0.020397726
+version = "0.16.7"
+
+[results.Arb_jll]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.CodeTools]
+precompile_time = 1.381742929
+install_time = 0.13689547
+load_time1 = 0.009350801
+version = "0.7.1"
+
+[results.CUDA_Runtime_jll]
+precompile_time = 1.648396167
+install_time = 2.216379386
+load_time1 = 0.005391372
+version = "0.16.1+0"
+
+[results.HashArrayMappedTries]
+precompile_time = 0.347039925
+install_time = 0.098900591
+load_time1 = 0.001487285
+version = "0.2.0"
+
+[results.CommonSolve]
+precompile_time = 0.290614669
+install_time = 0.098578642
+load_time1 = 0.000933644
+version = "0.2.4"
+
+[results.SparseDiffTools]
+precompile_time = 1.823212488
+install_time = 1.957704774
+load_time1 = 0.003278552
+version = "2.24.0"
+
+[results.snappy_jll]
+precompile_time = 0.424045719
+install_time = 0.178033324
+load_time1 = 0.00429565
+version = "1.2.3+0"
+
+[results.Xorg_libxcb_jll]
+precompile_time = 0.836572458
+install_time = 0.580848103
+load_time1 = 0.002571838
+version = "1.17.1+0"
+
+[results.AbstractFFTs]
+precompile_time = 1.398492105
+install_time = 0.105900869
+load_time1 = 0.00637285
+version = "1.5.0"
+
+[results.StructTypes]
+precompile_time = 0.673071298
+install_time = 0.096973428
+load_time1 = 0.006819882
+version = "1.11.0"
+
+[results.Opus_jll]
+precompile_time = 0.401625487
+install_time = 0.182380017
+load_time1 = 0.004164077
+version = "1.3.3+0"
+
+[results.FuzzyCompletions]
+precompile_time = 0.431278397
+install_time = 0.10631047
+load_time1 = 0.00187283
+version = "0.5.5"
+
+[results.SteadyStateDiffEq]
+precompile_time = 2.276895157
+install_time = 0.785878594
+load_time1 = 0.001621572
+version = "2.5.0"
+
+[results.MsgPack]
+precompile_time = 0.668227006
+install_time = 0.106983748
+load_time1 = 0.002804772
+version = "1.2.1"
+
+[results.Combinatorics]
+precompile_time = 0.677810434
+install_time = 0.269994075
+load_time1 = 0.002481931
+version = "1.0.2"
+
+[results.DiffEqFlux]
+precompile_time = 21.826922727
+install_time = 2.438564249
+load_time1 = 0.004188477
+version = "4.3.0"
+
+[results.BufferedStreams]
+precompile_time = 0.400544862
+install_time = 0.378489813
+load_time1 = 0.001713574
+version = "1.2.2"
+
+[results.at_spi2_core_jll]
+precompile_time = 0.469231561
+install_time = 0.304828376
+load_time1 = 0.001348536
+version = "2.34.0+4"
+
+[results.Polynomials]
+precompile_time = 19.453833004
+install_time = 0.254735834
+load_time1 = 0.210876623
+version = "4.0.19"
+
+[results.ChainRules]
+precompile_time = 4.518878029
+install_time = 0.234906581
+load_time1 = 0.011455225
+version = "1.72.3"
+
+[results.TransformsBase]
+precompile_time = 0.387818876
+install_time = 0.123642828
+load_time1 = 0.001251736
+version = "1.6.0"
+
+[results.TypedTables]
+precompile_time = 0.742963119
+install_time = 0.560467369
+load_time1 = 0.022968122
+version = "1.4.6"
+
+[results.MKL_jll]
+precompile_time = 0.429620104
+install_time = 0.111515905
+load_time1 = 11.081467144
+version = "2025.0.1+1"
+
+[results.FastPower]
+precompile_time = 0.292545109
+install_time = 0.696894758
+load_time1 = 0.004476668
+version = "1.1.2"
+
+[results.ASL_jll]
+precompile_time = 0.443465773
+install_time = 0.2044069
+load_time1 = 0.004255764
+version = "0.1.3+0"
+
+[results.Inflector]
+precompile_time = 0.329450512
+install_time = 0.114279928
+load_time1 = 0.000942151
+version = "1.1.0"
+
+[results.Genie]
+precompile_time = 4.930860047
+install_time = 1.609253354
+load_time1 = 1.177217644
+version = "5.33.7"
+
+[results.TypedSyntax]
+precompile_time = 0.628419382
+install_time = 0.140459611
+load_time1 = 0.001983114
+version = "1.4.2"
+
+[results.DynamicalSystemsBase]
+precompile_time = 2.637467094
+install_time = 0.735204312
+load_time1 = 0.003455297
+version = "3.14.0"
+
+[results.OrdinaryDiffEqBDF]
+precompile_time = 13.553008429
+install_time = 0.64790398
+load_time1 = 0.14392943
+version = "1.4.0"
+
+[results.FFMPEG_jll]
+precompile_time = 0.611506874
+install_time = 0.874200235
+load_time1 = 0.003735321
+version = "7.1.0+0"
+
+[results.PropertyDicts]
+precompile_time = 0.390245671
+install_time = 0.138829009
+load_time1 = 0.004263943
+version = "0.2.1"
+
+[results.CommonSubexpressions]
+precompile_time = 0.364671714
+install_time = 0.093062856
+load_time1 = 0.001055541
+version = "0.3.1"
+
+[results.ArrowTypes]
+precompile_time = 0.381460574
+install_time = 0.11325773
+load_time1 = 0.00229236
+version = "2.3.0"
+
+[results.PROJ_jll]
+precompile_time = 0.622964823
+install_time = 0.59370646
+load_time1 = 0.002278855
+version = "902.600.0+0"
+
+[results.Images]
+precompile_time = 3.672174371
+install_time = 0.465830659
+load_time1 = 0.002551231
+version = "0.26.2"
+
+[results.Hexagons]
+precompile_time = 0.357417012
+install_time = 0.11707917
+load_time1 = 0.001702763
+version = "nothing"
+
+[results.MicroMamba]
+precompile_time = 0.388159333
+install_time = 0.161950454
+load_time1 = 0.00082859
+version = "0.1.14"
+
+[results.HistogramThresholding]
+precompile_time = 1.170115805
+install_time = 0.29057022
+load_time1 = 0.001271433
+version = "0.3.1"
+
+[results.ThreadingUtilities]
+precompile_time = 0.653393344
+install_time = 0.239492097
+load_time1 = 0.007462904
+version = "0.5.3"
+
+[results.Metatheory]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.DiffEqBase]
+precompile_time = 3.293693574
+install_time = 0.641209786
+load_time1 = 0.004443566
+version = "6.167.2"
+
+[results.OrdinaryDiffEqSymplecticRK]
+precompile_time = 2.178079973
+install_time = 0.577995744
+load_time1 = 0.002783863
+version = "1.3.0"
+
+[results.libdecor_jll]
+precompile_time = 0.491951884
+install_time = 0.252219406
+load_time1 = 0.001265902
+version = "0.2.2+0"
+
+[results.SentinelArrays]
+precompile_time = 1.098992186
+install_time = 0.568839017
+load_time1 = 0.017249727
+version = "1.4.8"
+
+[results.XMLDict]
+precompile_time = 0.393237536
+install_time = 0.140625961
+load_time1 = 0.001114952
+version = "0.4.1"
+
+[results.GLM]
+precompile_time = 1.337449397
+install_time = 0.897512682
+load_time1 = 0.002653441
+version = "1.9.0"
+
+[results.AzStorage]
+precompile_time = 0.890676305
+install_time = 0.150893051
+load_time1 = 0.00200216
+version = "2.7.1"
+
+[results.IntervalSets]
+precompile_time = 1.233342265
+install_time = 0.243280284
+load_time1 = 0.044775726
+version = "0.7.10"
+
+[results.Zlib_jll]
+precompile_time = 0.003882545
+install_time = 0.00897658
+load_time1 = 0.000804736
+version = "1.2.13+1"
+
+[results.MD5]
+precompile_time = 0.493335217
+install_time = 0.123057656
+load_time1 = 0.0010384
+version = "0.2.3"
+
+[results.SoftGlobalScope]
+precompile_time = 0.336612355
+install_time = 0.09612751
+load_time1 = 0.000855739
+version = "1.1.0"
+
+[results.x264_jll]
+precompile_time = 0.43681656
+install_time = 0.263249441
+load_time1 = 0.004134549
+version = "10164.0.1+0"
+
+[results.OrdinaryDiffEqSDIRK]
+precompile_time = 4.861456958
+install_time = 0.649285793
+load_time1 = 0.012164745
+version = "1.3.0"
+
+[results.oneTBB_jll]
+precompile_time = 0.465622198
+install_time = 0.186527958
+load_time1 = 0.004896473
+version = "2022.0.0+0"
+
+[results.ArrayInterfaceGPUArrays]
+precompile_time = 0.478811514
+install_time = 0.528077775
+load_time1 = 0.000827697
+version = "0.2.2"
+
+[results.Grisu]
+precompile_time = 0.542480559
+install_time = 0.092596771
+load_time1 = 0.006170176
+version = "1.0.2"
+
+[results.UTCDateTimes]
+precompile_time = 1.663738982
+install_time = 0.129204107
+load_time1 = 0.004151417
+version = "1.6.1"
+
+[results.SpatialIndexing]
+precompile_time = 0.779648271
+install_time = 0.171898837
+load_time1 = 0.00516614
+version = "0.1.6"
+
+[results.LibUnwind_jll]
+precompile_time = 0.001422393
+install_time = 0.003445411
+load_time1 = 0.000972337
+version = "1.5.0+5"
+
+[results.ImageBase]
+precompile_time = 1.999732725
+install_time = 0.141313361
+load_time1 = 0.014634354
+version = "0.1.7"
+
+[results.SLEEFPirates]
+precompile_time = 0.822257619
+install_time = 0.237993056
+load_time1 = 0.003142664
+version = "0.6.43"
+
+[results.Quadmath]
+precompile_time = 0.808492801
+install_time = 0.132248982
+load_time1 = 0.006983917
+version = "0.5.11"
+
+[results.Git]
+precompile_time = 0.355738768
+install_time = 0.132212652
+load_time1 = 0.000712784
+version = "1.3.1"
+
+[results.AbstractMCMC]
+precompile_time = 1.507005635
+install_time = 0.650497913
+load_time1 = 0.007111921
+version = "5.6.0"
+
+[results.FilePathsBase]
+precompile_time = 1.655933881
+install_time = 0.101960331
+load_time1 = 0.023616757
+version = "0.9.24"
+
+[results.RecursiveArrayTools]
+precompile_time = 2.339209037
+install_time = 1.053931538
+load_time1 = 0.01888618
+version = "3.31.2"
+
+[results.GtkObservables]
+precompile_time = 3.070827685
+install_time = 0.625820129
+load_time1 = 0.009885928
+version = "2.2.0"
+
+[results.Xorg_libXdmcp_jll]
+precompile_time = 0.423378915
+install_time = 0.146828232
+load_time1 = 0.003963565
+version = "1.1.6+0"
+
+[results.Rsvg]
+precompile_time = 0.730785557
+install_time = 0.622107397
+load_time1 = 0.001004416
+version = "1.0.0"
+
+[results.MethodAnalysis]
+precompile_time = 0.454933251
+install_time = 0.128280841
+load_time1 = 0.001261293
+version = "0.4.13"
+
+[results.FunctionWrappersWrappers]
+precompile_time = 0.295189214
+install_time = 0.101517854
+load_time1 = 0.00089404
+version = "0.1.3"
+
+[results.OrdinaryDiffEqDefault]
+precompile_time = 27.506946147
+install_time = 0.682543974
+load_time1 = 0.117831647
+version = "1.3.0"
+
+[results.ReplMaker]
+precompile_time = 0.356934958
+install_time = 0.131210059
+load_time1 = 0.001023202
+version = "0.2.7"
+
+[results.PaddedViews]
+precompile_time = 0.36624836
+install_time = 0.101132641
+load_time1 = 0.001278204
+version = "0.5.12"
+
+[results.MLDatasets]
+precompile_time = 7.329022261
+install_time = 2.718416218
+load_time1 = 0.047850101
+version = "0.7.18"
+
+[results.OrderedCollections]
+precompile_time = 0.497823769
+install_time = 0.088558753
+load_time1 = 0.004363019
+version = "1.8.0"
+
+[results.FreeType2_jll]
+precompile_time = 0.408198289
+install_time = 0.247151495
+load_time1 = 0.001015917
+version = "2.13.4+0"
+
+[results.TreeViews]
+precompile_time = 0.339659118
+install_time = 0.114500734
+load_time1 = 0.000696564
+version = "nothing"
+
+[results.Clp_jll]
+precompile_time = 0.50103825
+install_time = 0.308321928
+load_time1 = 0.004324075
+version = "100.1700.600+0"
+
+[results.MatrixPencils]
+precompile_time = 2.615630492
+install_time = 0.630463391
+load_time1 = 0.00409018
+version = "1.8.1"
+
+[results.ImageFiltering]
+precompile_time = 64.008183986
+install_time = 1.0417239
+load_time1 = 0.174449853
+version = "0.7.9"
+
+[results.FLINT_jll]
+precompile_time = 0.455004515
+install_time = 1.381375578
+load_time1 = 0.014341676
+version = "300.200.100+0"
+
+[results.LazyArrays]
+precompile_time = 2.047497628
+install_time = 0.150662055
+load_time1 = 0.047427079
+version = "2.6.1"
+
+[results.MaybeInplace]
+precompile_time = 0.541019934
+install_time = 0.205504377
+load_time1 = 0.001597068
+version = "0.1.4"
+
+[results.EzXML]
+precompile_time = 0.656096079
+install_time = 0.120892785
+load_time1 = 0.012180866
+version = "1.1.0"
+
+[results.PrecompileSignatures]
+precompile_time = 1.002430879
+install_time = 0.112063123
+load_time1 = 0.006949121
+version = "3.0.3"
+
+[results.MIMEs]
+precompile_time = 1.036605184
+install_time = 0.120381448
+load_time1 = 0.005325725
+version = "1.1.0"
+
+[results.SCCNonlinearSolve]
+precompile_time = 1.0198557
+install_time = 0.585093737
+load_time1 = 0.000802291
+version = "1.0.0"
+
+[results.XGBoost_jll]
+precompile_time = 2.065200293
+install_time = 4.447892784
+load_time1 = 0.003463799
+version = "2.0.1+0"
+
+[results.StringViews]
+precompile_time = 0.441569807
+install_time = 0.109114733
+load_time1 = 0.003889791
+version = "1.3.4"
+
+[results.IntervalArithmetic]
+precompile_time = 2.055901507
+install_time = 0.265631664
+load_time1 = 0.033404477
+version = "0.22.28"
+
+[results.Sockets]
+precompile_time = 0.001320253
+install_time = 0.003270266
+load_time1 = 0.0002371
+version = "nothing"
+
+[results.MLStyle]
+precompile_time = 15.578256731
+install_time = 0.131202291
+load_time1 = 0.084541736
+version = "0.4.17"
+
+[results.CompositeTypes]
+precompile_time = 0.358462793
+install_time = 0.120247396
+load_time1 = 0.001681484
+version = "0.1.4"
+
+[results.HypergeometricFunctions]
+precompile_time = 0.838426836
+install_time = 0.9473506
+load_time1 = 0.001879984
+version = "0.3.28"
+
+[results.FriBidi_jll]
+precompile_time = 0.414699314
+install_time = 0.139694136
+load_time1 = 0.004061787
+version = "1.0.17+0"
+
+[results.OrdinaryDiffEqVerner]
+precompile_time = 39.395425265
+install_time = 0.65692272
+load_time1 = 0.076366828
+version = "1.1.1"
+
+[results.JSON2]
+precompile_time = 0.728699877
+install_time = 0.131884489
+load_time1 = 0.003842621
+version = "0.3.4"
+
+[results.LatinHypercubeSampling]
+precompile_time = 0.747727716
+install_time = 0.348610106
+load_time1 = 0.001145208
+version = "1.9.0"
+
+[results.ShowCases]
+precompile_time = 0.397143442
+install_time = 0.114909807
+load_time1 = 0.004091784
+version = "0.1.0"
+
+[results.GLFW_jll]
+precompile_time = 0.492173722
+install_time = 0.255811898
+load_time1 = 0.001429977
+version = "3.4.0+2"
+
+[results.RoundingEmulator]
+precompile_time = 0.430137554
+install_time = 0.107208101
+load_time1 = 0.000985932
+version = "0.2.1"
+
+[results.Media]
+precompile_time = 0.565291615
+install_time = 0.11324944
+load_time1 = 0.001936338
+version = "nothing"
+
+[results.MLJBase]
+precompile_time = 4.112852456
+install_time = 0.712946198
+load_time1 = 0.024910615
+version = "1.8.1"
+
+[results.ColorTypes]
+precompile_time = 1.400700116
+install_time = 0.102908041
+load_time1 = 0.025754349
+version = "0.12.1"
+
+[results.TerminalLoggers]
+precompile_time = 0.495391602
+install_time = 0.121036413
+load_time1 = 0.001325834
+version = "0.1.7"
+
+[results.SCIP_jll]
+precompile_time = 0.520719013
+install_time = 0.930244033
+load_time1 = 0.003537428
+version = "0.2.0+1"
+
+[results.mtdev_jll]
+precompile_time = 0.400395642
+install_time = 0.1511394
+load_time1 = 0.00379938
+version = "1.1.6+0"
+
+[results.CircularArrays]
+precompile_time = 0.333022026
+install_time = 0.125970535
+load_time1 = 0.003277982
+version = "1.4.0"
+
+[results.TimeSeries]
+precompile_time = 1.454122691
+install_time = 0.152904768
+load_time1 = 0.005497943
+version = "0.24.2"
+
+[results.DistributedArrays]
+precompile_time = 0.977285895
+install_time = 0.184888783
+load_time1 = 0.012158781
+version = "0.6.7"
+
+[results.FindFirstFunctions]
+precompile_time = 0.332595073
+install_time = 0.118798428
+load_time1 = 0.001093833
+version = "1.4.1"
+
+[results.Gtk4]
+precompile_time = 24.376344907
+install_time = 0.910188981
+load_time1 = 0.618509005
+version = "0.7.6"
+
+[results.Contour]
+precompile_time = 0.365222602
+install_time = 0.125564925
+load_time1 = 0.001564858
+version = "0.6.3"
+
+[results.OpenLibm_jll]
+precompile_time = 0.003805263
+install_time = 0.008460354
+load_time1 = 0.000848908
+version = "0.8.1+4"
+
+[results.SymbolServer]
+precompile_time = 8.297199091
+install_time = 0.14268444
+load_time1 = 0.158282402
+version = "8.0.0"
+
+[results.OptimizationBase]
+precompile_time = 1.933173659
+install_time = 0.840778876
+load_time1 = 0.002376706
+version = "2.5.0"
+
+[results.BSON]
+precompile_time = 0.622528611
+install_time = 0.110835009
+load_time1 = 0.001893629
+version = "0.3.9"
+
+[results.URIs]
+precompile_time = 0.486515787
+install_time = 0.092579682
+load_time1 = 0.002330781
+version = "1.5.2"
+
+[results.Sundials]
+precompile_time = 11.027772747
+install_time = 3.70717133
+load_time1 = 0.086755013
+version = "4.27.0"
+
+[results.Libdl]
+precompile_time = 0.000951237
+install_time = 0.00941353
+load_time1 = 0.000266835
+version = "nothing"
+
+[results.RuntimeGeneratedFunctions]
+precompile_time = 0.337582045
+install_time = 0.109992645
+load_time1 = 0.001021026
+version = "0.5.13"
+
+[results.ManualMemory]
+precompile_time = 0.362509077
+install_time = 0.091413047
+load_time1 = 0.001469137
+version = "0.1.8"
+
+[results.Inflate]
+precompile_time = 0.392065959
+install_time = 0.102050968
+load_time1 = 0.001339657
+version = "0.1.5"
+
+[results.MetaGraphs]
+precompile_time = 1.297839499
+install_time = 0.196290735
+load_time1 = 0.002332483
+version = "0.8.0"
+
+[results.NumericalIntegration]
+precompile_time = 0.404651723
+install_time = 0.255910235
+load_time1 = 0.001081518
+version = "nothing"
+
+[results.FLoopsBase]
+precompile_time = 0.344860923
+install_time = 0.109929264
+load_time1 = 0.000639879
+version = "0.1.1"
+
+[results.PCRE_jll]
+precompile_time = 0.418541748
+install_time = 0.38574757
+load_time1 = 0.003788229
+version = "8.45.0+0"
+
+[results.DotEnv]
+precompile_time = 1.413966481
+install_time = 0.145857063
+load_time1 = 0.013791104
+version = "1.0.0"
+
+[results.DiffEqFinancial]
+precompile_time = 2.109393221
+install_time = 0.585521454
+load_time1 = 0.001545582
+version = "2.6.0"
+
+[results.FFTViews]
+precompile_time = 0.480718418
+install_time = 0.138283782
+load_time1 = 0.00427016
+version = "0.3.2"
+
+[results.Lz4_jll]
+precompile_time = 0.46942601
+install_time = 0.192564873
+load_time1 = 0.003945972
+version = "1.10.1+0"
+
+[results.PlotUtils]
+precompile_time = 9.839276872
+install_time = 0.280227877
+load_time1 = 0.072859624
+version = "1.4.3"
+
+[results.Neighborhood]
+precompile_time = 0.915986919
+install_time = 0.415311853
+load_time1 = 0.001874384
+version = "0.2.4"
+
+[results.x265_jll]
+precompile_time = 0.447411553
+install_time = 0.226628466
+load_time1 = 0.004075493
+version = "4.1.0+0"
+
+[results.Plots]
+precompile_time = 58.818159385
+install_time = 1.095851188
+load_time1 = 0.490560264
+version = "1.40.12"
+
+[results.demumble_jll]
+precompile_time = 0.425211457
+install_time = 0.297026491
+load_time1 = 0.004131282
+version = "1.3.0+0"
+
+[results.Unitful]
+precompile_time = 18.238004494
+install_time = 0.23841123
+load_time1 = 0.191867578
+version = "1.22.0"
+
+[results.XLSX]
+precompile_time = 0.939963501
+install_time = 0.191031992
+load_time1 = 0.004981262
+version = "0.10.4"
+
+[results.VectorInterface]
+precompile_time = 0.469058374
+install_time = 0.112327469
+load_time1 = 0.005073728
+version = "0.5.0"
+
+[results.Nemo]
+precompile_time = 15.604428847
+install_time = 0.206460663
+load_time1 = 0.472223914
+version = "0.49.3"
+
+[results.Graphene_jll]
+precompile_time = 0.450320166
+install_time = 0.310735158
+load_time1 = 0.001179729
+version = "1.10.8+0"
+
+[results.LibSSH2_jll]
+precompile_time = 0.006174835
+install_time = 0.016649069
+load_time1 = 0.000115875
+version = "1.11.0+1"
+
+[results.CUDA]
+precompile_time = 45.915215286
+install_time = 3.230721456
+load_time1 = 0.720222397
+version = "5.7.2"
+
+[results.MixedModelsDatasets]
+precompile_time = 0.539644935
+install_time = 0.174477445
+load_time1 = 0.000886307
+version = "0.1.2"
+
+[results.Distributed]
+precompile_time = 0.002774916
+install_time = 0.005779318
+load_time1 = 0.014939518
+version = "nothing"
+
+[results.GPUCompiler]
+precompile_time = 25.224712395
+install_time = 0.764756843
+load_time1 = 0.129835771
+version = "1.3.2"
+
+[results.Xorg_libXdamage_jll]
+precompile_time = 0.467490471
+install_time = 0.197246717
+load_time1 = 0.000975904
+version = "1.1.5+4"
+
+[results.FileWatching]
+precompile_time = 0.001218274
+install_time = 0.010857023
+load_time1 = 0.000247791
+version = "nothing"
+
+[results.SimpleNonlinearSolve]
+precompile_time = 9.571230689
+install_time = 0.614440228
+load_time1 = 0.065817238
+version = "2.2.1"
+
+[results.SharedArrays]
+precompile_time = 0.003888826
+install_time = 0.006955875
+load_time1 = 0.002934762
+version = "nothing"
+
+[results.Intervals]
+precompile_time = 3.923818459
+install_time = 0.132651273
+load_time1 = 0.01091916
+version = "1.10.0"
+
+[results.GPUToolbox]
+precompile_time = 0.32122447
+install_time = 0.101091062
+load_time1 = 0.001242246
+version = "0.2.0"
+
+[results.AWSS3]
+precompile_time = 3.3880274
+install_time = 0.244957966
+load_time1 = 0.005352634
+version = "0.11.2"
+
+[results.DataDeps]
+precompile_time = 1.702514461
+install_time = 0.160939749
+load_time1 = 0.026665748
+version = "0.7.13"
+
+[results.SerializedElementArrays]
+precompile_time = 0.346935971
+install_time = 0.130011906
+load_time1 = 0.001556523
+version = "0.1.0"
+
+[results.DelayEmbeddings]
+precompile_time = 1.737724484
+install_time = 0.640352882
+load_time1 = 0.002241677
+version = "2.9.0"
+
+[results.GMP_jll]
+precompile_time = 0.015117396
+install_time = 0.031701528
+load_time1 = 0.000894491
+version = "6.2.1+6"
+
+[results.Coverage]
+precompile_time = 0.668330035
+install_time = 0.152479952
+load_time1 = 0.001021408
+version = "1.6.1"
+
+[results.LibPQ_jll]
+precompile_time = 0.426230798
+install_time = 2.328275268
+load_time1 = 0.001076059
+version = "16.8.0+0"
+
+[results.TermInterface]
+precompile_time = 0.347579217
+install_time = 0.109200071
+load_time1 = 0.00119994
+version = "2.0.0"
+
+[results.WinReg]
+precompile_time = 0.346133819
+install_time = 0.134947459
+load_time1 = 0.002111472
+version = "1.0.0"
+
+[results.ToeplitzMatrices]
+precompile_time = 2.664814813
+install_time = 0.29851171
+load_time1 = 0.019483749
+version = "0.8.5"
+
+[results.Kaleido_jll]
+precompile_time = 0.42038135
+install_time = 4.632070179
+load_time1 = 0.004021904
+version = "0.2.1+0"
+
+[results.Lazy]
+precompile_time = 1.749440097
+install_time = 0.1114659
+load_time1 = 0.009725048
+version = "0.15.1"
+
+[results.IndirectArrays]
+precompile_time = 0.326736315
+install_time = 0.33947616
+load_time1 = 0.00138929
+version = "1.0.0"
+
+[results.SIMD]
+precompile_time = 7.575905798
+install_time = 0.10687224
+load_time1 = 0.062882424
+version = "3.7.1"
+
+[results.FastClosures]
+precompile_time = 0.30158464
+install_time = 0.098954562
+load_time1 = 0.001000208
+version = "0.3.2"
+
+[results.MLJBalancing]
+precompile_time = 2.565738107
+install_time = 0.704857963
+load_time1 = 0.009544817
+version = "0.1.5"
+
+[results.Requires]
+precompile_time = 0.3813503
+install_time = 0.088309523
+load_time1 = 0.001057345
+version = "1.3.1"
+
+[results.StringManipulation]
+precompile_time = 1.320988492
+install_time = 0.095692549
+load_time1 = 0.007111923
+version = "0.4.1"
+
+[results.Gumbo_jll]
+precompile_time = 0.435096452
+install_time = 0.28211556
+load_time1 = 0.004153508
+version = "0.10.2+0"
+
+[results.Clp]
+precompile_time = 9.204599362
+install_time = 0.225900288
+load_time1 = 0.192855434
+version = "1.2.2"
+
+[results.LittleCMS_jll]
+precompile_time = 0.462138659
+install_time = 0.55438517
+load_time1 = 0.001091317
+version = "2.16.0+0"
+
+[results.Devito]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.SimplePartitions]
+precompile_time = 0.428762865
+install_time = 0.292181934
+load_time1 = 0.001607577
+version = "0.3.3"
+
+[results.ThreadTools]
+precompile_time = 0.335849823
+install_time = 0.127883767
+load_time1 = 0.000987986
+version = "0.2.0"
+
+[results.ProgressMeter]
+precompile_time = 0.661497537
+install_time = 0.102931907
+load_time1 = 0.005339764
+version = "1.10.4"
+
+[results.TestItems]
+precompile_time = 0.291265429
+install_time = 0.105890929
+load_time1 = 0.000917796
+version = "1.0.0"
+
+[results.Hwloc_jll]
+precompile_time = 0.444798548
+install_time = 0.530220985
+load_time1 = 0.004169917
+version = "2.12.0+0"
+
+[results.PreallocationTools]
+precompile_time = 0.52301643
+install_time = 0.612248092
+load_time1 = 0.00125926
+version = "0.4.26"
+
+[results.MiniQhull]
+precompile_time = 0.022952753
+install_time = 0.064122338
+load_time1 = 0.000784948
+version = "0.4.0"
+
+[results.MySQL]
+precompile_time = 1.788347053
+install_time = 0.180189652
+load_time1 = 0.007803428
+version = "1.4.7"
+
+[results.FastBroadcast]
+precompile_time = 0.522044765
+install_time = 0.235766012
+load_time1 = 0.001335872
+version = "0.3.5"
+
+[results.ShaderAbstractions]
+precompile_time = 1.264880044
+install_time = 0.270158241
+load_time1 = 0.007198929
+version = "0.5.0"
+
+[results.HTML_Entities]
+precompile_time = 0.508952938
+install_time = 0.434186013
+load_time1 = 0.044395574
+version = "1.0.1"
+
+[results.Xorg_xkeyboard_config_jll]
+precompile_time = 0.412939462
+install_time = 0.215047211
+load_time1 = 0.000739213
+version = "2.39.0+0"
+
+[results.Qt5Base_jll]
+precompile_time = 1.074548212
+install_time = 2.058371716
+load_time1 = 0.006068854
+version = "5.15.3+2"
+
+[results.ExponentialUtilities]
+precompile_time = 26.141002045
+install_time = 0.222503233
+load_time1 = 0.145314222
+version = "1.27.0"
+
+[results.LogCompose]
+precompile_time = 0.356637967
+install_time = 0.54979714
+load_time1 = 0.001015185
+version = "0.2.1"
+
+[results.ThreadedScans]
+precompile_time = 0.725286292
+install_time = 0.140805459
+load_time1 = 0.001194362
+version = "0.1.0"
+
+[results.ChangesOfVariables]
+precompile_time = 0.947259345
+install_time = 0.100385823
+load_time1 = 0.020691479
+version = "0.1.9"
+
+[results.ImageBinarization]
+precompile_time = 1.586407607
+install_time = 0.317039868
+load_time1 = 0.006377511
+version = "0.3.1"
+
+[results.MLJTuning]
+precompile_time = 2.534180672
+install_time = 0.722285777
+load_time1 = 0.003672064
+version = "0.8.8"
+
+[results.ElasticArrays]
+precompile_time = 0.438331887
+install_time = 0.139918295
+load_time1 = 0.003273369
+version = "1.2.12"
+
+[results.Functors]
+precompile_time = 0.511849453
+install_time = 0.43963865
+load_time1 = 0.002121399
+version = "0.5.2"
+
+[results.FastTransforms_jll]
+precompile_time = 0.463320404
+install_time = 0.228416772
+load_time1 = 0.001189051
+version = "0.6.3+0"
+
+[results.RangeArrays]
+precompile_time = 0.323555993
+install_time = 0.106070348
+load_time1 = 0.001468528
+version = "0.3.2"
+
+[results.XSLT_jll]
+precompile_time = 0.461322684
+install_time = 0.215757563
+load_time1 = 0.00115833
+version = "1.1.43+0"
+
+[results.WaveFD]
+precompile_time = 4.503195235
+install_time = 0.751168411
+load_time1 = 0.003632369
+version = "0.7.0"
+
+[results.OrdinaryDiffEqNonlinearSolve]
+precompile_time = 3.812273371
+install_time = 0.951094796
+load_time1 = 0.003300724
+version = "1.6.0"
+
+[results.ThreadPools]
+precompile_time = 0.769695094
+install_time = 0.139083906
+load_time1 = 0.002289644
+version = "2.1.1"
+
+[results.Qt6Wayland_jll]
+precompile_time = 0.410899286
+install_time = 0.199397862
+load_time1 = 0.000879083
+version = "6.8.2+0"
+
+[results.LibGit2_jll]
+precompile_time = 0.00117283
+install_time = 0.004615536
+load_time1 = 0.000122608
+version = "1.6.4+0"
+
+[results.MariaDB_Connector_C_jll]
+precompile_time = 0.453173559
+install_time = 0.451484079
+load_time1 = 0.001125321
+version = "3.3.9+0"
+
+[results.NonlinearSolveBase]
+precompile_time = 5.77453349
+install_time = 0.634742306
+load_time1 = 0.006765432
+version = "1.5.2"
+
+[results.SciMLNLSolve]
+precompile_time = 1.472979728
+install_time = 0.639998453
+load_time1 = 0.001537465
+version = "0.1.9"
+
+[results.ITensors]
+precompile_time = 5.370260621
+install_time = 0.630256906
+load_time1 = 0.027871716
+version = "0.9.2"
+
+[results.Query]
+precompile_time = 1.248160977
+install_time = 0.180458948
+load_time1 = 0.001098401
+version = "1.0.0"
+
+[results.NNlibCUDA]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.H5Zblosc]
+precompile_time = 1.724855736
+install_time = 2.549700681
+load_time1 = 0.074273653
+version = "0.1.2"
+
+[results.LuxLib]
+precompile_time = 3.413874516
+install_time = 0.603578391
+load_time1 = 0.004631655
+version = "1.7.2"
+
+[results.StringEncodings]
+precompile_time = 0.40291947
+install_time = 0.104059205
+load_time1 = 0.002193835
+version = "0.3.7"
+
+[results.StatisticalMeasures]
+precompile_time = 17.796606072
+install_time = 0.672498975
+load_time1 = 0.173338079
+version = "0.2.1"
+
+[results.LibCURL]
+precompile_time = 0.004728927
+install_time = 0.012652201
+load_time1 = 0.000117539
+version = "0.6.4"
+
+[results.GLPK_jll]
+precompile_time = 0.401919225
+install_time = 0.513483091
+load_time1 = 0.004242646
+version = "5.0.1+1"
+
+[results.VersionParsing]
+precompile_time = 0.496872455
+install_time = 0.095161843
+load_time1 = 0.006137914
+version = "1.3.0"
+
+[results.OnlineStatsBase]
+precompile_time = 0.846001171
+install_time = 0.136184686
+load_time1 = 0.003573989
+version = "1.7.1"
+
+[results.PCRE2_jll]
+precompile_time = 0.004475996
+install_time = 0.010243363
+load_time1 = 0.000862974
+version = "10.42.0+1"
+
+[results.libzip_jll]
+precompile_time = 0.475139684
+install_time = 0.214097998
+load_time1 = 0.00119966
+version = "1.11.3+0"
+
+[results.SciMLStructures]
+precompile_time = 0.31377111
+install_time = 0.213889603
+load_time1 = 0.000981312
+version = "1.7.0"
+
+[results.LightXML]
+precompile_time = 0.43486249
+install_time = 2.915660859
+load_time1 = 0.005042162
+version = "0.8.1"
+
+[results.DynamicQuantities]
+precompile_time = 4.562013236
+install_time = 0.683858967
+load_time1 = 0.86047727
+version = "1.8.0"
+
+[results.InplaceOps]
+precompile_time = 0.304561008
+install_time = 0.123684086
+load_time1 = 0.000710299
+version = "nothing"
+
+[results.LinearSolve]
+precompile_time = 18.056259875
+install_time = 0.776902712
+load_time1 = 0.124285186
+version = "3.7.2"
+
+[results.EllipsisNotation]
+precompile_time = 0.344502841
+install_time = 0.218686975
+load_time1 = 0.000734565
+version = "1.8.0"
+
+[results.EnumX]
+precompile_time = 0.319039564
+install_time = 0.095551481
+load_time1 = 0.001129016
+version = "1.0.5"
+
+[results.StochasticDiffEq]
+precompile_time = 9.080570256
+install_time = 0.799580543
+load_time1 = 0.015589617
+version = "6.75.0"
+
+[results.PlotlyBase]
+precompile_time = 2.55159762
+install_time = 0.761190464
+load_time1 = 0.022478479
+version = "0.8.20"
+
+[results.RollingFunctions]
+precompile_time = 1.17842752
+install_time = 0.302980603
+load_time1 = 0.002473025
+version = "0.8.1"
+
+[results.AbstractPPL]
+precompile_time = 1.186646006
+install_time = 0.61498281
+load_time1 = 0.002273784
+version = "0.11.0"
+
+[results.CategoricalArrays]
+precompile_time = 0.95593876
+install_time = 0.122147263
+load_time1 = 0.042979298
+version = "0.10.8"
+
+[results.RData]
+precompile_time = 2.90379221
+install_time = 0.202801848
+load_time1 = 0.006069779
+version = "1.0.0"
+
+[results.Measures]
+precompile_time = 0.414629529
+install_time = 0.092068235
+load_time1 = 0.002600312
+version = "0.3.2"
+
+[results.Cairo]
+precompile_time = 1.245404484
+install_time = 0.341428028
+load_time1 = 0.007340772
+version = "1.1.1"
+
+[results.CUDA_Runtime_Discovery]
+precompile_time = 1.148715131
+install_time = 0.434724454
+load_time1 = 0.016876815
+version = "0.3.5"
+
+[results.Xorg_libXcomposite_jll]
+precompile_time = 0.427853463
+install_time = 0.204269789
+load_time1 = 0.001194038
+version = "0.4.5+4"
+
+[results.MPItrampoline_jll]
+precompile_time = 0.671099001
+install_time = 0.908349068
+load_time1 = 0.00090461
+version = "5.5.3+0"
+
+[results.ImageTransformations]
+precompile_time = 1.639271951
+install_time = 0.243144998
+load_time1 = 0.003114127
+version = "0.10.1"
+
+[results.Highlights]
+precompile_time = 4.952103472
+install_time = 0.129902067
+load_time1 = 0.032185645
+version = "0.5.3"
+
+[results.Blosc]
+precompile_time = 0.430932413
+install_time = 0.126924802
+load_time1 = 0.005483745
+version = "0.7.3"
+
+[results.Libglvnd_jll]
+precompile_time = 0.500255143
+install_time = 0.209088366
+load_time1 = 0.00184028
+version = "1.7.0+0"
+
+[results.MLJ]
+precompile_time = 25.906594043
+install_time = 3.563316632
+load_time1 = 0.004230348
+version = "0.20.7"
+
+[results.MLUtils]
+precompile_time = 5.129827145
+install_time = 0.262938552
+load_time1 = 0.004900516
+version = "0.4.8"
+
+[results.LazyArtifacts]
+precompile_time = 0.00713179
+install_time = 0.021996858
+load_time1 = 0.001011868
+version = "nothing"
+
+[results.CodecZlib]
+precompile_time = 0.372669099
+install_time = 0.097288468
+load_time1 = 0.001249893
+version = "0.7.8"
+
+[results.IterativeSolvers]
+precompile_time = 1.290096826
+install_time = 0.3426308
+load_time1 = 0.005407951
+version = "0.9.4"
+
+[results.Tracker]
+precompile_time = 4.27570245
+install_time = 0.240832874
+load_time1 = 0.049357387
+version = "0.2.38"
+
+[results.JSServe]
+precompile_time = 3.534604491
+install_time = 0.811776246
+load_time1 = 0.019669876
+version = "2.3.1"
+
+[results.MbedTLS]
+precompile_time = 0.80231425
+install_time = 0.102739882
+load_time1 = 0.011326156
+version = "1.1.9"
+
+[results.Artifacts]
+precompile_time = 0.002895852
+install_time = 0.01422126
+load_time1 = 0.000115003
+version = "nothing"
+
+[results.ArrayInterface]
+precompile_time = 0.450189642
+install_time = 0.369434835
+load_time1 = 0.00200757
+version = "7.18.0"
+
+[results.Gadfly]
+precompile_time = 5.061323799
+install_time = 2.053830302
+load_time1 = 0.022720211
+version = "1.4.0"
+
+[results.BFloat16s]
+precompile_time = 0.497076682
+install_time = 0.418665321
+load_time1 = 0.00528771
+version = "0.5.1"
+
+[results.StringDistances]
+precompile_time = 0.731410691
+install_time = 0.128300604
+load_time1 = 0.002677946
+version = "0.11.3"
+
+[results.Trapz]
+precompile_time = 0.377249839
+install_time = 0.125525418
+load_time1 = 0.001113268
+version = "2.0.3"
+
+[results.AdaptivePredicates]
+precompile_time = 1.32470208
+install_time = 0.110875785
+load_time1 = 0.002450754
+version = "1.2.0"
+
+[results.JuliaVariables]
+precompile_time = 2.023279983
+install_time = 0.114427179
+load_time1 = 0.002707751
+version = "0.2.4"
+
+[results.CodecLz4]
+precompile_time = 0.836561301
+install_time = 0.122244493
+load_time1 = 0.008763206
+version = "0.4.6"
+
+[results.LAME_jll]
+precompile_time = 0.44272528
+install_time = 0.153930074
+load_time1 = 0.004128081
+version = "3.100.2+0"
+
+[results.Revise]
+precompile_time = 8.024837519
+install_time = 0.145629767
+load_time1 = 0.079388464
+version = "3.7.3"
+
+[results.Qt6ShaderTools_jll]
+precompile_time = 0.494442303
+install_time = 0.362214408
+load_time1 = 0.002860746
+version = "6.8.2+1"
+
+[results.PlutoUI]
+precompile_time = 3.657235589
+install_time = 0.425661071
+load_time1 = 0.023148123
+version = "0.7.14"
+
+[results.Cbc_jll]
+precompile_time = 0.525054236
+install_time = 0.332760041
+load_time1 = 0.002858953
+version = "200.1000.500+1"
+
+[results.ConsoleProgressMonitor]
+precompile_time = 0.387082987
+install_time = 0.130259146
+load_time1 = 0.000961617
+version = "0.1.2"
+
+[results.Unzip]
+precompile_time = 0.465619431
+install_time = 0.089726821
+load_time1 = 0.004279874
+version = "0.2.0"
+
+[results.PrettyPrint]
+precompile_time = 0.337878983
+install_time = 0.102163984
+load_time1 = 0.001211421
+version = "0.2.0"
+
+[results.TypeParameterAccessors]
+precompile_time = 0.889865144
+install_time = 0.264560386
+load_time1 = 0.009318651
+version = "0.3.10"
+
+[results.Match]
+precompile_time = 0.621256228
+install_time = 0.119221909
+load_time1 = 0.002724402
+version = "2.4.0"
+
+[results.LinearOperators]
+precompile_time = 1.094488643
+install_time = 0.283070741
+load_time1 = 0.004428167
+version = "2.10.0"
+
+[results.DocSeeker]
+precompile_time = 1.392745325
+install_time = 0.164717963
+load_time1 = 0.00152354
+version = "0.4.3"
+
+[results.WaveFD_jll]
+precompile_time = 0.571888191
+install_time = 0.29605298
+load_time1 = 0.002091496
+version = "0.6.1+0"
+
+[results.LeftChildRightSiblingTrees]
+precompile_time = 0.34462628
+install_time = 0.115944769
+load_time1 = 0.002219824
+version = "0.2.0"
+
+[results.Rmath_jll]
+precompile_time = 0.424344793
+install_time = 0.136766266
+load_time1 = 0.003710684
+version = "0.5.1+0"
+
+[results.GitForge]
+precompile_time = 2.495799701
+install_time = 0.16893053
+load_time1 = 0.017225765
+version = "0.4.2"
+
+[results.OrdinaryDiffEqStabilizedRK]
+precompile_time = 3.19279989
+install_time = 0.654341684
+load_time1 = 0.0036377
+version = "1.1.0"
+
+[results.NaturalSort]
+precompile_time = 0.305654198
+install_time = 0.122320083
+load_time1 = 0.001063806
+version = "1.0.0"
+
+[results.DataAPI]
+precompile_time = 0.332167629
+install_time = 0.092419141
+load_time1 = 0.001381187
+version = "1.16.0"
+
+[results.BinDeps]
+precompile_time = 0.807327794
+install_time = 0.12538264
+load_time1 = 0.015189836
+version = "1.0.2"
+
+[results.BlackBoxOptim]
+precompile_time = 3.573818187
+install_time = 0.760882039
+load_time1 = 0.020453143
+version = "0.6.3"
+
+[results.libcxxwrap_julia_jll]
+precompile_time = 0.537013905
+install_time = 0.847623024
+load_time1 = 0.05017111
+version = "0.14.0+0"
+
+[results.NNlib]
+precompile_time = 4.139561207
+install_time = 0.521784265
+load_time1 = 0.008160528
+version = "0.9.30"
+
+[results.Millboard]
+precompile_time = 0.67932871
+install_time = 0.129035712
+load_time1 = 0.005803042
+version = "0.2.5"
+
+[results.Arrow_jll]
+precompile_time = 0.512205564
+install_time = 0.972822652
+load_time1 = 0.006655441
+version = "19.0.0+0"
+
+[results.OrdinaryDiffEqTsit5]
+precompile_time = 6.364069337
+install_time = 0.580844565
+load_time1 = 0.042752251
+version = "1.1.0"
+
+[results.PlotlyKaleido]
+precompile_time = 0.470190763
+install_time = 0.384729043
+load_time1 = 0.000926061
+version = "2.3.0"
+
+[results.JLD]
+precompile_time = 2.474018808
+install_time = 2.569325127
+load_time1 = 0.192408953
+version = "0.13.5"
+
+[results.LearnAPI]
+precompile_time = 0.568892475
+install_time = 0.125381318
+load_time1 = 0.005653667
+version = "1.0.1"
+
+[results.IterTools]
+precompile_time = 0.472498715
+install_time = 0.09454675
+load_time1 = 0.012988218
+version = "1.10.0"
+
+[results.GenericLinearAlgebra]
+precompile_time = 0.894376445
+install_time = 0.150525848
+load_time1 = 0.026259385
+version = "0.3.15"
+
+[results.JetPackTransforms]
+precompile_time = 2.255675946
+install_time = 1.890221843
+load_time1 = 0.001330031
+version = "0.1.2"
+
+[results.Vulkan_Loader_jll]
+precompile_time = 0.443541738
+install_time = 0.192895177
+load_time1 = 0.001322718
+version = "1.3.243+0"
+
+[results.BoundaryValueDiffEqFIRK]
+precompile_time = 136.527845341
+install_time = 0.789852825
+load_time1 = 1.239910031
+version = "1.6.0"
+
+[results.NetworkLayout]
+precompile_time = 1.13112653
+install_time = 0.265913528
+load_time1 = 0.002013722
+version = "0.4.10"
+
+[results.CairoMakie]
+precompile_time = 57.154519286
+install_time = 1.291582737
+load_time1 = 0.429840486
+version = "0.13.4"
+
+[results.ImageIO]
+precompile_time = 0.556240676
+install_time = 0.326001943
+load_time1 = 0.001328138
+version = "0.6.9"
+
+[results.Blink]
+precompile_time = 2.010541961
+install_time = 4.599709019
+load_time1 = 0.140886563
+version = "0.12.9"
+
+[results.METIS_jll]
+precompile_time = 0.458971269
+install_time = 0.229567834
+load_time1 = 0.004336268
+version = "5.1.3+0"
+
+[results.Jieko]
+precompile_time = 1.417186525
+install_time = 0.103857788
+load_time1 = 0.010837909
+version = "0.2.1"
+
+[results.Mods]
+precompile_time = 0.369965429
+install_time = 0.11871492
+load_time1 = 0.004774695
+version = "2.2.6"
+
+[results.LZO_jll]
+precompile_time = 0.406182248
+install_time = 0.151679947
+load_time1 = 0.004148899
+version = "2.10.3+0"
+
+[results.Rotations]
+precompile_time = 2.142505996
+install_time = 0.130116754
+load_time1 = 0.043823023
+version = "1.7.1"
+
+[results.ScanByte]
+precompile_time = 0.877211114
+install_time = 0.236565801
+load_time1 = 0.002194568
+version = "0.4.0"
+
+[results.StrTables]
+precompile_time = 0.419978472
+install_time = 0.128076222
+load_time1 = 0.001573917
+version = "1.0.1"
+
+[results.PtrArrays]
+precompile_time = 0.293901277
+install_time = 0.09052103
+load_time1 = 0.001181605
+version = "1.3.0"
+
+[results.BoundaryValueDiffEqMIRK]
+precompile_time = 88.764529813
+install_time = 1.184347086
+load_time1 = 0.795912339
+version = "1.6.0"
+
+[results.Term]
+precompile_time = 29.932298359
+install_time = 0.862995001
+load_time1 = 0.242513192
+version = "2.0.7"
+
+[results.GLPK]
+precompile_time = 4.051540039
+install_time = 0.181178875
+load_time1 = 0.041765717
+version = "1.2.1"
+
+[results.Memoize]
+precompile_time = 0.314624
+install_time = 0.120513226
+load_time1 = 0.00088831
+version = "0.4.4"
+
+[results.AxisAlgorithms]
+precompile_time = 0.477660133
+install_time = 0.102150775
+load_time1 = 0.000742768
+version = "1.1.0"
+
+[results.TableTraits]
+precompile_time = 0.286545324
+install_time = 0.103532258
+load_time1 = 0.000674202
+version = "1.0.1"
+
+[results.Automa]
+precompile_time = 10.110912026
+install_time = 0.134459596
+load_time1 = 0.05905184
+version = "1.1.0"
+
+[results.CodecInflate64]
+precompile_time = 0.496605388
+install_time = 0.117553263
+load_time1 = 0.001246855
+version = "0.1.3"
+
+[results.CommonDataModel]
+precompile_time = 0.390175131
+install_time = 0.216950113
+load_time1 = 0.000944796
+version = "0.2.0"
+
+[results.ZMQ]
+precompile_time = 1.606951121
+install_time = 0.120950844
+load_time1 = 0.014868932
+version = "1.4.0"
+
+[results.ImageMagick_jll]
+precompile_time = 0.50666114
+install_time = 0.573740578
+load_time1 = 0.00174985
+version = "6.9.13+0"
+
+[results.ModelingToolkit]
+precompile_time = 144.753769873
+install_time = 3.341543524
+load_time1 = 1.393311664
+version = "9.72.0"
+
+[results.GTK4_jll]
+precompile_time = 0.59078939
+install_time = 1.340212187
+load_time1 = 0.004896857
+version = "4.14.5+0"
+
+[results.NonlinearSolveFirstOrder]
+precompile_time = 18.890641204
+install_time = 0.643741386
+load_time1 = 0.206560874
+version = "1.3.1"
+
+[results.Clustering]
+precompile_time = 1.411618901
+install_time = 0.222072564
+load_time1 = 0.003573253
+version = "0.15.8"
+
+[results.VectorizationBase]
+precompile_time = 6.193019894
+install_time = 0.230785192
+load_time1 = 0.07636001
+version = "0.21.71"
+
+[results.Future]
+precompile_time = 0.001590254
+install_time = 0.004712656
+load_time1 = 0.000121536
+version = "nothing"
+
+[results.ExprTools]
+precompile_time = 0.342873537
+install_time = 0.290162831
+load_time1 = 0.00120009
+version = "0.1.10"
+
+[results.XZ_jll]
+precompile_time = 0.474223887
+install_time = 0.247202491
+load_time1 = 0.004104998
+version = "5.8.1+0"
+
+[results.CodecXz]
+precompile_time = 0.362790647
+install_time = 0.127569476
+load_time1 = 0.001103821
+version = "0.7.4"
+
+[results.IRTools]
+precompile_time = 1.413052456
+install_time = 0.112777506
+load_time1 = 0.009603058
+version = "0.4.14"
+
+[results.FastGaussQuadrature]
+precompile_time = 1.395616514
+install_time = 0.124677942
+load_time1 = 0.001293714
+version = "1.0.2"
+
+[results.CodeTracking]
+precompile_time = 0.651475774
+install_time = 0.097797929
+load_time1 = 0.005062935
+version = "1.3.9"
+
+[results.ArrayLayouts]
+precompile_time = 11.596697802
+install_time = 0.109400092
+load_time1 = 0.104880694
+version = "1.11.1"
+
+[results.LabelledArrays]
+precompile_time = 1.429928741
+install_time = 0.588088029
+load_time1 = 0.013007149
+version = "1.16.1"
+
+[results.adwaita_icon_theme_jll]
+precompile_time = 0.429740382
+install_time = 1.207694752
+load_time1 = 0.000901355
+version = "43.0.1+0"
+
+[results.WriteVTK]
+precompile_time = 0.674831547
+install_time = 0.172222747
+load_time1 = 0.002547613
+version = "1.21.1"
+
+[results.Libiconv_jll]
+precompile_time = 0.415713039
+install_time = 0.362382849
+load_time1 = 0.003710044
+version = "1.18.0+0"
+
+[results.OrdinaryDiffEqLowStorageRK]
+precompile_time = 3.293223042
+install_time = 0.608361568
+load_time1 = 0.01557245
+version = "1.3.0"
+
+[results.SSMProblems]
+precompile_time = 1.196384525
+install_time = 0.633815503
+load_time1 = 0.001660516
+version = "0.4.0"
+
+[results.SimpleRandom]
+precompile_time = 0.96075672
+install_time = 0.672645431
+load_time1 = 0.001234633
+version = "0.3.2"
+
+[results.LogDensityProblemsAD]
+precompile_time = 0.451658465
+install_time = 0.722457644
+load_time1 = 0.011936613
+version = "1.13.0"
+
+[results.LazyJSON]
+precompile_time = 2.40949212
+install_time = 0.212444802
+load_time1 = 0.018794272
+version = "0.2.1"
+
+[results.ProgressLogging]
+precompile_time = 0.401837372
+install_time = 0.106383336
+load_time1 = 0.002686792
+version = "0.1.4"
+
+[results.CovarianceEstimation]
+precompile_time = 0.889680278
+install_time = 0.190782455
+load_time1 = 0.001649515
+version = "0.2.13"
+
+[results.FFTW_jll]
+precompile_time = 0.424861644
+install_time = 0.276905065
+load_time1 = 0.004623336
+version = "3.3.11+0"
+
+[results.JumpProcesses]
+precompile_time = 2.808992648
+install_time = 0.644441319
+load_time1 = 0.008112194
+version = "9.14.3"
+
+[results.BioGenerics]
+precompile_time = 0.37786551
+install_time = 0.125564916
+load_time1 = 0.002058595
+version = "0.1.5"
+
+[results.Gumbo]
+precompile_time = 0.417268234
+install_time = 0.143927268
+load_time1 = 0.001780709
+version = "0.8.3"
+
+[results.StatsBase]
+precompile_time = 1.809255916
+install_time = 0.116483787
+load_time1 = 0.011847593
+version = "0.34.4"
+
+[results.ConcurrentUtilities]
+precompile_time = 0.551693563
+install_time = 0.088388798
+load_time1 = 0.001982544
+version = "2.5.0"
+
+[results.ZipArchives]
+precompile_time = 5.213691614
+install_time = 0.123607443
+load_time1 = 0.0346951
+version = "2.4.1"
+
+[results.IJulia]
+precompile_time = 1.501491465
+install_time = 1.105645197
+load_time1 = 0.0109986
+version = "1.27.0"
+
+[results.Strided]
+precompile_time = 0.495945496
+install_time = 0.252753114
+load_time1 = 0.008592625
+version = "2.3.0"
+
+[results.Libuuid_jll]
+precompile_time = 0.393441345
+install_time = 0.34670031
+load_time1 = 0.003673957
+version = "2.41.0+0"
+
+[results.Pipe]
+precompile_time = 0.280884388
+install_time = 0.099815032
+load_time1 = 0.000848326
+version = "1.3.0"
+
+[results.AutoHashEquals]
+precompile_time = 0.414985575
+install_time = 0.107772846
+load_time1 = 0.001084906
+version = "2.2.0"
+
+[results.Chain]
+precompile_time = 0.326061616
+install_time = 0.11487169
+load_time1 = 0.001013964
+version = "0.6.0"
+
+[results.ProgressBars]
+precompile_time = 0.399533217
+install_time = 0.526044044
+load_time1 = 0.001276582
+version = "1.5.1"
+
+[results.Logging]
+precompile_time = 0.001629658
+install_time = 0.004082144
+load_time1 = 0.000256827
+version = "nothing"
+
+[results.JuliaNVTXCallbacks_jll]
+precompile_time = 0.435259013
+install_time = 0.263250464
+load_time1 = 0.004355056
+version = "0.2.1+0"
+
+[results.BlockBandedMatrices]
+precompile_time = 1.5971642
+install_time = 0.149031467
+load_time1 = 0.026344396
+version = "0.13.4"
+
+[results.SimpleBufferStream]
+precompile_time = 0.304071811
+install_time = 0.086345118
+load_time1 = 0.001142203
+version = "1.2.0"
+
+[results.Graphics]
+precompile_time = 0.615342714
+install_time = 0.105202933
+load_time1 = 0.001304072
+version = "1.1.3"
+
+[results.Downloads]
+precompile_time = 0.004862656
+install_time = 0.014078251
+load_time1 = 0.000112359
+version = "1.6.0"
+
+[results.LazyGrids]
+precompile_time = 0.49581035
+install_time = 0.126456159
+load_time1 = 0.001169803
+version = "1.0.0"
+
+[results.MLBase]
+precompile_time = 0.835957432
+install_time = 0.147328321
+load_time1 = 0.001702872
+version = "0.9.2"
+
+[results.micromamba_jll]
+precompile_time = 0.415222383
+install_time = 0.135356744
+load_time1 = 0.941785402
+version = "1.5.8+0"
+
+[results.Xorg_libXrender_jll]
+precompile_time = 0.413034422
+install_time = 0.17167081
+load_time1 = 0.000962669
+version = "0.9.11+1"
+
+[results.TZJData]
+precompile_time = 0.35432215
+install_time = 0.221643301
+load_time1 = 0.00100715
+version = "1.5.0+2025b"
+
+[results.Polyester]
+precompile_time = 0.513967955
+install_time = 0.247199174
+load_time1 = 0.001406674
+version = "0.7.16"
+
+[results.UnsafeAtomics]
+precompile_time = 1.783644292
+install_time = 0.099924592
+load_time1 = 0.0127807
+version = "0.3.0"
+
+[results.libvorbis_jll]
+precompile_time = 0.426097097
+install_time = 0.164365882
+load_time1 = 0.001243831
+version = "1.3.7+2"
+
+[results.CodecBzip2]
+precompile_time = 0.362981124
+install_time = 0.104738423
+load_time1 = 0.001124669
+version = "0.8.5"
+
+[results.Glib_jll]
+precompile_time = 0.508861129
+install_time = 1.433962716
+load_time1 = 0.002275628
+version = "2.84.0+0"
+
+[results.CFTime]
+precompile_time = 0.835374457
+install_time = 0.12769395
+load_time1 = 0.011689198
+version = "0.2.1"
+
+[results.StatisticalTraits]
+precompile_time = 0.378861364
+install_time = 0.916583013
+load_time1 = 0.000994408
+version = "3.4.0"
+
+[results.MacroTools]
+precompile_time = 1.887483391
+install_time = 0.103780136
+load_time1 = 0.010199256
+version = "0.5.15"
+
+[results.JpegTurbo]
+precompile_time = 1.609827452
+install_time = 0.1515938
+load_time1 = 0.012744313
+version = "0.1.6"
+
+[results.CustomUnitRanges]
+precompile_time = 0.304280467
+install_time = 0.105276107
+load_time1 = 0.000842644
+version = "1.0.2"
+
+[results.DataValues]
+precompile_time = 1.298404449
+install_time = 0.128724049
+load_time1 = 0.018593485
+version = "0.4.13"
+
+[results.ArrayInterfaceStaticArraysCore]
+precompile_time = 0.454629322
+install_time = 0.119698979
+load_time1 = 0.000895183
+version = "0.1.4"
+
+[results.Sobol]
+precompile_time = 0.017706569
+install_time = 0.039609022
+load_time1 = 0.002463185
+version = "1.5.0"
+
+[results.QuasiMonteCarlo]
+precompile_time = 0.041996066
+install_time = 0.551171891
+load_time1 = 0.003019852
+version = "0.3.3"
+
+[results.Clang]
+precompile_time = 4.582513268
+install_time = 1.083017776
+load_time1 = 0.043196413
+version = "0.18.3"
+
+[results.Gtk]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.DelayDiffEq]
+precompile_time = 4.706660709
+install_time = 0.778446349
+load_time1 = 0.007112637
+version = "5.52.0"
+
+[results.CxxWrap]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.JuliaSyntax]
+precompile_time = 11.784822631
+install_time = 0.124316519
+load_time1 = 0.048756388
+version = "1.0.2"
+
+[results.Thrift_jll]
+precompile_time = 0.492677765
+install_time = 0.333288988
+load_time1 = 0.001596044
+version = "0.21.1+0"
+
+[results.Hyperscript]
+precompile_time = 0.557698918
+install_time = 0.117654517
+load_time1 = 0.005308574
+version = "0.0.5"
+
+[results.TextWrap]
+precompile_time = 0.322251404
+install_time = 0.107975416
+load_time1 = 0.001106985
+version = "1.0.2"
+
+[results.LanguageServer]
+precompile_time = 12.162913847
+install_time = 0.879046434
+load_time1 = 0.053172082
+version = "4.1.0"
+
+[results.Nullables]
+precompile_time = 0.379703727
+install_time = 0.337049223
+load_time1 = 0.004997657
+version = "1.0.0"
+
+[results.NamedDims]
+precompile_time = 1.764268845
+install_time = 0.289294323
+load_time1 = 0.018819171
+version = "1.2.2"
+
+[results.HCubature]
+precompile_time = 1.614234787
+install_time = 0.286264341
+load_time1 = 0.007263376
+version = "1.7.0"
+
+[results.Expat_jll]
+precompile_time = 0.416247353
+install_time = 0.150099667
+load_time1 = 0.004094258
+version = "2.6.5+0"
+
+[results.Adapt]
+precompile_time = 0.345963418
+install_time = 0.103112728
+load_time1 = 0.00787933
+version = "4.3.0"
+
+[results.Zstd_jll]
+precompile_time = 0.449718472
+install_time = 0.179408331
+load_time1 = 0.003910116
+version = "1.5.7+1"
+
+[results.GraphRecipes]
+precompile_time = 4.19826848
+install_time = 0.483732192
+load_time1 = 0.002880843
+version = "0.5.13"
+
+[results.Meshes]
+precompile_time = 4.928311481
+install_time = 1.100156811
+load_time1 = 0.028554111
+version = "0.53.5"
+
+[results.ScopedValues]
+precompile_time = 0.337837204
+install_time = 0.097395048
+load_time1 = 0.001616915
+version = "1.3.0"
+
+[results.ExpressionExplorer]
+precompile_time = 0.585772028
+install_time = 0.105786888
+load_time1 = 0.00257826
+version = "1.1.2"
+
+[results.OpenBLAS32_jll]
+precompile_time = 0.430539546
+install_time = 0.948126537
+load_time1 = 0.005560015
+version = "0.3.24+0"
+
+[results.MLJFlow]
+precompile_time = 3.138123504
+install_time = 2.108993769
+load_time1 = 0.001475642
+version = "0.5.0"
+
+[results.SparseMatricesCSR]
+precompile_time = 0.592212763
+install_time = 0.128196459
+load_time1 = 0.005436192
+version = "0.6.9"
+
+[results.GitHub]
+precompile_time = 1.733496302
+install_time = 0.148801355
+load_time1 = 0.007132523
+version = "5.9.0"
+
+[results.ArrayInterfaceOffsetArrays]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.LoggingExtras]
+precompile_time = 0.402887288
+install_time = 0.091181715
+load_time1 = 0.001889371
+version = "1.1.0"
+
+[results.OrdinaryDiffEqCore]
+precompile_time = 4.487145931
+install_time = 0.637437328
+load_time1 = 0.029750825
+version = "1.22.0"
+
+[results.boost_jll]
+precompile_time = 0.934856034
+install_time = 4.101045785
+load_time1 = 0.004804287
+version = "1.87.0+0"
+
+[results.TableIOInterface]
+precompile_time = 0.400866052
+install_time = 0.17664639
+load_time1 = 0.001215577
+version = "0.1.6"
+
+[results.ExceptionUnwrapping]
+precompile_time = 0.370003676
+install_time = 0.091791117
+load_time1 = 0.001101307
+version = "0.1.11"
+
+[results.Xorg_libXext_jll]
+precompile_time = 0.432290344
+install_time = 0.317586591
+load_time1 = 0.001047657
+version = "1.3.6+1"
+
+[results.TiffImages]
+precompile_time = 47.36824675
+install_time = 0.14705508
+load_time1 = 0.701388206
+version = "0.11.3"
+
+[results.Twiddle]
+precompile_time = 0.337278069
+install_time = 0.120132951
+load_time1 = 0.001100375
+version = "1.1.2"
+
+[results.TimeZones]
+precompile_time = 4.691106971
+install_time = 0.138658751
+load_time1 = 0.047032311
+version = "1.21.3"
+
+[results.SetRounding]
+precompile_time = 0.341102909
+install_time = 0.114024938
+load_time1 = 0.000966095
+version = "0.2.1"
+
+[results.StructArrays]
+precompile_time = 0.690774395
+install_time = 0.241603002
+load_time1 = 0.580612761
+version = "0.7.1"
+
+[results.ScikitLearnBase]
+precompile_time = 0.604153472
+install_time = 0.132987904
+load_time1 = 0.001390414
+version = "0.5.0"
+
+[results.BenchmarkTools]
+precompile_time = 1.196188259
+install_time = 0.111411499
+load_time1 = 0.004329708
+version = "1.6.0"
+
+[results.StatsPlots]
+precompile_time = 3.572868007
+install_time = 0.962007724
+load_time1 = 0.005217782
+version = "0.15.7"
+
+[results.UnsafeAtomicsLLVM]
+precompile_time = 2.748708412
+install_time = 0.744463488
+load_time1 = 0.003558229
+version = "0.2.2"
+
+[results.Malt]
+precompile_time = 0.608062727
+install_time = 0.108842344
+load_time1 = 0.001587601
+version = "1.1.2"
+
+[results.ThriftJuliaCompiler_jll]
+precompile_time = 0.444725721
+install_time = 1.080822351
+load_time1 = 0.004170127
+version = "0.12.1+0"
+
+[results.FastTransforms]
+precompile_time = 4.3804388
+install_time = 0.800524021
+load_time1 = 0.015287471
+version = "0.17.0"
+
+[results.TableShowUtils]
+precompile_time = 0.915440311
+install_time = 0.121365326
+load_time1 = 0.000860589
+version = "0.2.6"
+
+[results.Infinities]
+precompile_time = 0.466869609
+install_time = 0.350518225
+load_time1 = 0.009946919
+version = "0.1.11"
+
+[results.OrdinaryDiffEqAdamsBashforthMoulton]
+precompile_time = 2.404838267
+install_time = 0.637882941
+load_time1 = 0.004857817
+version = "1.2.0"
+
+[results.BandedMatrices]
+precompile_time = 14.635292296
+install_time = 0.146963201
+load_time1 = 0.346565138
+version = "1.9.3"
+
+[results.FromFile]
+precompile_time = 0.35703244
+install_time = 0.132459184
+load_time1 = 0.003114466
+version = "0.1.6"
+
+[results.EpollShim_jll]
+precompile_time = 0.375709763
+install_time = 0.093707519
+load_time1 = 0.000595566
+version = "0.0.20230411+1"
+
+[results.Static]
+precompile_time = 0.68782686
+install_time = 0.118232067
+load_time1 = 0.011482437
+version = "1.2.0"
+
+[results.MathTeXEngine]
+precompile_time = 3.926711698
+install_time = 0.630903719
+load_time1 = 0.029307322
+version = "0.6.3"
+
+[results.BangBang]
+precompile_time = 0.683795632
+install_time = 0.238742372
+load_time1 = 0.004058929
+version = "0.4.4"
+
+[results.BGZFStreams]
+precompile_time = 0.431666326
+install_time = 0.128762351
+load_time1 = 0.001418792
+version = "0.3.2"
+
+[results.Moshi]
+precompile_time = 7.495121382
+install_time = 0.141249242
+load_time1 = 0.056000667
+version = "0.3.5"
+
+[results.MLJModels]
+precompile_time = 5.049135182
+install_time = 0.702309879
+load_time1 = 0.025063555
+version = "0.17.9"
+
+[results.CSTParser]
+precompile_time = 5.391996607
+install_time = 0.117826541
+load_time1 = 0.026286578
+version = "3.4.3"
+
+[results.URIParser]
+precompile_time = 0.661317902
+install_time = 0.103964926
+load_time1 = 0.006619783
+version = "0.4.1"
+
+[results.pprof_jll]
+precompile_time = 0.502914818
+install_time = 0.697652884
+load_time1 = 0.001438582
+version = "2.0.0+0"
+
+[results.InteractBase]
+precompile_time = 2.515492931
+install_time = 0.919655612
+load_time1 = 0.004349784
+version = "0.10.10"
+
+[results.ImageContrastAdjustment]
+precompile_time = 2.098483127
+install_time = 0.994008826
+load_time1 = 0.002584934
+version = "0.3.12"
+
+[results.DrWatson]
+precompile_time = 1.116643612
+install_time = 0.170774028
+load_time1 = 0.011224175
+version = "2.18.0"
+
+[results.CRC32c]
+precompile_time = 0.001136131
+install_time = 0.003095452
+load_time1 = 0.000287154
+version = "nothing"
+
+[results.QOI]
+precompile_time = 0.737857161
+install_time = 0.141056376
+load_time1 = 0.001118088
+version = "1.0.1"
+
+[results.MLJIteration]
+precompile_time = 3.067969645
+install_time = 0.670679361
+load_time1 = 0.008920578
+version = "0.6.3"
+
+[results.BSplineKit]
+precompile_time = 14.169964274
+install_time = 0.284641207
+load_time1 = 0.095439514
+version = "0.19.0"
+
+[results.CpuId]
+precompile_time = 0.528324863
+install_time = 0.095168441
+load_time1 = 0.001767543
+version = "0.3.1"
+
+[results.BioSymbols]
+precompile_time = 1.047550054
+install_time = 0.131168966
+load_time1 = 0.006545894
+version = "5.1.3"
+
+[results.LineSearches]
+precompile_time = 1.360801915
+install_time = 0.889660295
+load_time1 = 0.002751222
+version = "7.3.0"
+
+[results.Roots]
+precompile_time = 2.948843061
+install_time = 0.670125875
+load_time1 = 0.010420951
+version = "2.2.7"
+
+[results.Lux]
+precompile_time = 6.933089561
+install_time = 1.207505857
+load_time1 = 0.0227967
+version = "1.12.1"
+
+[results.ZygoteRules]
+precompile_time = 0.639723468
+install_time = 0.110350778
+load_time1 = 0.00112512
+version = "0.2.7"
+
+[results.WebSockets]
+precompile_time = 0.760910328
+install_time = 0.130258221
+load_time1 = 0.00209895
+version = "1.6.0"
+
+[results.Pickle]
+precompile_time = 1.862082663
+install_time = 0.336108916
+load_time1 = 0.017724778
+version = "0.3.2"
+
+[results.CompositionsBase]
+precompile_time = 0.313332169
+install_time = 0.100802991
+load_time1 = 0.004705446
+version = "0.1.2"
+
+[results.Readline_jll]
+precompile_time = 0.453763792
+install_time = 0.249255727
+load_time1 = 0.001216801
+version = "8.2.13+0"
+
+[results.Arpack_jll]
+precompile_time = 0.435316841
+install_time = 0.163822513
+load_time1 = 0.004206607
+version = "3.9.1+2"
+
+[results.OrdinaryDiffEqIMEXMultistep]
+precompile_time = 3.267629825
+install_time = 0.659055925
+load_time1 = 0.00214128
+version = "1.3.0"
+
+[results.QueryOperators]
+precompile_time = 1.310697232
+install_time = 0.143021473
+load_time1 = 0.00566486
+version = "0.9.3"
+
+[results.UnPack]
+precompile_time = 0.311121135
+install_time = 0.099009414
+load_time1 = 0.000901334
+version = "1.0.2"
+
+[results.ARFFFiles]
+precompile_time = 0.804295687
+install_time = 0.148223952
+load_time1 = 0.002704726
+version = "1.5.0"
+
+[results.TriplotBase]
+precompile_time = 0.376233166
+install_time = 0.105055968
+load_time1 = 0.001330161
+version = "0.1.0"
+
+[results.libsodium_jll]
+precompile_time = 0.406513333
+install_time = 0.255699705
+load_time1 = 0.004197283
+version = "1.0.21+0"
+
+[results.BitTwiddlingConvenienceFunctions]
+precompile_time = 0.317972629
+install_time = 0.094986109
+load_time1 = 0.000647573
+version = "0.1.6"
+
+[results.StaticLint]
+precompile_time = 1.188467535
+install_time = 0.144629578
+load_time1 = 0.003294941
+version = "8.2.2"
+
+[results.IteratorInterfaceExtensions]
+precompile_time = 0.293227108
+install_time = 0.085675408
+load_time1 = 0.000953041
+version = "1.0.0"
+
+[results.NPZ]
+precompile_time = 0.695989922
+install_time = 0.141128772
+load_time1 = 0.258549769
+version = "0.4.3"
+
+[results.HostCPUFeatures]
+precompile_time = 0.648657954
+install_time = 0.101500501
+load_time1 = 0.005839176
+version = "0.1.17"
+
+[results.WGLMakie]
+precompile_time = 67.713159792
+install_time = 1.072495173
+load_time1 = 0.712383641
+version = "0.11.4"
+
+[results.RandomExtensions]
+precompile_time = 1.627072164
+install_time = 0.112721532
+load_time1 = 0.007484859
+version = "0.4.4"
+
+[results.libfdk_aac_jll]
+precompile_time = 0.421469071
+install_time = 0.422126968
+load_time1 = 0.003866224
+version = "2.0.3+0"
+
+[results.GeometryTypes]
+precompile_time = 1.824438375
+install_time = 0.167456506
+load_time1 = 0.031217549
+version = "0.8.5"
+
+[results.Atomix]
+precompile_time = 0.429013189
+install_time = 0.237791416
+load_time1 = 0.013500477
+version = "1.1.1"
+
+[results.Pidfile]
+precompile_time = 0.343362129
+install_time = 0.104381954
+load_time1 = 0.000896877
+version = "1.3.0"
+
+[results.DataFrames]
+precompile_time = 37.883245074
+install_time = 0.365735144
+load_time1 = 0.268101517
+version = "1.7.0"
+
+[results.Graphviz_jll]
+precompile_time = 0.979312302
+install_time = 0.754844965
+load_time1 = 0.002973604
+version = "2.50.0+1"
+
+[results.SciMLOperators]
+precompile_time = 1.391458159
+install_time = 0.667787458
+load_time1 = 0.008995923
+version = "0.3.13"
+
+[results.XML]
+precompile_time = 0.538717671
+install_time = 0.117761266
+load_time1 = 0.003231865
+version = "0.3.5"
+
+[results.StatsModels]
+precompile_time = 1.240749267
+install_time = 0.666852527
+load_time1 = 0.005673082
+version = "0.7.4"
+
+[results.AdvancedMH]
+precompile_time = 1.398029742
+install_time = 0.687693413
+load_time1 = 0.005516641
+version = "0.8.7"
+
+[results.Distributions]
+precompile_time = 5.999433725
+install_time = 0.732985001
+load_time1 = 0.082989949
+version = "0.25.118"
+
+[results.LogExpFunctions]
+precompile_time = 1.640143004
+install_time = 0.105292465
+load_time1 = 0.002476581
+version = "0.3.29"
+
+[results.Optimization]
+precompile_time = 1.715416797
+install_time = 0.843105199
+load_time1 = 0.001649144
+version = "4.1.2"
+
+[results.CategoricalDistributions]
+precompile_time = 3.10876898
+install_time = 0.665284619
+load_time1 = 0.006792385
+version = "0.1.15"
+
+[results.OpenSpecFun_jll]
+precompile_time = 0.449049999
+install_time = 0.307550625
+load_time1 = 0.004450923
+version = "0.5.6+0"
+
+[results.ContextVariablesX]
+precompile_time = 0.354949074
+install_time = 0.111570728
+load_time1 = 0.00120015
+version = "0.1.3"
+
+[results.UnitfulLatexify]
+precompile_time = 1.181910844
+install_time = 0.666819672
+load_time1 = 0.081454377
+version = "1.6.4"
+
+[results.ArgTools]
+precompile_time = 0.003916188
+install_time = 0.009028648
+load_time1 = 0.0003227
+version = "1.1.1"
+
+[results.SymbolicUtils]
+precompile_time = 21.396224909
+install_time = 0.638485413
+load_time1 = 0.132574912
+version = "3.26.0"
+
+[results.OpenJpeg_jll]
+precompile_time = 0.471875472
+install_time = 0.205378775
+load_time1 = 0.001457066
+version = "2.5.4+0"
+
+[results.Dates]
+precompile_time = 0.001318209
+install_time = 0.011320834
+load_time1 = 0.000130613
+version = "nothing"
+
+[results.CatIndices]
+precompile_time = 0.350265242
+install_time = 0.109618853
+load_time1 = 0.00339225
+version = "0.2.2"
+
+[results.ImageAxes]
+precompile_time = 1.656936253
+install_time = 0.229231956
+load_time1 = 0.002982931
+version = "0.6.12"
+
+[results.dlfcn_win32_jll]
+precompile_time = 0.395666809
+install_time = 0.129356613
+load_time1 = 0.000773909
+version = "1.4.1+0"
+
+[results.Isoband]
+precompile_time = 0.324573622
+install_time = 0.13812277
+load_time1 = 0.0007962
+version = "0.1.1"
+
+[results.DiffEqSensitivity]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.Atom]
+precompile_time = 33.780738781
+install_time = 0.960420898
+load_time1 = 0.219315036
+version = "0.12.38"
+
+[results.Quaternions]
+precompile_time = 0.423485924
+install_time = 0.125570785
+load_time1 = 0.002008162
+version = "0.7.6"
+
+[results.Symbolics]
+precompile_time = 22.025068138
+install_time = 0.695722189
+load_time1 = 0.13982428
+version = "6.38.0"
+
+[results.MarkdownAST]
+precompile_time = 0.54779629
+install_time = 0.114687257
+load_time1 = 0.004103063
+version = "0.1.2"
+
+[results.RegistryTools]
+precompile_time = 0.598230201
+install_time = 0.129609328
+load_time1 = 0.003057939
+version = "2.3.0"
+
+[results.HDF5_jll]
+precompile_time = 1.899641739
+install_time = 3.832512983
+load_time1 = 0.006245414
+version = "1.14.6+0"
+
+[results.MozillaCACerts_jll]
+precompile_time = 0.003537363
+install_time = 0.008761881
+load_time1 = 0.000113652
+version = "2023.1.10"
+
+[results.TableMetadataTools]
+precompile_time = 0.600331175
+install_time = 0.240004621
+load_time1 = 0.001081159
+version = "0.1.0"
+
+[results.TestReports]
+precompile_time = 0.587158961
+install_time = 0.186152248
+load_time1 = 0.001859519
+version = "1.2.1"
+
+[results.MathOptInterface]
+precompile_time = 34.192546882
+install_time = 0.234513535
+load_time1 = 0.284524187
+version = "1.39.0"
+
+[results.TSVD]
+precompile_time = 0.380504103
+install_time = 0.133328547
+load_time1 = 0.001278285
+version = "0.4.4"
+
+[results.NaNMath]
+precompile_time = 0.371402594
+install_time = 0.093342742
+load_time1 = 0.000946408
+version = "1.1.3"
+
+[results.DiskArrays]
+precompile_time = 0.989254105
+install_time = 0.138329254
+load_time1 = 0.011865577
+version = "0.4.12"
+
+[results.MLJModelInterface]
+precompile_time = 0.729563711
+install_time = 0.676521004
+load_time1 = 0.004460248
+version = "1.11.0"
+
+[results.Colorfy]
+precompile_time = 0.674601731
+install_time = 0.744169566
+load_time1 = 0.000991974
+version = "1.1.0"
+
+[results.Rmath]
+precompile_time = 0.611532053
+install_time = 0.107695741
+load_time1 = 0.001729424
+version = "0.8.0"
+
+[results.Pixman_jll]
+precompile_time = 0.433408429
+install_time = 0.160315055
+load_time1 = 0.001040073
+version = "0.44.2+0"
+
+[results.DifferentiationInterface]
+precompile_time = 0.945510644
+install_time = 0.695675228
+load_time1 = 0.013291748
+version = "0.6.51"
+
+[results.FiniteDifferences]
+precompile_time = 0.917288129
+install_time = 0.148991699
+load_time1 = 0.001646337
+version = "0.12.32"
+
+[results.DiffEqOperators]
+precompile_time = 75.217890959
+install_time = 4.923746594
+load_time1 = 4.276808545
+version = "3.5.0"
+
+[results.DecFP]
+precompile_time = 1.463157184
+install_time = 0.171409978
+load_time1 = 0.012904667
+version = "1.4.1"
+
+[results.Xorg_xkbcomp_jll]
+precompile_time = 0.425241337
+install_time = 0.171215769
+load_time1 = 0.000900553
+version = "1.4.6+1"
+
+[results.Ipopt]
+precompile_time = 9.706328747
+install_time = 0.20104619
+load_time1 = 0.253854369
+version = "1.8.0"
+
+[results.L_BFGS_B_jll]
+precompile_time = 0.474827645
+install_time = 0.187501399
+load_time1 = 0.004318273
+version = "3.0.1+0"
+
+[results.Git_jll]
+precompile_time = 0.453942219
+install_time = 3.284960352
+load_time1 = 0.000929648
+version = "2.49.0+0"
+
+[results.SnoopPrecompile]
+precompile_time = 0.342172843
+install_time = 0.106957897
+load_time1 = 0.000688468
+version = "1.0.3"
+
+[results.PlutoDependencyExplorer]
+precompile_time = 0.537719473
+install_time = 0.105883726
+load_time1 = 0.003176452
+version = "1.2.1"
+
+[results.CodecZstd]
+precompile_time = 0.713062112
+install_time = 0.122795981
+load_time1 = 0.004476398
+version = "0.8.6"
+
+[results.DiffRules]
+precompile_time = 0.505697821
+install_time = 0.103952541
+load_time1 = 0.00135673
+version = "1.15.1"
+
+[results.OrdinaryDiffEqHighOrderRK]
+precompile_time = 2.429776961
+install_time = 0.630939748
+load_time1 = 0.002718222
+version = "1.1.0"
+
+[results.WebIO]
+precompile_time = 1.59546227
+install_time = 0.893350779
+load_time1 = 0.922725465
+version = "0.8.21"
+
+[results.XGBoost]
+precompile_time = 6.143523151
+install_time = 4.940186342
+load_time1 = 0.009792638
+version = "2.5.1"
+
+[results.RegistryInstances]
+precompile_time = 0.571188191
+install_time = 0.112080868
+load_time1 = 0.002517307
+version = "0.1.0"
+
+[results.ChainRulesCore]
+precompile_time = 1.555353091
+install_time = 0.11039566
+load_time1 = 0.016917064
+version = "1.25.1"
+
+[results.p7zip_jll]
+precompile_time = 0.005152725
+install_time = 0.011893952
+load_time1 = 0.000106307
+version = "17.4.0+2"
+
+[results.DecFP_jll]
+precompile_time = 0.443150731
+install_time = 0.28843599
+load_time1 = 0.004035017
+version = "2.0.3+1"
+
+[results.FFTW]
+precompile_time = 8.265227773
+install_time = 0.122259614
+load_time1 = 0.064841182
+version = "1.8.1"
+
+[results.Pkg]
+precompile_time = 0.002617643
+install_time = 0.016115814
+load_time1 = 0.000124041
+version = "1.10.0"
+
+[results.ForwardDiff]
+precompile_time = 3.585903344
+install_time = 0.117576707
+load_time1 = 0.045632379
+version = "1.0.1"
+
+[results.SymbolicLimits]
+precompile_time = 1.766061293
+install_time = 0.669083598
+load_time1 = 0.001025886
+version = "0.2.2"
+
+[results.HTTP]
+precompile_time = 14.464450551
+install_time = 0.125633169
+load_time1 = 0.102820327
+version = "1.10.16"
+
+[results.HierarchicalUtils]
+precompile_time = 0.759732615
+install_time = 0.268926745
+load_time1 = 0.003704498
+version = "2.2.3"
+
+[results.OrdinaryDiffEqQPRK]
+precompile_time = 1.992495369
+install_time = 0.651278865
+load_time1 = 0.001633275
+version = "1.1.0"
+
+[results.Folds]
+precompile_time = 2.588477633
+install_time = 0.265933056
+load_time1 = 0.02403935
+version = "0.2.10"
+
+[results.RingLists]
+precompile_time = 0.33327781
+install_time = 0.142760854
+load_time1 = 0.00174375
+version = "0.2.9"
+
+[results.gdk_pixbuf_jll]
+precompile_time = 0.482180829
+install_time = 0.341471694
+load_time1 = 0.001517259
+version = "2.42.12+0"
+
+[results.HiGHS_jll]
+precompile_time = 0.466173066
+install_time = 0.318341421
+load_time1 = 0.004657234
+version = "1.10.0+0"
+
+[results.Dictionaries]
+precompile_time = 0.881626528
+install_time = 0.128739484
+load_time1 = 0.020235419
+version = "0.4.5"
+
+[results.Turing]
+precompile_time = 18.632667169
+install_time = 2.964036523
+load_time1 = 0.010029985
+version = "0.37.0"
+
+[results.Xorg_libpthread_stubs_jll]
+precompile_time = 0.391493688
+install_time = 0.145561008
+load_time1 = 0.003573495
+version = "0.5.0+0"
+
+[results.PlotlyJS]
+precompile_time = 3.249664044
+install_time = 3.303667099
+load_time1 = 0.695877363
+version = "0.18.15"
+
+[results.OpenEXR]
+precompile_time = 0.75933722
+install_time = 0.128858069
+load_time1 = 0.001507101
+version = "0.3.3"
+
+[results.Qt6Declarative_jll]
+precompile_time = 1.336710466
+install_time = 2.146807749
+load_time1 = 0.024211792
+version = "6.8.2+1"
+
+[results.JSON3]
+precompile_time = 6.602756024
+install_time = 0.104307568
+load_time1 = 0.044489999
+version = "1.14.2"
+
+[results.IntegralArrays]
+precompile_time = 0.561845095
+install_time = 0.243396402
+load_time1 = 0.001315044
+version = "0.1.6"
+
+[results.UUIDs]
+precompile_time = 0.001656908
+install_time = 0.004938996
+load_time1 = 0.000120885
+version = "nothing"
+
+[results.Gurobi_jll]
+precompile_time = 0.455696516
+install_time = 7.154501486
+load_time1 = 0.007491711
+version = "12.0.1"
+
+[results.Xorg_libICE_jll]
+precompile_time = 0.43310929
+install_time = 0.162974344
+load_time1 = 0.003581976
+version = "1.1.2+0"
+
+[results.InitialValues]
+precompile_time = 0.6606185
+install_time = 0.100941912
+load_time1 = 0.008301811
+version = "0.3.1"
+
+[results.Xorg_libXfixes_jll]
+precompile_time = 0.416257345
+install_time = 0.160945903
+load_time1 = 0.000901195
+version = "6.0.0+0"
+
+[results.FlameGraphs]
+precompile_time = 2.981507087
+install_time = 0.185486475
+load_time1 = 0.038942536
+version = "1.1.0"
+
+[results.JLLWrappers]
+precompile_time = 0.375016989
+install_time = 0.090612343
+load_time1 = 0.00089869
+version = "1.7.0"
+
+[results.UnsafePointers]
+precompile_time = 0.352400906
+install_time = 0.118385833
+load_time1 = 0.005275401
+version = "1.0.0"
+
+[results.CUDA_Driver_jll]
+precompile_time = 0.625674619
+install_time = 3.722945256
+load_time1 = 0.296238196
+version = "0.12.1+1"
+
+[results.Retry]
+precompile_time = 0.347682081
+install_time = 0.108938597
+load_time1 = 0.001023401
+version = "0.4.1"
+
+[results.SparseInverseSubset]
+precompile_time = 0.476263848
+install_time = 0.10820258
+load_time1 = 0.000746706
+version = "0.1.2"
+
+[results.Mocking]
+precompile_time = 0.386510341
+install_time = 0.11263031
+load_time1 = 0.001266171
+version = "0.8.1"
+
+[results.ImageSegmentation]
+precompile_time = 2.927014991
+install_time = 0.622363226
+load_time1 = 0.002317096
+version = "1.8.4"
+
+[results.OptimBase]
+precompile_time = 0.629970598
+install_time = 0.89793945
+load_time1 = 0.00128099
+version = "2.0.2"
+
+[results.MLCore]
+precompile_time = 0.688902607
+install_time = 0.111427122
+load_time1 = 0.000784358
+version = "1.0.0"
+
+[results.SimpleTraits]
+precompile_time = 0.632457646
+install_time = 0.097555202
+load_time1 = 0.001158641
+version = "0.9.4"
+
+[results.Conda]
+precompile_time = 0.545533798
+install_time = 0.622259585
+load_time1 = 0.00443048
+version = "1.10.2"
+
+[results.WeakRefStrings]
+precompile_time = 0.630159198
+install_time = 0.108405805
+load_time1 = 0.005763633
+version = "1.4.2"
+
+[results.Packing]
+precompile_time = 0.832164303
+install_time = 0.274677487
+load_time1 = 0.00113588
+version = "0.5.1"
+
+[results.SuiteSparse_jll]
+precompile_time = 0.012127344
+install_time = 0.025330266
+load_time1 = 0.001909718
+version = "7.2.1+1"
+
+[results.SimpleGraphs]
+precompile_time = 1.858041374
+install_time = 0.757796009
+load_time1 = 0.004019816
+version = "0.8.6"
+
+[results.Xorg_xcb_util_jll]
+precompile_time = 0.419450967
+install_time = 0.155461564
+load_time1 = 0.001023402
+version = "0.4.0+1"
+
+[results.Groebner]
+precompile_time = 50.230273928
+install_time = 0.422190792
+load_time1 = 0.313158036
+version = "0.9.2"
+
+[results.Dierckx]
+precompile_time = 0.521765596
+install_time = 0.12423645
+load_time1 = 0.001368915
+version = "0.5.4"
+
+[results.Xorg_libX11_jll]
+precompile_time = 0.443471148
+install_time = 1.4859599
+load_time1 = 0.001265071
+version = "1.8.6+1"
+
+[results.Loess]
+precompile_time = 0.593109006
+install_time = 0.140922485
+load_time1 = 0.000990752
+version = "0.6.4"
+
+[results.TestImages]
+precompile_time = 2.257318956
+install_time = 0.407581112
+load_time1 = 0.028484077
+version = "1.9.0"
+
+[results.Pluto]
+precompile_time = 33.666266572
+install_time = 1.163210436
+load_time1 = 1.360411678
+version = "0.20.5"
+
+[results.LibPQ]
+precompile_time = 11.078092485
+install_time = 0.250285885
+load_time1 = 0.07784783
+version = "1.18.0"
+
+[results.Sixel]
+precompile_time = 1.533060877
+install_time = 0.156687504
+load_time1 = 0.002666064
+version = "0.1.3"
+
+[results.LibCURL_jll]
+precompile_time = 0.006594484
+install_time = 0.018445738
+load_time1 = 0.000124481
+version = "8.4.0+0"
+
+[results.ADTypes]
+precompile_time = 0.943275788
+install_time = 0.223099302
+load_time1 = 0.030718955
+version = "1.14.0"
+
+[results.fzf_jll]
+precompile_time = 0.39855973
+install_time = 0.444012607
+load_time1 = 0.004052029
+version = "0.56.3+0"
+
+[results.Statistics]
+precompile_time = 0.012420884
+install_time = 0.008863242
+load_time1 = 0.001362583
+version = "1.10.0"
+
+[results.Tricks]
+precompile_time = 0.353721556
+install_time = 0.098686774
+load_time1 = 0.001132431
+version = "0.1.10"
+
+[results.StaticArraysCore]
+precompile_time = 0.37637102
+install_time = 0.086224841
+load_time1 = 0.001589203
+version = "1.4.3"
+
+[results.GDAL_jll]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.LightGraphs]
+precompile_time = 4.068056069
+install_time = 0.208858361
+load_time1 = 0.01145196
+version = "1.3.5"
+
+[results.HDF4_jll]
+precompile_time = 0.511231087
+install_time = 0.246592958
+load_time1 = 0.001446046
+version = "4.3.1+0"
+
+[results.MeshIO]
+precompile_time = 1.601966476
+install_time = 0.350187949
+load_time1 = 0.007990422
+version = "0.5.3"
+
+[results.AdvancedPS]
+precompile_time = 1.304378197
+install_time = 0.679549338
+load_time1 = 0.002567121
+version = "0.5.4"
+
+[results.Richardson]
+precompile_time = 0.339996254
+install_time = 0.128005501
+load_time1 = 0.00094807
+version = "1.4.2"
+
+[results.AMD]
+precompile_time = 0.635452609
+install_time = 0.13709141
+load_time1 = 0.001411913
+version = "0.5.3"
+
+[results.StableRNGs]
+precompile_time = 0.335232594
+install_time = 0.104724956
+load_time1 = 0.001326114
+version = "1.0.2"
+
+[results.IniFile]
+precompile_time = 0.293653689
+install_time = 0.101802953
+load_time1 = 0.001153513
+version = "0.5.1"
+
+[results.DBInterface]
+precompile_time = 0.336553138
+install_time = 0.111414414
+load_time1 = 0.002240012
+version = "2.6.1"
+
+[results.ExternalDocstrings]
+precompile_time = 0.334016692
+install_time = 0.134480757
+load_time1 = 0.000952351
+version = "0.1.1"
+
+[results.Compose]
+precompile_time = 1.936143263
+install_time = 0.165384339
+load_time1 = 0.011895695
+version = "0.9.5"
+
+[results.ObjectFile]
+precompile_time = 1.742508579
+install_time = 0.196378793
+load_time1 = 0.00845
+version = "0.4.4"
+
+[results.Tables]
+precompile_time = 0.713374878
+install_time = 0.103237147
+load_time1 = 0.008559664
+version = "1.12.0"
+
+[results.Scratch]
+precompile_time = 0.330981607
+install_time = 0.093762445
+load_time1 = 0.000885014
+version = "1.2.1"
+
+[results.MCMCDiagnosticTools]
+precompile_time = 1.235223636
+install_time = 1.122743765
+load_time1 = 0.002048475
+version = "0.3.14"
+
+[results.MATLAB]
+precompile_time = 0.883975615
+install_time = 0.403732744
+load_time1 = 0.003015715
+version = "0.9.0"
+
+[results.ComputationalResources]
+precompile_time = 0.465255699
+install_time = 0.098737792
+load_time1 = 0.002959223
+version = "0.3.2"
+
+[results.FreeTypeAbstraction]
+precompile_time = 1.869904347
+install_time = 0.257391122
+load_time1 = 0.020451492
+version = "0.10.6"
+
+[results.LazilyInitializedFields]
+precompile_time = 0.341442763
+install_time = 0.360316889
+load_time1 = 0.001212182
+version = "1.3.0"
+
+[results.Ratios]
+precompile_time = 0.323185334
+install_time = 0.106384037
+load_time1 = 0.010055799
+version = "0.4.5"
+
+[results.HttpCommon]
+precompile_time = 0.449919901
+install_time = 0.117223672
+load_time1 = 0.000934657
+version = "nothing"
+
+[results.LazyModules]
+precompile_time = 0.368377205
+install_time = 0.09902886
+load_time1 = 0.001875916
+version = "0.3.1"
+
+[results.SQLStrings]
+precompile_time = 0.309474222
+install_time = 0.11138445
+load_time1 = 0.001188538
+version = "0.1.0"
+
+[results.Wavelets]
+precompile_time = 1.966623637
+install_time = 0.3139046
+load_time1 = 0.00694959
+version = "0.10.1"
+
+[results.CvxCompress_jll]
+precompile_time = 0.425261255
+install_time = 0.345603514
+load_time1 = 0.004298877
+version = "1.2.1+0"
+
+[results.AdvancedHMC]
+precompile_time = 2.067578256
+install_time = 0.916908197
+load_time1 = 0.009036477
+version = "0.7.0"
+
+[results.HiGHS]
+precompile_time = 11.39762361
+install_time = 0.164622717
+load_time1 = 0.311098631
+version = "1.15.0"
+
+[results.SuiteSparse]
+precompile_time = 0.413775053
+install_time = 0.008543123
+load_time1 = 0.000687948
+version = "nothing"
+
+[results.xkbcommon_jll]
+precompile_time = 0.443698363
+install_time = 0.206098179
+load_time1 = 0.001213073
+version = "1.4.1+2"
+
+[results.DefineSingletons]
+precompile_time = 0.317067438
+install_time = 0.106013742
+load_time1 = 0.000902628
+version = "0.1.2"
+
+[results.Widgets]
+precompile_time = 0.804549794
+install_time = 0.113600847
+load_time1 = 0.002369838
+version = "0.6.7"
+
+[results.CRlibm]
+precompile_time = 0.490746569
+install_time = 0.127708937
+load_time1 = 0.00484319
+version = "1.0.2"
+
+[results.Graphs]
+precompile_time = 3.453843591
+install_time = 0.176449567
+load_time1 = 0.013064397
+version = "1.12.1"
+
+[results.ConstructionBase]
+precompile_time = 0.712653247
+install_time = 0.225444629
+load_time1 = 0.031460808
+version = "1.5.8"
+
+[results.MultiScaleArrays]
+precompile_time = 5.306096159
+install_time = 0.854660719
+load_time1 = 0.011696273
+version = "1.13.0"
+
+[results.DoubleFloats]
+precompile_time = 1.95605654
+install_time = 0.268029908
+load_time1 = 0.027748535
+version = "1.4.3"
+
+[results.RealDot]
+precompile_time = 0.305144551
+install_time = 0.104507728
+load_time1 = 0.000896495
+version = "0.1.0"
+
+[results.MUMPS_seq_jll]
+precompile_time = 0.55189968
+install_time = 0.686204822
+load_time1 = 0.003314519
+version = "500.700.301+0"
+
+[results.RelocatableFolders]
+precompile_time = 0.328134164
+install_time = 0.093560027
+load_time1 = 0.000853366
+version = "1.0.1"
+
+[results.ColorVectorSpace]
+precompile_time = 2.092113304
+install_time = 0.116258314
+load_time1 = 0.040494229
+version = "0.11.0"
+
+[results.ModernGL]
+precompile_time = 1.847734656
+install_time = 0.118835817
+load_time1 = 0.007057728
+version = "1.1.8"
+
+[results.RecipesBase]
+precompile_time = 1.156688938
+install_time = 0.088295299
+load_time1 = 0.010392731
+version = "1.3.4"
+
+[results.SparseMatrixColorings]
+precompile_time = 1.086978911
+install_time = 0.887769331
+load_time1 = 0.007342433
+version = "0.4.18"
+
+[results.hicolor_icon_theme_jll]
+precompile_time = 0.40887511
+install_time = 0.169051578
+load_time1 = 0.00382646
+version = "0.17.0+3"
+
+[results.GraphQLClient]
+precompile_time = 0.94922542
+install_time = 0.155163647
+load_time1 = 0.002662147
+version = "0.7.6"
+
+[results.LibUV_jll]
+precompile_time = 0.002213563
+install_time = 0.005032481
+load_time1 = 0.001091508
+version = "2.0.1+14"
+
+[results.OrdinaryDiffEqLinear]
+precompile_time = 2.00335582
+install_time = 1.018272712
+load_time1 = 0.002655203
+version = "1.1.0"
+
+[results.FunctionProperties]
+precompile_time = 0.464818371
+install_time = 0.152275933
+load_time1 = 0.001633799
+version = "0.1.2"
+
+[results.TupleTools]
+precompile_time = 0.414180745
+install_time = 0.109254115
+load_time1 = 0.001428875
+version = "1.6.0"
+
+[results.CSSUtil]
+precompile_time = 3.16639786
+install_time = 0.199311203
+load_time1 = 0.001088102
+version = "0.1.1"
+
+[results.DynamicPPL]
+precompile_time = 10.071591138
+install_time = 2.121490428
+load_time1 = 0.044372541
+version = "0.35.7"
+
+[results.Multisets]
+precompile_time = 0.376639014
+install_time = 0.426240669
+load_time1 = 0.00210947
+version = "0.4.5"
+
+[results.FixedPointNumbers]
+precompile_time = 2.20370011
+install_time = 0.097954238
+load_time1 = 0.019759319
+version = "0.8.5"
+
+[results.PooledArrays]
+precompile_time = 0.403198052
+install_time = 0.125371227
+load_time1 = 0.007065861
+version = "1.4.3"
+
+[results.MultivariatePolynomials]
+precompile_time = 2.115603501
+install_time = 0.131917272
+load_time1 = 0.025090786
+version = "0.5.7"
+
+[results.Mill]
+precompile_time = 4.211843363
+install_time = 0.795259286
+load_time1 = 0.035041513
+version = "2.12.1"
+
+[results.ExproniconLite]
+precompile_time = 1.719480701
+install_time = 0.106733785
+load_time1 = 0.008765099
+version = "0.10.14"
+
+[results.LibGit2]
+precompile_time = 0.001463789
+install_time = 0.011229705
+load_time1 = 0.000115545
+version = "nothing"
+
+[results.Baselet]
+precompile_time = 0.855438375
+install_time = 0.100848919
+load_time1 = 0.009082104
+version = "0.1.1"
+
+[results.FileIO]
+precompile_time = 2.78729487
+install_time = 0.144814096
+load_time1 = 0.049975612
+version = "1.17.0"
+
+[results.Gettext_jll]
+precompile_time = 0.865902821
+install_time = 0.951081127
+load_time1 = 0.001071271
+version = "0.21.0+0"
+
+[results.UnicodeFun]
+precompile_time = 0.893256342
+install_time = 0.091725329
+load_time1 = 0.004430043
+version = "0.4.1"
+
+[results.ImageCore]
+precompile_time = 17.300744903
+install_time = 0.166684911
+load_time1 = 0.19429747
+version = "0.10.5"
+
+[results.PythonCall]
+precompile_time = 10.452428522
+install_time = 0.182580846
+load_time1 = 9.165116864
+version = "0.9.24"
+
+[results.Xorg_xcb_util_keysyms_jll]
+precompile_time = 0.410021155
+install_time = 0.150520768
+load_time1 = 0.001093171
+version = "0.4.0+1"
+
+[results.NetworkOptions]
+precompile_time = 0.002444803
+install_time = 0.005762948
+load_time1 = 0.000292363
+version = "1.2.0"
+
+[results.MLDataDevices]
+precompile_time = 0.650425069
+install_time = 0.615952298
+load_time1 = 0.002759674
+version = "1.9.1"
+
+[results.StatisticalMeasuresBase]
+precompile_time = 5.310075305
+install_time = 0.307091974
+load_time1 = 0.050678619
+version = "0.1.2"
+
+[results.ControlSystemsBase]
+precompile_time = 68.592505137
+install_time = 1.842723974
+load_time1 = 0.354357881
+version = "1.14.5"
+
+[results.AbstractLattices]
+precompile_time = 0.290664631
+install_time = 0.137692461
+load_time1 = 0.000904791
+version = "0.3.1"
+
+[results.nghttp2_jll]
+precompile_time = 0.005681457
+install_time = 0.025999548
+load_time1 = 0.000112128
+version = "1.52.0+1"
+
+[results.Wayland_protocols_jll]
+precompile_time = 0.393650103
+install_time = 0.158578932
+load_time1 = 0.003956279
+version = "1.36.0+0"
+
+[results.AssetRegistry]
+precompile_time = 0.385592511
+install_time = 0.116180425
+load_time1 = 0.005392891
+version = "nothing"
+
+[results.SparseConnectivityTracer]
+precompile_time = 3.322110867
+install_time = 0.686954563
+load_time1 = 0.052480852
+version = "0.6.16"
+
+[results.WebP]
+precompile_time = 1.51876591
+install_time = 0.309586435
+load_time1 = 0.005303165
+version = "0.1.3"
+
+[results.ImageDistances]
+precompile_time = 1.607926098
+install_time = 0.271909519
+load_time1 = 0.001985008
+version = "0.2.17"
+
+[results.IntervalTrees]
+precompile_time = 0.549928282
+install_time = 0.114958299
+load_time1 = 0.004236372
+version = "1.1.0"
+
+[results.Memento]
+precompile_time = 1.593952568
+install_time = 0.129616821
+load_time1 = 0.176793042
+version = "1.4.1"
+
+[results.LocalRegistry]
+precompile_time = 0.388929652
+install_time = 0.140461275
+load_time1 = 0.000956738
+version = "0.5.7"
+
+[results.OpenML]
+precompile_time = 1.169341559
+install_time = 0.751998579
+load_time1 = 0.012893059
+version = "0.3.2"
+
+[results.libass_jll]
+precompile_time = 0.460522358
+install_time = 0.21003931
+load_time1 = 0.001177949
+version = "0.15.2+0"
+
+[results.GeoInterface]
+precompile_time = 0.904333116
+install_time = 0.107184634
+load_time1 = 0.007556442
+version = "1.4.1"
+
+[results.AbstractAlgebra]
+precompile_time = 9.690401529
+install_time = 0.345582272
+load_time1 = 0.076118327
+version = "0.44.11"
+
+[results.NetCDF_jll]
+precompile_time = 2.004166766
+install_time = 4.582842672
+load_time1 = 0.002270449
+version = "401.900.300+0"
+
+[results.DiffEqPhysics]
+precompile_time = 1.552760245
+install_time = 2.524033585
+load_time1 = 0.002014791
+version = "3.15.0"
+
+[results.FoldsThreads]
+precompile_time = 1.314276846
+install_time = 0.309532916
+load_time1 = 0.234341744
+version = "0.1.2"
+
+[results.IsApprox]
+precompile_time = 16.995349491
+install_time = 0.133641145
+load_time1 = 0.093854575
+version = "2.0.0"
+
+[results.DimensionalPlotRecipes]
+precompile_time = 0.380346156
+install_time = 0.126244213
+load_time1 = 0.000761315
+version = "1.2.0"
+
+[results.MosaicViews]
+precompile_time = 0.393998115
+install_time = 0.144103367
+load_time1 = 0.001120608
+version = "0.3.4"
+
+[results.ZfpCompression]
+precompile_time = 0.432809263
+install_time = 0.162314465
+load_time1 = 0.001137955
+version = "0.2.4"
+
+[results.SciMLBase]
+precompile_time = 7.437239992
+install_time = 0.701560081
+load_time1 = 0.063393772
+version = "2.83.1"
+
+[results.ProtoBuf]
+precompile_time = 6.62897967
+install_time = 0.14113871
+load_time1 = 0.050219957
+version = "1.1.1"
+
+[results.NLsolve]
+precompile_time = 1.066328559
+install_time = 0.59744921
+load_time1 = 0.001922121
+version = "4.5.1"
+
+[results.InteractiveUtils]
+precompile_time = 0.001260713
+install_time = 0.003994221
+load_time1 = 0.000121446
+version = "nothing"
+
+[results.ArrayInterfaceCore]
+precompile_time = 0.747077588
+install_time = 0.101820523
+load_time1 = 0.002061028
+version = "0.1.29"
+
+[results.ICU_jll]
+precompile_time = 0.489851718
+install_time = 1.083056762
+load_time1 = 0.005472685
+version = "76.2.0+0"
+
+[results.FillArrays]
+precompile_time = 1.878075948
+install_time = 0.109387995
+load_time1 = 0.06344615
+version = "1.13.0"
+
+[results.OrdinaryDiffEqNordsieck]
+precompile_time = 1.931645768
+install_time = 0.608596402
+load_time1 = 0.002012801
+version = "1.1.0"
+
+[results.MLJEnsembles]
+precompile_time = 2.059825982
+install_time = 0.693095289
+load_time1 = 0.001908977
+version = "0.4.3"
+
+[results.bliss_jll]
+precompile_time = 0.452891639
+install_time = 0.196336919
+load_time1 = 0.004542516
+version = "0.77.0+1"
+
+[results.Accessors]
+precompile_time = 1.706494455
+install_time = 0.234867471
+load_time1 = 0.560430518
+version = "0.1.42"
+
+[results.CoinUtils_jll]
+precompile_time = 0.450856813
+install_time = 0.401411043
+load_time1 = 0.004443838
+version = "200.1100.1100+0"
+
+[results.Bijectors]
+precompile_time = 2.525154171
+install_time = 0.624085807
+load_time1 = 0.006289734
+version = "0.15.6"
+
+[results.Pango_jll]
+precompile_time = 0.485230991
+install_time = 0.285023121
+load_time1 = 0.002176083
+version = "1.56.1+0"
+
+[results.Arpack]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.Juno]
+precompile_time = 1.177512598
+install_time = 0.115849531
+load_time1 = 0.012880625
+version = "0.8.4"
+
+[results.Arrow]
+precompile_time = 3.672865025
+install_time = 0.177575737
+load_time1 = 0.019825809
+version = "2.8.0"
+
+[results.PNGFiles]
+precompile_time = 3.679358541
+install_time = 0.149536361
+load_time1 = 0.040790426
+version = "0.4.4"
+
+[results.DSP]
+precompile_time = 2.436099653
+install_time = 0.435206515
+load_time1 = 0.01166028
+version = "0.8.3"
+
+[results.Impute]
+precompile_time = 2.375218513
+install_time = 0.363459469
+load_time1 = 0.012453573
+version = "0.6.12"
+
+[results.Xorg_libxkbfile_jll]
+precompile_time = 0.427695212
+install_time = 0.176011512
+load_time1 = 0.001041154
+version = "1.1.2+1"
+
+[results.ThreadsX]
+precompile_time = 1.326833418
+install_time = 0.253171648
+load_time1 = 0.009277561
+version = "0.1.12"
+
+[results.Compat]
+precompile_time = 0.819342119
+install_time = 0.265362521
+load_time1 = 0.022290396
+version = "4.16.0"
+
+[results.Base64]
+precompile_time = 0.00090927
+install_time = 0.002491299
+load_time1 = 0.000291512
+version = "nothing"
+
+[results.BioSequences]
+precompile_time = 5.821565405
+install_time = 0.280892719
+load_time1 = 0.043296023
+version = "3.4.1"
+
+[results.Graphite2_jll]
+precompile_time = 0.398167729
+install_time = 0.139441301
+load_time1 = 0.004068239
+version = "1.3.15+0"
+
+[results.NDTensors]
+precompile_time = 4.199839637
+install_time = 0.338858814
+load_time1 = 0.038847544
+version = "0.4.6"
+
+[results.Cgl_jll]
+precompile_time = 0.459350159
+install_time = 0.239980111
+load_time1 = 0.001446287
+version = "0.6000.200+0"
+
+[results.Mux]
+precompile_time = 1.16270905
+install_time = 0.1754539
+load_time1 = 0.0062104
+version = "1.0.2"
+
+[results.ZipFile]
+precompile_time = 0.451841457
+install_time = 0.254562516
+load_time1 = 0.001459421
+version = "0.10.1"
+
+[results.SHA]
+precompile_time = 0.004018627
+install_time = 0.018694387
+load_time1 = 0.000247359
+version = "0.7.0"
+
+[results.NamedArrays]
+precompile_time = 0.912161729
+install_time = 0.253558754
+load_time1 = 0.012121285
+version = "0.10.3"
+
+[results.StateSpaceSets]
+precompile_time = 0.967312833
+install_time = 0.699513399
+load_time1 = 0.005420136
+version = "2.4.0"
+
+[results.GraphQLParser]
+precompile_time = 0.680917289
+install_time = 0.136100125
+load_time1 = 0.002650184
+version = "0.1.3"
+
+[results.TensorBoardLogger]
+precompile_time = 3.851899754
+install_time = 0.223070111
+load_time1 = 0.025594956
+version = "0.1.25"
+
+[results.GPUArrays]
+precompile_time = 2.921784398
+install_time = 0.872151163
+load_time1 = 0.057375073
+version = "11.2.2"
+
+[results.OpenSSL_jll]
+precompile_time = 0.460095866
+install_time = 0.329067717
+load_time1 = 0.004527743
+version = "3.0.16+0"
+
+[results.Imath_jll]
+precompile_time = 0.423178022
+install_time = 0.188886196
+load_time1 = 0.004404506
+version = "3.1.11+0"
+
+[results.NamedTupleTools]
+precompile_time = 0.373052947
+install_time = 0.11196199
+load_time1 = 0.002752742
+version = "0.14.3"
+
+[results.Gurobi]
+precompile_time = 5.927913503
+install_time = 0.668609497
+load_time1 = 0.127195439
+version = "1.7.3"
+
+[results.BoundaryValueDiffEq]
+precompile_time = 5.943894134
+install_time = 1.022899131
+load_time1 = 0.002018641
+version = "5.16.0"
+
+[results.ArchGDAL]
+precompile_time = 12.209763732
+install_time = 3.86134298
+load_time1 = 0.063372212
+version = "0.10.8"
+
+[results.NonlinearSolveQuasiNewton]
+precompile_time = 11.119522349
+install_time = 0.629680887
+load_time1 = 0.095969993
+version = "1.2.1"
+
+[results.LambertW]
+precompile_time = 0.588412248
+install_time = 0.125913166
+load_time1 = 0.007628032
+version = "1.0.0"
+
+[results.PackageExtensionCompat]
+precompile_time = 0.326677062
+install_time = 0.106152587
+load_time1 = 0.000633127
+version = "1.0.2"
+
+[results.Random]
+precompile_time = 0.001428855
+install_time = 0.004026421
+load_time1 = 0.00011303
+version = "nothing"
+
+[results.Suppressor]
+precompile_time = 0.310579506
+install_time = 0.119783838
+load_time1 = 0.000997052
+version = "0.2.8"
+
+[results.PrecompileTools]
+precompile_time = 0.348291606
+install_time = 0.094403233
+load_time1 = 0.000711272
+version = "1.2.1"
+
+[results.ReverseDiff]
+precompile_time = 13.444981527
+install_time = 0.161683071
+load_time1 = 2.120636038
+version = "1.16.1"
+
+[results.TruncatedStacktraces]
+precompile_time = 0.360857319
+install_time = 0.106335832
+load_time1 = 0.000703647
+version = "1.4.0"
+
+[results.Librsvg_jll]
+precompile_time = 0.503040226
+install_time = 0.94112265
+load_time1 = 0.003744287
+version = "2.54.5+0"
+
+[results.CloseOpenIntervals]
+precompile_time = 0.368162365
+install_time = 0.227893511
+load_time1 = 0.002676889
+version = "0.1.13"
+
+[results.IterationControl]
+precompile_time = 1.098589297
+install_time = 0.138612446
+load_time1 = 0.002528499
+version = "0.5.4"
+
+[results.WoodburyMatrices]
+precompile_time = 0.511278136
+install_time = 0.102012781
+load_time1 = 0.003521868
+version = "1.0.0"
+
+[results.MyterialColors]
+precompile_time = 0.35929323
+install_time = 0.670986023
+load_time1 = 0.001599673
+version = "0.3.0"
+
+[results.JSON]
+precompile_time = 1.061573346
+install_time = 0.229045336
+load_time1 = 0.009401288
+version = "0.21.4"
+
+[results.LineSearch]
+precompile_time = 3.062182295
+install_time = 0.634280406
+load_time1 = 0.002084994
+version = "0.1.4"
+
+[results.XML2_jll]
+precompile_time = 0.447276771
+install_time = 0.417546907
+load_time1 = 0.001242698
+version = "2.14.1+0"
+
+[results.DynamicPolynomials]
+precompile_time = 1.343254425
+install_time = 0.128490782
+load_time1 = 0.010082967
+version = "0.6.1"
+
+[results.PyPlot]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.OpenSSL]
+precompile_time = 1.415292986
+install_time = 0.095516732
+load_time1 = 0.012314522
+version = "1.4.3"
+
+[results.protoc_jll]
+precompile_time = 3.817766658
+install_time = 0.69277509
+load_time1 = 0.032591575
+version = "105.29.3+0"
+
+[results.QhullMiniWrapper_jll]
+precompile_time = 0.02434477
+install_time = 0.070690884
+load_time1 = 0.001127555
+version = "1.0.0+1"
+
+[results.DiffEqCallbacks]
+precompile_time = 2.950209146
+install_time = 0.793744619
+load_time1 = 0.003210355
+version = "4.4.0"
+
+[results.DifferentialEquations]
+precompile_time = 8.609969182
+install_time = 0.840723824
+load_time1 = 0.003249408
+version = "7.16.1"
+
+[results.ErrorfreeArithmetic]
+precompile_time = 0.390718231
+install_time = 0.117055869
+load_time1 = 0.001261424
+version = "0.5.2"
+
+[results.MPIPreferences]
+precompile_time = 0.425193521
+install_time = 0.106444772
+load_time1 = 0.000925038
+version = "0.1.11"
+
+[results.Ghostscript_jll]
+precompile_time = 0.689385011
+install_time = 1.604801585
+load_time1 = 0.006461182
+version = "9.55.0+4"
+
+[results.DomainSets]
+precompile_time = 2.245373839
+install_time = 0.702060032
+load_time1 = 0.039360414
+version = "0.7.15"
+
+[results.ArrayInterfaceStaticArrays]
+precompile_time = 2.340702591
+install_time = 0.732962293
+load_time1 = 0.001764398
+version = "0.1.5"
+
+[results.Chemfiles]
+precompile_time = 2.120918433
+install_time = 0.293037487
+load_time1 = 0.00790489
+version = "0.10.42"
+
+[results.TiledIteration]
+precompile_time = 0.498991002
+install_time = 0.217358791
+load_time1 = 0.003304586
+version = "0.5.0"
+
+[results.DecisionTree]
+precompile_time = 1.085014056
+install_time = 0.185639427
+load_time1 = 0.003802526
+version = "0.12.4"
+
+[results.Knockout]
+precompile_time = 1.803852074
+install_time = 0.576150065
+load_time1 = 0.000956949
+version = "0.2.6"
+
+[results.Optimisers]
+precompile_time = 1.012047608
+install_time = 0.255427026
+load_time1 = 0.005533491
+version = "0.4.6"
+
+[results.AbstractTrees]
+precompile_time = 0.480517032
+install_time = 0.098989555
+load_time1 = 0.007119378
+version = "0.4.5"
+
+[results.KernelAbstractions]
+precompile_time = 4.061079281
+install_time = 0.239099479
+load_time1 = 0.014105841
+version = "0.9.34"
+
+[results.MLFlowClient]
+precompile_time = 0.936417566
+install_time = 0.161016452
+load_time1 = 0.002656897
+version = "0.6.1"
+
+[results.AbstractStorage]
+precompile_time = 0.32254874
+install_time = 0.112305813
+load_time1 = 0.001035284
+version = "1.3.0"
+
+[results.eudev_jll]
+precompile_time = 0.43022433
+install_time = 0.350165374
+load_time1 = 0.001065891
+version = "3.2.9+0"
+
+[results.CommonEq]
+precompile_time = 0.324728355
+install_time = 0.168825338
+load_time1 = 0.000991042
+version = "0.2.1"
+
+[results.AWS]
+precompile_time = 1.494034647
+install_time = 0.499875553
+load_time1 = 0.006595836
+version = "1.92.0"
+
+[results.Osi_jll]
+precompile_time = 0.447701275
+install_time = 0.202218272
+load_time1 = 0.001308171
+version = "0.10800.1000+0"
+
+[results.OneHotArrays]
+precompile_time = 0.919576384
+install_time = 0.262441785
+load_time1 = 0.009759036
+version = "0.2.7"
+
+[results.Sparspak]
+precompile_time = 0.928702806
+install_time = 0.314938139
+load_time1 = 0.00217945
+version = "0.3.10"
+
+[results.ImageCorners]
+precompile_time = 9.422299476
+install_time = 0.257782091
+load_time1 = 0.053825006
+version = "0.1.3"
+
+[results.Measurements]
+precompile_time = 0.54118659
+install_time = 0.696009801
+load_time1 = 0.018415319
+version = "2.12.0"
+
+[results.InvertedIndices]
+precompile_time = 0.357746825
+install_time = 0.258874818
+load_time1 = 0.002393779
+version = "1.3.1"
+
+[results.Literate]
+precompile_time = 0.583485567
+install_time = 0.150132508
+load_time1 = 0.001421291
+version = "2.20.1"
+
+[results.Boltz]
+precompile_time = 13.968906878
+install_time = 2.680100804
+load_time1 = 0.004300135
+version = "1.4.0"
+
+[results.Bijections]
+precompile_time = 0.310526541
+install_time = 0.126750168
+load_time1 = 0.001403869
+version = "0.1.9"
+
+[results.JSONWebTokens]
+precompile_time = 0.776700393
+install_time = 0.124171575
+load_time1 = 0.002356177
+version = "1.1.1"
+
+[results.CEnum]
+precompile_time = 0.350141169
+install_time = 0.090919908
+load_time1 = 0.002173014
+version = "0.5.0"
+
+[results.OrdinaryDiffEqLowOrderRK]
+precompile_time = 3.625559314
+install_time = 0.638897266
+load_time1 = 0.006968117
+version = "1.2.0"
+
+[results.OrdinaryDiffEq]
+precompile_time = 4.228986375
+install_time = 1.222104137
+load_time1 = 0.002815532
+version = "6.93.0"
+
+[results.LLVMLibUnwind_jll]
+precompile_time = 0.002095333
+install_time = 0.00490361
+load_time1 = 0.000978088
+version = "12.0.1+0"
+
+[results.Glob]
+precompile_time = 0.341075574
+install_time = 0.111954519
+load_time1 = 0.001241513
+version = "1.3.1"
+
+[results.Sundials_jll]
+precompile_time = 0.850549111
+install_time = 0.492846473
+load_time1 = 0.006639458
+version = "6.6.0+0"
+
+[results.LearnBase]
+precompile_time = 0.381249426
+install_time = 0.125345375
+load_time1 = 0.003197923
+version = "0.6.1"
+
+[results.CoupledFields]
+precompile_time = 0.670150288
+install_time = 0.203737352
+load_time1 = 0.00148037
+version = "0.2.0"
+
+[results.OrdinaryDiffEqFIRK]
+precompile_time = 17.438406555
+install_time = 0.873343694
+load_time1 = 0.134793792
+version = "1.10.0"
+
+[results.SPRAL_jll]
+precompile_time = 0.453955676
+install_time = 0.221431138
+load_time1 = 0.001359405
+version = "2025.1.8+0"
+
+[results.Primes]
+precompile_time = 0.47757262
+install_time = 0.106411021
+load_time1 = 0.004595227
+version = "0.5.7"
+
+[results.LibVPX_jll]
+precompile_time = 0.441847288
+install_time = 0.272647666
+load_time1 = 0.004430667
+version = "1.10.0+0"
+
+[results.Cairo_jll]
+precompile_time = 0.478666911
+install_time = 0.312903297
+load_time1 = 0.001756404
+version = "1.18.4+0"
+
+[results.FASTX]
+precompile_time = 4.716533732
+install_time = 0.247558979
+load_time1 = 0.040588482
+version = "2.1.7"
+
+[results.EarCut_jll]
+precompile_time = 0.407526196
+install_time = 0.149899893
+load_time1 = 0.004023678
+version = "2.2.4+0"
+
+[results.Missings]
+precompile_time = 0.366759386
+install_time = 0.093028226
+load_time1 = 0.00346642
+version = "1.2.0"
+
+[results.ReferenceFrameRotations]
+precompile_time = 0.771100802
+install_time = 0.163890177
+load_time1 = 0.006536477
+version = "3.0.2"
+
+[results.TextParse]
+precompile_time = 4.560149541
+install_time = 0.348832386
+load_time1 = 0.010634713
+version = "1.0.3"
+
+[results.WidgetsBase]
+precompile_time = 0.405775752
+install_time = 0.131851202
+load_time1 = 0.001209277
+version = "0.1.4"
+
+[results.isoband_jll]
+precompile_time = 0.415518487
+install_time = 0.158472384
+load_time1 = 0.004244978
+version = "0.2.3+0"
+
+[results.PrettyPrinting]
+precompile_time = 2.419782326
+install_time = 0.122505791
+load_time1 = 0.0204063
+version = "0.4.2"
+
+[results.Xorg_xcb_util_renderutil_jll]
+precompile_time = 0.421927505
+install_time = 0.152878274
+load_time1 = 0.001109803
+version = "0.3.9+1"
+
+[results.PackageCompiler]
+precompile_time = 0.746192176
+install_time = 0.372956644
+load_time1 = 0.001647852
+version = "2.2.0"
+
+[results.OrdinaryDiffEqPRK]
+precompile_time = 2.014677088
+install_time = 0.621876559
+load_time1 = 0.001674041
+version = "1.1.0"
+
+[results.Libgpg_error_jll]
+precompile_time = 0.427112045
+install_time = 0.175739674
+load_time1 = 0.003957739
+version = "1.51.1+0"
+
+[results.TeaSeis]
+precompile_time = 0.851736274
+install_time = 0.196691126
+load_time1 = 0.003884188
+version = "0.4.0"
+
+[results.MLJLinearModels]
+precompile_time = 2.357160282
+install_time = 0.947221163
+load_time1 = 0.010832445
+version = "0.10.0"
+
+[results.REPL]
+precompile_time = 0.001607487
+install_time = 0.005661599
+load_time1 = 0.00011265
+version = "nothing"
+
+[results.OrdinaryDiffEqRKN]
+precompile_time = 2.479011131
+install_time = 0.667070644
+load_time1 = 0.002641489
+version = "1.1.0"
+
+[results.BoundaryValueDiffEqCore]
+precompile_time = 4.494756273
+install_time = 1.903149468
+load_time1 = 0.003211006
+version = "1.8.0"
+
+[results.libinput_jll]
+precompile_time = 0.436589988
+install_time = 0.212361686
+load_time1 = 0.001230646
+version = "1.18.0+0"
+
+[results.Syslogs]
+precompile_time = 0.354183793
+install_time = 0.198654687
+load_time1 = 0.001163923
+version = "0.3.0"
+
+[results.TestEnv]
+precompile_time = 0.370319488
+install_time = 0.147610753
+load_time1 = 0.001213174
+version = "1.102.0"
+
+[results.NonlinearSolveSpectralMethods]
+precompile_time = 6.711905723
+install_time = 0.650363127
+load_time1 = 0.051567722
+version = "1.1.1"
+
+[results.YAML]
+precompile_time = 0.897997497
+install_time = 0.122417859
+load_time1 = 0.003934799
+version = "0.4.13"
+
+[results.Flux]
+precompile_time = 5.903138151
+install_time = 0.66281489
+load_time1 = 0.022287072
+version = "0.16.3"
+
+[results.ConcreteStructs]
+precompile_time = 0.328043628
+install_time = 0.099347171
+load_time1 = 0.000981834
+version = "0.2.3"
+
+[results.VTKBase]
+precompile_time = 0.447150785
+install_time = 0.122266784
+load_time1 = 0.002421078
+version = "1.0.1"
+
+[results.StaticArrays]
+precompile_time = 7.11457487
+install_time = 0.128666219
+load_time1 = 0.214416323
+version = "1.9.13"
+
+[results.SymPyCore]
+precompile_time = 2.440075339
+install_time = 0.695008979
+load_time1 = 0.019449993
+version = "0.3.0"
+
+[results.TensorCore]
+precompile_time = 0.354815864
+install_time = 0.091525189
+load_time1 = 0.000960965
+version = "0.1.1"
+
+[results.Xorg_libXtst_jll]
+precompile_time = 0.463052097
+install_time = 0.218289216
+load_time1 = 0.0012917
+version = "1.2.3+4"
+
+[results.Parameters]
+precompile_time = 0.363397673
+install_time = 0.095793505
+load_time1 = 0.00104139
+version = "0.12.3"
+
+[results.Xorg_libXinerama_jll]
+precompile_time = 0.439318779
+install_time = 0.154606757
+load_time1 = 0.001041215
+version = "1.1.5+0"
+
+[results.TriangularSolve]
+precompile_time = 0.769306955
+install_time = 0.226063092
+load_time1 = 0.001306066
+version = "0.2.1"
+
+[results.UnicodePlots]
+precompile_time = 47.996674781
+install_time = 0.83648517
+load_time1 = 0.303516386
+version = "3.7.2"
+
+[results.AccurateArithmetic]
+precompile_time = 0.591212457
+install_time = 0.270277825
+load_time1 = 0.002019423
+version = "0.3.8"
+
+[results.SafeTestsets]
+precompile_time = 0.336659592
+install_time = 0.117067502
+load_time1 = 0.000923405
+version = "0.1.0"
+
+[results.Indexing]
+precompile_time = 0.35796023
+install_time = 0.112699511
+load_time1 = 0.001659683
+version = "1.1.1"
+
+[results.Observables]
+precompile_time = 0.426593941
+install_time = 0.101178387
+load_time1 = 0.006431356
+version = "0.5.5"
+
+[results.LoweredCodeUtils]
+precompile_time = 6.568019625
+install_time = 0.101069614
+load_time1 = 0.038713036
+version = "3.1.0"
+
+[results.StridedViews]
+precompile_time = 4.462788231
+install_time = 2.228033741
+load_time1 = 0.00447796
+version = "0.4.1"
+
+[results.HypothesisTests]
+precompile_time = 1.623605515
+install_time = 0.648587235
+load_time1 = 0.0036585
+version = "0.11.5"
+
+[results.Interpolations]
+precompile_time = 1.775481726
+install_time = 0.27933094
+load_time1 = 0.012082631
+version = "0.15.1"
+
+[results.Tokenize]
+precompile_time = 0.010048174
+install_time = 0.020075771
+load_time1 = 0.014218641
+version = "0.5.29"
+
+[results.JuMP]
+precompile_time = 14.388313787
+install_time = 1.048502931
+load_time1 = 0.278336108
+version = "1.25.0"
+
+[results.ControlSystems]
+precompile_time = 5.609972108
+install_time = 0.810091464
+load_time1 = 0.002824038
+version = "1.11.2"
+
+[results.JSExpr]
+precompile_time = 1.115076681
+install_time = 0.149081171
+load_time1 = 0.296755192
+version = "0.5.4"
+
+[results.WidthLimitedIO]
+precompile_time = 0.427446074
+install_time = 0.127163151
+load_time1 = 0.001380105
+version = "1.0.1"
+
+[results.InverseFunctions]
+precompile_time = 1.136405012
+install_time = 0.092851624
+load_time1 = 0.038340945
+version = "0.1.17"
+
+[results.Bzip2_jll]
+precompile_time = 0.397568096
+install_time = 0.160268198
+load_time1 = 0.004234418
+version = "1.0.9+0"
+
+[results.MultivariateStats]
+precompile_time = 1.334443927
+install_time = 0.848735877
+load_time1 = 0.002922902
+version = "0.10.3"
+
+[results.LLVMExtra_jll]
+precompile_time = 0.863338533
+install_time = 1.280976291
+load_time1 = 0.006061329
+version = "0.0.35+0"
+
+[results.CoordinateTransformations]
+precompile_time = 0.758988063
+install_time = 0.125201087
+load_time1 = 0.003866594
+version = "0.6.4"
+
+[results.Qhull_jll]
+precompile_time = 0.578373094
+install_time = 0.129252681
+load_time1 = 0.004526878
+version = "10008.0.1004+0"
+
+[results.Kronecker]
+precompile_time = 1.12308371
+install_time = 0.268337563
+load_time1 = 0.006624122
+version = "0.5.5"
+
+[results.LBFGSB]
+precompile_time = 0.374849605
+install_time = 0.142858154
+load_time1 = 0.000927914
+version = "0.4.1"
+
+[results.OrdinaryDiffEqPDIRK]
+precompile_time = 3.680751186
+install_time = 0.675382785
+load_time1 = 0.002532456
+version = "1.3.0"
+
+[results.PProf]
+precompile_time = 1.495782474
+install_time = 0.318340282
+load_time1 = 1.774400227
+version = "3.2.0"
+
+[results.Slack]
+precompile_time = 0.453377514
+install_time = 0.175051659
+load_time1 = 0.000983508
+version = "0.1.2"
+
+[results.CPUSummary]
+precompile_time = 0.727222755
+install_time = 0.100421584
+load_time1 = 0.014560138
+version = "0.2.6"
+
+[results.IOCapture]
+precompile_time = 0.310870339
+install_time = 0.106504704
+load_time1 = 0.000943944
+version = "0.2.5"
+
+[results.CoordRefSystems]
+precompile_time = 3.59144183
+install_time = 1.571689778
+load_time1 = 0.080605816
+version = "0.17.2"
+
+[results.MarchingCubes]
+precompile_time = 3.149713735
+install_time = 0.119605315
+load_time1 = 0.018416032
+version = "0.1.11"
+
+[results.OffsetArrays]
+precompile_time = 1.180684464
+install_time = 0.104338806
+load_time1 = 0.043314901
+version = "1.16.0"
+
+[results.Thrift]
+precompile_time = 1.358407201
+install_time = 0.163052303
+load_time1 = 0.005958513
+version = "0.8.5"
+
+[results.DiffEqJump]
+precompile_time = 13.94254573
+install_time = 3.611520812
+load_time1 = 1.352776517
+version = "8.6.2"
+
+[results.libevdev_jll]
+precompile_time = 0.396625042
+install_time = 0.147578747
+load_time1 = 0.004394536
+version = "1.11.0+0"
+
+[results.GeoInterfaceRecipes]
+precompile_time = 0.42426039
+install_time = 0.131145796
+load_time1 = 0.000886476
+version = "1.0.2"
+
+[results.NodeJS]
+precompile_time = 0.373556856
+install_time = 3.375756223
+load_time1 = 0.014934162
+version = "2.0.0"
+
+[results.GZip]
+precompile_time = 0.54131836
+install_time = 0.129712163
+load_time1 = 0.002400501
+version = "0.6.2"
+
+[results.StatsFuns]
+precompile_time = 2.406395577
+install_time = 0.772861618
+load_time1 = 0.005228996
+version = "1.4.0"
+
+[results.GR_jll]
+precompile_time = 1.228598796
+install_time = 3.021065212
+load_time1 = 0.001288094
+version = "0.73.13+0"
+
+[results.julia]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.PolygonOps]
+precompile_time = 0.319856121
+install_time = 0.118171844
+load_time1 = 0.00103294
+version = "0.1.2"
+
+[results.JLD2]
+precompile_time = 25.009063899
+install_time = 0.127336952
+load_time1 = 0.110426991
+version = "0.5.12"
+
+[results.Permutations]
+precompile_time = 0.441356661
+install_time = 0.302753467
+load_time1 = 0.001594333
+version = "0.4.23"
+
+[results.DEDataArrays]
+precompile_time = 4.825692498
+install_time = 3.41079848
+load_time1 = 0.890758299
+version = "0.2.6"
+
+[results.MLLabelUtils]
+precompile_time = 0.805454336
+install_time = 0.167892002
+load_time1 = 0.002189648
+version = "0.5.7"
+
+[results.BitFlags]
+precompile_time = 0.347021054
+install_time = 0.087220802
+load_time1 = 0.001783183
+version = "0.1.9"
+
+[results.TranscodingStreams]
+precompile_time = 0.470296704
+install_time = 0.099274806
+load_time1 = 0.002130178
+version = "0.11.3"
+
+[results.RandomNumbers]
+precompile_time = 0.78694084
+install_time = 0.118325689
+load_time1 = 0.008205779
+version = "1.6.0"
+
+[results.GR]
+precompile_time = 3.034782988
+install_time = 0.879012596
+load_time1 = 0.017696323
+version = "0.73.13"
+
+[results.Tar]
+precompile_time = 0.00396028
+install_time = 0.010013889
+load_time1 = 0.00016112
+version = "1.10.0"
+
+[results.WorkerUtilities]
+precompile_time = 0.365432082
+install_time = 0.095960747
+load_time1 = 0.001269127
+version = "1.6.1"
+
+[results.Hwloc]
+precompile_time = 1.941560406
+install_time = 0.130186566
+load_time1 = 0.036635913
+version = "3.3.0"
+
+[results.Xorg_libXcursor_jll]
+precompile_time = 0.420048455
+install_time = 0.173998754
+load_time1 = 0.001053047
+version = "1.2.3+0"
+
+[results.EllipticalSliceSampling]
+precompile_time = 1.171952117
+install_time = 0.707899476
+load_time1 = 0.001236989
+version = "2.0.0"
+
+[results.StaticArrayInterface]
+precompile_time = 1.026432586
+install_time = 0.229115086
+load_time1 = 0.004345657
+version = "1.8.0"
+
+[results.TimerOutputs]
+precompile_time = 1.72029872
+install_time = 0.105164427
+load_time1 = 0.027589873
+version = "0.5.28"
+
+[results.VegaLite]
+precompile_time = 3.051688889
+install_time = 0.293266008
+load_time1 = 0.090011517
+version = "3.3.0"
+
+[results.SIMDTypes]
+precompile_time = 0.279167556
+install_time = 0.090480657
+load_time1 = 0.000967286
+version = "0.1.0"
+
+[results.Animations]
+precompile_time = 0.646660992
+install_time = 0.237739512
+load_time1 = 0.001652522
+version = "0.4.2"
+
+[results.ScikitLearn]
+precompile_time = 2.96749832
+install_time = 2.090934771
+load_time1 = 0.005297867
+version = "0.7.0"
+
+[results.Formatting]
+precompile_time = 0.691555857
+install_time = 0.098652117
+load_time1 = 0.001329113
+version = "0.4.3"
+
+[results.LuxCore]
+precompile_time = 0.982837003
+install_time = 0.733435721
+load_time1 = 0.001040726
+version = "1.2.4"
+
+[results.SymDict]
+precompile_time = 0.339205297
+install_time = 0.115760666
+load_time1 = 0.000738171
+version = "nothing"
+
+[results.DispatchDoctor]
+precompile_time = 1.110997615
+install_time = 0.119147793
+load_time1 = 0.010671281
+version = "0.4.19"
+
+[results.KernelDensity]
+precompile_time = 1.441016502
+install_time = 0.660891596
+load_time1 = 0.001469949
+version = "0.6.9"
+
+[results.HDF5]
+precompile_time = 6.881887645
+install_time = 2.853623428
+load_time1 = 0.036951743
+version = "0.17.2"
+
+[results.ArnoldiMethod]
+precompile_time = 0.896200439
+install_time = 0.115470412
+load_time1 = 0.002002569
+version = "0.4.0"
+
+[results.Xorg_libXrandr_jll]
+precompile_time = 0.424912022
+install_time = 0.173381419
+load_time1 = 0.000977968
+version = "1.5.4+0"
+
+[results.JET]
+precompile_time = 55.754757619
+install_time = 0.184660217
+load_time1 = 0.091323294
+version = "0.9.14"
+
+[results.LazyBandedMatrices]
+precompile_time = 2.99306984
+install_time = 0.27233524
+load_time1 = 0.170365466
+version = "0.11.4"
+
+[results.MicrosoftMPI_jll]
+precompile_time = 0.367618007
+install_time = 0.111685064
+load_time1 = 0.000752027
+version = "10.1.4+3"
+
+[results.AliasTables]
+precompile_time = 0.38912407
+install_time = 0.416932647
+load_time1 = 0.001417534
+version = "1.1.3"
+
+[results.Referenceables]
+precompile_time = 0.341669748
+install_time = 0.120277679
+load_time1 = 0.001495207
+version = "0.1.3"
+
+[results.Test]
+precompile_time = 0.00309982
+install_time = 0.00748121
+load_time1 = 0.028317644
+version = "nothing"
+
+[results.FiniteDiff]
+precompile_time = 0.561480825
+install_time = 0.210204674
+load_time1 = 0.002055637
+version = "2.27.0"
+
+[results.IntelOpenMP_jll]
+precompile_time = 0.411457749
+install_time = 0.115479923
+load_time1 = 2.36763583
+version = "2025.0.4+0"
+
+[results.ColorSchemes]
+precompile_time = 3.061758559
+install_time = 0.733520401
+load_time1 = 0.007922036
+version = "3.29.0"
+
+[results.Schedulers]
+precompile_time = 1.346740082
+install_time = 0.126962397
+load_time1 = 0.001952508
+version = "0.11.3"
+
+[results.LayerDicts]
+precompile_time = 0.30799751
+install_time = 0.112592232
+load_time1 = 0.001249693
+version = "1.0.0"
+
+[results.MatrixFactorizations]
+precompile_time = 1.973933804
+install_time = 0.139633288
+load_time1 = 0.10516503
+version = "3.0.1"
+
+[results.MPICH_jll]
+precompile_time = 0.776511176
+install_time = 1.220145439
+load_time1 = 0.002087266
+version = "4.3.0+1"
+
+[results.DataFramesMeta]
+precompile_time = 1.696602446
+install_time = 0.249777376
+load_time1 = 0.001847773
+version = "0.15.4"
+
+[results.Distances]
+precompile_time = 1.179122174
+install_time = 0.10361967
+load_time1 = 0.028119876
+version = "0.10.12"
+
+[results.ScientificTypesBase]
+precompile_time = 0.359675393
+install_time = 0.109844339
+load_time1 = 0.001191013
+version = "3.0.0"
+
+[results.NLSolversBase]
+precompile_time = 0.74505958
+install_time = 0.770061352
+load_time1 = 0.003073992
+version = "7.9.1"
+
+[results.Cthulhu]
+precompile_time = 24.692785861
+install_time = 0.163541855
+load_time1 = 0.131551376
+version = "2.16.5"
+
+[results.NVTX]
+precompile_time = 1.067238906
+install_time = 0.13710925
+load_time1 = 0.03340363
+version = "1.0.0"
+
+[results.QuadGK]
+precompile_time = 0.770062286
+install_time = 0.339758081
+load_time1 = 0.003236725
+version = "2.11.2"
+
+[results.Cbc]
+precompile_time = 2.003796349
+install_time = 0.207712811
+load_time1 = 0.005789228
+version = "1.2.0"
+
+[results.TOML]
+precompile_time = 0.001824751
+install_time = 0.005407697
+load_time1 = 0.00011866
+version = "1.0.3"
+
+[results.PoissonRandom]
+precompile_time = 0.326878012
+install_time = 0.112217326
+load_time1 = 0.000838909
+version = "0.4.4"
+
+[results.Reexport]
+precompile_time = 0.283398598
+install_time = 0.086956583
+load_time1 = 0.001135912
+version = "1.2.2"
+
+[results.Qt6Base_jll]
+precompile_time = 0.679134979
+install_time = 1.94958984
+load_time1 = 0.00935201
+version = "6.8.2+1"
+
+[results.CommonWorldInvalidations]
+precompile_time = 0.315859326
+install_time = 0.092335119
+load_time1 = 0.001477965
+version = "1.0.0"
+
+[results.ATK_jll]
+precompile_time = 0.435382323
+install_time = 0.260818185
+load_time1 = 0.00128648
+version = "2.38.1+0"
+
+[results.ShiftedArrays]
+precompile_time = 0.353755303
+install_time = 0.708818284
+load_time1 = 0.001626913
+version = "2.0.0"
+
+[results.AzStorage_jll]
+precompile_time = 0.45608505
+install_time = 0.170270172
+load_time1 = 0.001120301
+version = "0.9.0+2"
+
+[results.JpegTurbo_jll]
+precompile_time = 0.450611937
+install_time = 0.232654532
+load_time1 = 0.003979986
+version = "3.1.1+0"
+
+[results.ImageMetadata]
+precompile_time = 1.258547624
+install_time = 0.229510661
+load_time1 = 0.013028159
+version = "0.9.10"
+
+[results.OhMyREPL]
+precompile_time = 1.878689263
+install_time = 0.175124529
+load_time1 = 0.020057073
+version = "0.5.31"
+
+[results.JuliaFormatter]
+precompile_time = 8.193102848
+install_time = 0.339070485
+load_time1 = 0.0585946
+version = "0.6.9"
+
+[results.BoundaryValueDiffEqAscher]
+precompile_time = 3.95616861
+install_time = 0.671396911
+load_time1 = 0.003474164
+version = "1.5.0"
+
+[results.SparseArrays]
+precompile_time = 0.003750438
+install_time = 0.007786877
+load_time1 = 0.143583713
+version = "1.10.0"
+
+[results.Example]
+precompile_time = 0.318208869
+install_time = 0.118483466
+load_time1 = 0.000913808
+version = "0.5.5"
+
+[results.Unicode]
+precompile_time = 0.001059379
+install_time = 0.002976321
+load_time1 = 0.00029076
+version = "nothing"
+
+[results.Crayons]
+precompile_time = 0.952312027
+install_time = 0.088027123
+load_time1 = 0.014348127
+version = "4.1.1"
+
+[results.SQLite_jll]
+precompile_time = 0.43319032
+install_time = 0.460779258
+load_time1 = 0.004231806
+version = "3.48.0+0"
+
+[results.DataInterpolations]
+precompile_time = 1.122427013
+install_time = 1.105841538
+load_time1 = 0.17591196
+version = "4.5.0"
+
+[results.OpenSSH_jll]
+precompile_time = 0.530934946
+install_time = 0.429887745
+load_time1 = 0.001158533
+version = "9.9.2+0"
+
+[results.DelaunayTriangulation]
+precompile_time = 3.603678502
+install_time = 4.44801683
+load_time1 = 0.01900699
+version = "1.6.4"
+
+[results.Hungarian]
+precompile_time = 0.530571854
+install_time = 0.390432559
+load_time1 = 0.000775912
+version = "0.7.0"
+
+[results.LogRoller]
+precompile_time = 0.442144455
+install_time = 0.140886907
+load_time1 = 0.001424456
+version = "0.5.1"
+
+[results.Interact]
+precompile_time = 1.10799911
+install_time = 0.679637053
+load_time1 = 0.002671571
+version = "0.10.5"
+
+[results.LDLFactorizations]
+precompile_time = 0.588131265
+install_time = 0.142994126
+load_time1 = 0.001975862
+version = "0.10.1"
+
+[results.libLLVM_jll]
+precompile_time = 0.02197334
+install_time = 0.045385352
+load_time1 = 0.0008615
+version = "15.0.7+10"
+
+[results.StrideArraysCore]
+precompile_time = 0.927593933
+install_time = 0.249712584
+load_time1 = 0.009679515
+version = "0.5.7"
+
+[results.CoverageTools]
+precompile_time = 0.381132065
+install_time = 0.116051946
+load_time1 = 0.001308582
+version = "1.3.2"
+
+[results.SimpleWeightedGraphs]
+precompile_time = 0.987878846
+install_time = 0.133459947
+load_time1 = 0.00404144
+version = "1.5.0"
+
+[results.Zygote]
+precompile_time = 28.62442415
+install_time = 0.286148669
+load_time1 = 0.241538435
+version = "0.7.6"
+
+[results.Infinity]
+precompile_time = 0.630150806
+install_time = 0.121203834
+load_time1 = 0.017494901
+version = "0.2.4"
+
+[results.HarfBuzz_jll]
+precompile_time = 1.832511961
+install_time = 0.919979613
+load_time1 = 0.001566521
+version = "8.5.0+0"
+
+[results.Unityper]
+precompile_time = 0.496167652
+install_time = 0.277401169
+load_time1 = 0.000873723
+version = "0.1.6"
+
+[results.OrdinaryDiffEqExtrapolation]
+precompile_time = 4.680691972
+install_time = 0.640710086
+load_time1 = 0.00374516
+version = "1.5.0"
+
+[results.SCIP_PaPILO_jll]
+precompile_time = 1.495333496
+install_time = 2.944258982
+load_time1 = 0.002367478
+version = "900.200.100+0"
+
+[results.PolyesterWeave]
+precompile_time = 0.448108862
+install_time = 0.229743668
+load_time1 = 0.005994589
+version = "0.2.2"
+
+[results.AdvancedVI]
+precompile_time = 1.363887606
+install_time = 0.651568615
+load_time1 = 0.003172764
+version = "0.3.2"
+
+[results.ComponentArrays]
+precompile_time = 0.787284713
+install_time = 0.697252341
+load_time1 = 0.03787793
+version = "0.15.26"
+
+[results.KrylovKit]
+precompile_time = 1.247181639
+install_time = 0.134064054
+load_time1 = 0.022450046
+version = "0.9.5"
+
+[results.InternedStrings]
+precompile_time = 0.35316785
+install_time = 0.134858574
+load_time1 = 0.000714829
+version = "nothing"
+
+[results.EarlyStopping]
+precompile_time = 0.590629346
+install_time = 0.131250959
+load_time1 = 0.001846662
+version = "0.3.0"
+
+[results.LinearAlgebra]
+precompile_time = 0.00141561
+install_time = 0.005288666
+load_time1 = 0.00011325
+version = "nothing"
+
+[results.Xorg_libSM_jll]
+precompile_time = 0.424131983
+install_time = 0.150297511
+load_time1 = 0.001029534
+version = "1.2.6+0"
+
+[results.MLDataPattern]
+precompile_time = 2.31584109
+install_time = 0.171529003
+load_time1 = 0.006000088
+version = "0.5.5"
+
+[results.SciMLJacobianOperators]
+precompile_time = 2.347854737
+install_time = 0.61385272
+load_time1 = 0.002116271
+version = "0.1.2"
+
+[results.FreeType]
+precompile_time = 0.706873884
+install_time = 0.128955656
+load_time1 = 0.00512878
+version = "4.1.1"
+
+[results.LLVM]
+precompile_time = 5.367985142
+install_time = 1.058975847
+load_time1 = 0.047311096
+version = "9.2.0"
+
+[results.StructIO]
+precompile_time = 0.346366915
+install_time = 0.11599125
+load_time1 = 0.00110334
+version = "0.3.1"
+
+[results.SCIP]
+precompile_time = 6.406052154
+install_time = 0.623941115
+load_time1 = 0.033161918
+version = "0.12.3"
+
+[results.GraphPlot]
+precompile_time = 1.220879698
+install_time = 0.357941038
+load_time1 = 0.001358805
+version = "0.6.1"
+
+[results.CvxCompress]
+precompile_time = 0.33929784
+install_time = 0.177755799
+load_time1 = 0.000875707
+version = "1.0.1"
+
+[results.Enzyme_jll]
+precompile_time = 0.879485702
+install_time = 10.141694799
+load_time1 = 0.006302307
+version = "0.0.173+0"
+
+[results.StackViews]
+precompile_time = 0.36890681
+install_time = 0.104241028
+load_time1 = 0.00164222
+version = "0.1.1"
+
+[results.KahanSummation]
+precompile_time = 0.32260501
+install_time = 0.118222123
+load_time1 = 0.001015527
+version = "0.3.1"
+
+[results.GDAL]
+precompile_time = 4.167597653
+install_time = 3.934226823
+load_time1 = 0.028910788
+version = "1.10.0"
+
+[results.Printf]
+precompile_time = 0.001083383
+install_time = 0.00342861
+load_time1 = 0.000117278
+version = "nothing"
+
+[results.NonlinearSolve]
+precompile_time = 9.522097941
+install_time = 0.677338873
+load_time1 = 0.067693322
+version = "4.5.1"
+
+[results.CUDNN_jll]
+precompile_time = 1.958581191
+install_time = 3.914103897
+load_time1 = 0.000819112
+version = "9.7.0+0"
+
+[results.Jets]
+precompile_time = 0.577837064
+install_time = 0.17421479
+load_time1 = 0.006053606
+version = "1.4.1"
+
+[results.CondaPkg]
+precompile_time = 1.212834643
+install_time = 0.15027499
+load_time1 = 0.016738628
+version = "0.2.28"
+
+[results.RegionTrees]
+precompile_time = 0.601187403
+install_time = 0.1318958
+load_time1 = 0.002337083
+version = "0.3.2"
+
+[results.RecipesPipeline]
+precompile_time = 3.805160243
+install_time = 0.247602451
+load_time1 = 0.029684718
+version = "0.6.12"
+
+[results.zfp_jll]
+precompile_time = 0.442744515
+install_time = 0.256883713
+load_time1 = 0.004301713
+version = "1.0.2+0"
+
+[results.LLD_jll]
+precompile_time = 0.339134852
+install_time = 0.005526608
+load_time1 = 0.000844259
+version = "15.0.7+10"
+
+[results.libblastrampoline_jll]
+precompile_time = 0.009729897
+install_time = 0.02154578
+load_time1 = 0.000119031
+version = "5.11.0+0"
+
+[results.RoundingIntegers]
+precompile_time = 0.365182654
+install_time = 0.130289205
+load_time1 = 0.010095446
+version = "1.1.0"
+
+[results.Ogg_jll]
+precompile_time = 0.414969911
+install_time = 0.187904361
+load_time1 = 0.004010402
+version = "1.3.5+1"
+
+[results.brotli_jll]
+precompile_time = 0.482515064
+install_time = 0.418347754
+load_time1 = 0.004754611
+version = "1.1.1+0"
+
+[results.DiffEqNoiseProcess]
+precompile_time = 2.695240141
+install_time = 0.641514297
+load_time1 = 0.005201555
+version = "5.24.1"
+
+[results.GEOS_jll]
+precompile_time = 0.467679453
+install_time = 0.378431814
+load_time1 = 0.005561374
+version = "3.13.1+1"
+
+[results.Parsers]
+precompile_time = 16.489441906
+install_time = 0.210475101
+load_time1 = 0.02996797
+version = "2.8.1"
+
+[results.Mustache]
+precompile_time = 0.460462306
+install_time = 0.109154018
+load_time1 = 0.002336487
+version = "1.0.20"
+
+[results.gperf_jll]
+precompile_time = 0.413096585
+install_time = 0.169801541
+load_time1 = 0.003868419
+version = "3.1.1+1"
+
+[results.MPI]
+precompile_time = 4.295945212
+install_time = 2.757292445
+load_time1 = 0.033280937
+version = "0.20.22"
+
+[results.NLopt_jll]
+precompile_time = 0.451254179
+install_time = 0.198455363
+load_time1 = 0.004191
+version = "2.10.0+0"
+
+[results.NearestNeighbors]
+precompile_time = 1.882719912
+install_time = 0.127303587
+load_time1 = 0.014051039
+version = "0.4.21"
+
+[results.ArrayInterfaceTracker]
+precompile_time = 0.956855884
+install_time = 0.250321972
+load_time1 = 0.001040122
+version = "0.1.1"
+
+[results.prrte_jll]
+precompile_time = 0.488330012
+install_time = 0.413942376
+load_time1 = 0.001106114
+version = "3.0.2+0"
+
+[results.NLopt]
+precompile_time = 2.208240182
+install_time = 0.168798492
+load_time1 = 0.006963986
+version = "1.1.3"
+
+[results.GPUArraysCore]
+precompile_time = 0.391793641
+install_time = 0.104271539
+load_time1 = 0.000948531
+version = "0.2.0"
+
+[results.ExactPredicates]
+precompile_time = 2.899241628
+install_time = 0.246189132
+load_time1 = 0.011689863
+version = "2.2.8"
+
+[results.LERC_jll]
+precompile_time = 0.404622757
+install_time = 0.156827937
+load_time1 = 0.003770827
+version = "4.0.1+0"
+
+[results.StatsAPI]
+precompile_time = 0.315020948
+install_time = 0.095478509
+load_time1 = 0.001125601
+version = "1.7.0"
+
+[results.PkgTemplates]
+precompile_time = 1.561001678
+install_time = 0.157176668
+load_time1 = 0.011868815
+version = "0.7.16"
+
+[results.Colors]
+precompile_time = 4.15897557
+install_time = 0.11782959
+load_time1 = 0.045514809
+version = "0.13.0"
+
+[results.KLU]
+precompile_time = 0.767930723
+install_time = 0.110502606
+load_time1 = 0.012183198
+version = "0.6.0"
+
+[results.PMIx_jll]
+precompile_time = 0.468497739
+install_time = 0.470059556
+load_time1 = 0.001466891
+version = "5.0.3+0"
+
+[results.ResettableStacks]
+precompile_time = 0.541174011
+install_time = 0.116577843
+load_time1 = 0.000832096
+version = "1.1.1"
+
+[results.Setfield]
+precompile_time = 0.900084255
+install_time = 0.228997784
+load_time1 = 0.009946556
+version = "1.1.2"
+
+[results.DistributionsAD]
+precompile_time = 2.651164299
+install_time = 0.634775588
+load_time1 = 0.025902424
+version = "0.6.58"
+
+[results.GTK3_jll]
+precompile_time = 0.583671858
+install_time = 1.872122407
+load_time1 = 0.006100035
+version = "3.24.31+0"
+
+[results.ImageMorphology]
+precompile_time = 2.796280569
+install_time = 0.462127106
+load_time1 = 0.006607309
+version = "0.4.6"
+
+[results.ParameterizedFunctions]
+precompile_time = 7.31047093
+install_time = 0.868278364
+load_time1 = 0.002059858
+version = "5.17.2"
+
+[results.LatticeRules]
+precompile_time = 0.020874613
+install_time = 0.04220865
+load_time1 = 0.007606235
+version = "0.0.1"
+
+[results.OrdinaryDiffEqFunctionMap]
+precompile_time = 1.682889242
+install_time = 0.834753305
+load_time1 = 0.001432732
+version = "1.1.1"
+
+[results.SignedDistanceFields]
+precompile_time = 0.452787755
+install_time = 0.107199144
+load_time1 = 0.000729326
+version = "nothing"
+
+[results.SymPy]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.DataStructures]
+precompile_time = 1.521635112
+install_time = 0.111180144
+load_time1 = 0.022408335
+version = "0.18.22"
+
+[results.MatrixEquations]
+precompile_time = 1.96138419
+install_time = 0.266744985
+load_time1 = 0.006090837
+version = "2.4.5"
+
+[results.TaylorSeries]
+precompile_time = 2.723228922
+install_time = 1.02852229
+load_time1 = 0.040500017
+version = "0.19.1"
+
+[results.pixi_jll]
+precompile_time = 0.423175662
+install_time = 0.129783141
+load_time1 = 2.164258247
+version = "0.41.3+0"
+
+[results.Markdown]
+precompile_time = 0.001177477
+install_time = 0.003523367
+load_time1 = 0.000109303
+version = "nothing"
+
+[results.MakieCore]
+precompile_time = 3.53091603
+install_time = 0.237391203
+load_time1 = 0.024680095
+version = "0.9.2"
+
+[results.GeoInterfaceMakie]
+precompile_time = 1.261553892
+install_time = 0.273491203
+load_time1 = 0.001123967
+version = "0.1.9"
+
+[results.ArgParse]
+precompile_time = 0.709064158
+install_time = 0.11186298
+load_time1 = 0.002415454
+version = "1.2.0"
+
+[results.ImageQualityIndexes]
+precompile_time = 14.64366136
+install_time = 0.262000548
+load_time1 = 0.076820614
+version = "0.3.7"
+
+[results.Showoff]
+precompile_time = 0.330053255
+install_time = 0.092767086
+load_time1 = 0.000797592
+version = "1.0.3"
+
+[results.FunctionWrappers]
+precompile_time = 0.608197322
+install_time = 0.104619793
+load_time1 = 0.006821165
+version = "1.1.3"
+
+[results.OrdinaryDiffEqSSPRK]
+precompile_time = 3.055066732
+install_time = 0.800467933
+load_time1 = 0.01100985
+version = "1.2.1"
+
+[results.Krylov]
+precompile_time = 5.490880882
+install_time = 0.349846632
+load_time1 = 0.010054433
+version = "0.9.10"
+
+[results.FastAlmostBandedMatrices]
+precompile_time = 6.918673762
+install_time = 0.22246943
+load_time1 = 0.055413278
+version = "0.1.4"
+
+[results.TestItemDetection]
+precompile_time = 0.372723546
+install_time = 0.122743997
+load_time1 = 0.039612277
+version = "0.2.0"
+
+[results.BracketingNonlinearSolve]
+precompile_time = 3.589271086
+install_time = 0.624745957
+load_time1 = 0.012517086
+version = "1.1.3"
+
+[results.HalfIntegers]
+precompile_time = 0.443968781
+install_time = 0.135303081
+load_time1 = 0.004778998
+version = "1.6.0"
+
+[results.Configurations]
+precompile_time = 2.182830196
+install_time = 0.123169311
+load_time1 = 0.018872268
+version = "0.17.6"
+
+[results.JWTs]
+precompile_time = 0.468033198
+install_time = 0.142384185
+load_time1 = 0.001324059
+version = "0.3.0"
+
+[results.Format]
+precompile_time = 0.871170847
+install_time = 0.098959952
+load_time1 = 0.007558937
+version = "1.3.7"
+
+[results.MAT]
+precompile_time = 2.235263346
+install_time = 2.748635377
+load_time1 = 0.001619468
+version = "0.10.7"
+
+[results.LoopVectorization]
+precompile_time = 21.324302805
+install_time = 0.243420751
+load_time1 = 0.100909348
+version = "0.12.172"
+
+[results.MbedTLS_jll]
+precompile_time = 0.003705937
+install_time = 0.009094348
+load_time1 = 0.000106328
+version = "2.28.2+1"
+
+[results.OpenBLASConsistentFPCSR_jll]
+precompile_time = 0.432250873
+install_time = 0.770028047
+load_time1 = 0.005606478
+version = "0.3.29+0"
+
+[results.GLFW]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.GLMakie]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.OrdinaryDiffEqRosenbrock]
+precompile_time = 22.244770597
+install_time = 0.62737544
+load_time1 = 0.187910384
+version = "1.9.0"
+
+[results.IterableTables]
+precompile_time = 0.9385574
+install_time = 0.139112534
+load_time1 = 0.004000953
+version = "1.0.0"
+
+[results.libaec_jll]
+precompile_time = 0.429530349
+install_time = 0.146296285
+load_time1 = 0.004110204
+version = "1.1.3+0"
+
+[results.Extents]
+precompile_time = 0.399239846
+install_time = 0.233757408
+load_time1 = 0.002380674
+version = "0.1.5"
+
+[results.JLSO]
+precompile_time = 0.847768256
+install_time = 0.158613217
+load_time1 = 0.005083757
+version = "2.7.0"
+
+[results.Optim]
+precompile_time = 3.614222619
+install_time = 0.635966534
+load_time1 = 0.011461974
+version = "1.12.0"
+
+[results.SortingAlgorithms]
+precompile_time = 0.421775447
+install_time = 0.317360397
+load_time1 = 0.001386096
+version = "1.2.1"
+
+[results.SodiumSeal]
+precompile_time = 0.363141028
+install_time = 0.120912991
+load_time1 = 0.000964363
+version = "0.1.1"
+
+[results.at_spi2_atk_jll]
+precompile_time = 0.473254807
+install_time = 0.277656907
+load_time1 = 0.001227892
+version = "2.34.1+4"
+
+[results.Serialization]
+precompile_time = 0.001386656
+install_time = 0.00344517
+load_time1 = 0.000266976
+version = "nothing"
+
+[results.Xorg_xtrans_jll]
+precompile_time = 0.397999218
+install_time = 0.135010048
+load_time1 = 0.003705615
+version = "1.6.0+0"
+
+[results.libwebp_jll]
+precompile_time = 0.543623348
+install_time = 0.352208738
+load_time1 = 0.001702582
+version = "1.5.0+0"
+
+[results.CRlibm_jll]
+precompile_time = 0.441512218
+install_time = 0.167381857
+load_time1 = 0.004129623
+version = "1.0.1+0"
+
+[results.JsonGrinder]
+precompile_time = 3.09269017
+install_time = 0.671730668
+load_time1 = 0.00487389
+version = "2.7.0"
+
+[results.ScientificTypes]
+precompile_time = 1.404064151
+install_time = 0.632572994
+load_time1 = 0.002887614
+version = "3.1.0"
+
+[results.PyCall]
+precompile_time = 10.201097183
+install_time = 1.241851271
+load_time1 = 0.394055656
+version = "1.96.4"
+
+[results.IfElse]
+precompile_time = 0.289823918
+install_time = 0.091447127
+load_time1 = 0.000900379
+version = "0.1.1"
+
+[results.iso_codes_jll]
+precompile_time = 0.443488315
+install_time = 0.680170418
+load_time1 = 0.004053733
+version = "4.17.0+0"
+
+[results.Zeros]
+precompile_time = 0.449216335
+install_time = 0.131776651
+load_time1 = 0.008831777
+version = "0.3.0"
+
+[results.Dbus_jll]
+precompile_time = 0.430138037
+install_time = 0.177633095
+load_time1 = 0.001078785
+version = "1.16.2+0"
+
+[results.IntegerMathUtils]
+precompile_time = 0.301380502
+install_time = 0.109679932
+load_time1 = 0.001029233
+version = "0.1.2"
+
+[results.OnlineStats]
+precompile_time = 1.682340772
+install_time = 0.668913845
+load_time1 = 0.007200816
+version = "1.7.1"
+
+[results.OrdinaryDiffEqExponentialRK]
+precompile_time = 3.815667834
+install_time = 0.648897821
+load_time1 = 0.005815959
+version = "1.4.0"
+
+[results.OpenBLAS_jll]
+precompile_time = 0.022455356
+install_time = 0.047627215
+load_time1 = 0.000125172
+version = "0.3.23+4"
+
+[results.OrdinaryDiffEqStabilizedIRK]
+precompile_time = 3.293640224
+install_time = 0.629058366
+load_time1 = 0.002053506
+version = "1.3.0"
+
+[results.LinearMaps]
+precompile_time = 2.581161984
+install_time = 0.345310825
+load_time1 = 0.013498511
+version = "3.11.4"
+
+[results.LossFunctions]
+precompile_time = 0.715225229
+install_time = 0.15441421
+load_time1 = 0.013030548
+version = "1.0.1"
+
+[results.Fontconfig_jll]
+precompile_time = 0.536090281
+install_time = 0.185570456
+load_time1 = 0.012399339
+version = "2.16.0+0"
+
+[results.BinaryProvider]
+precompile_time = 0.01209171
+install_time = 0.026126289
+load_time1 = 0.069465515
+version = "0.5.10"
+
+[results.Decimals]
+precompile_time = 0.442393583
+install_time = 0.120930957
+load_time1 = 0.002938847
+version = "0.5.1"
+
+[results.DelimitedFiles]
+precompile_time = 0.371666288
+install_time = 0.09248886
+load_time1 = 0.00139937
+version = "1.9.1"
+
+[results.OrdinaryDiffEqDifferentiation]
+precompile_time = 9.123786644
+install_time = 1.933587487
+load_time1 = 0.004089859
+version = "1.6.0"
+
+[results.Ipopt_jll]
+precompile_time = 0.979085463
+install_time = 0.838361068
+load_time1 = 0.002003781
+version = "300.1400.1200+0"
+
+[results.MappedArrays]
+precompile_time = 0.360527071
+install_time = 0.094738588
+load_time1 = 0.001757002
+version = "0.4.2"
+
+[results.DataValueInterfaces]
+precompile_time = 0.272860515
+install_time = 0.087168362
+load_time1 = 0.000934206
+version = "1.0.0"
+
+[results.SplitApplyCombine]
+precompile_time = 0.567205738
+install_time = 0.11936205
+load_time1 = 0.002874041
+version = "1.2.3"
+
+[results.Ncurses_jll]
+precompile_time = 0.477194242
+install_time = 0.485765994
+load_time1 = 0.00793941
+version = "6.5.1+0"
+
+[results.ColorBrewer]
+precompile_time = 0.684720701
+install_time = 0.122176489
+load_time1 = 0.000897829
+version = "0.4.1"
+
+[results.AbstractPlutoDingetjes]
+precompile_time = 0.373760705
+install_time = 0.119427722
+load_time1 = 0.006962458
+version = "1.3.2"
+
+[results.CancellationTokens]
+precompile_time = 0.390098892
+install_time = 0.11956766
+load_time1 = 0.001239663
+version = "1.0.0"
+
+[results.Snappy]
+precompile_time = 0.489829039
+install_time = 0.136205895
+load_time1 = 0.000901856
+version = "0.4.3"
+
+[results.MutableArithmetics]
+precompile_time = 4.466479908
+install_time = 0.125133224
+load_time1 = 0.111590322
+version = "1.6.4"
+
+[results.libgeotiff_jll]
+precompile_time = 0.540853056
+install_time = 0.267577284
+load_time1 = 0.001313059
+version = "100.702.400+0"
+
+[results.MuladdMacro]
+precompile_time = 0.311274535
+install_time = 0.108313807
+load_time1 = 0.001027419
+version = "0.2.4"
+
+[results.IdentityRanges]
+precompile_time = 0.383463546
+install_time = 0.138165213
+load_time1 = 0.004436325
+version = "0.3.1"
+
+[results.OpenEXR_jll]
+precompile_time = 0.486141791
+install_time = 0.299862456
+load_time1 = 0.002177647
+version = "3.2.4+0"
+
+[results.Wayland_jll]
+precompile_time = 0.466297965
+install_time = 0.193566085
+load_time1 = 0.001456886
+version = "1.23.1+0"
+
+[results.TaskLocalValues]
+precompile_time = 0.306439923
+install_time = 0.104145542
+load_time1 = 0.001235807
+version = "0.1.2"
+
+[results.FLoops]
+precompile_time = 2.69918972
+install_time = 0.256284712
+load_time1 = 0.002689608
+version = "0.2.2"
+
+[results.AlmostBlockDiagonals]
+precompile_time = 1.321447562
+install_time = 0.109315724
+load_time1 = 0.001427572
+version = "0.1.10"
+
+[results.LevyArea]
+precompile_time = 0.540970503
+install_time = 0.127198743
+load_time1 = 0.003226204
+version = "1.0.0"
+
+[results.LNR]
+precompile_time = 0.435334515
+install_time = 0.20422342
+load_time1 = 0.000932251
+version = "0.2.2"
+
+[results.ImageMagick]
+precompile_time = 2.983195377
+install_time = 0.197851816
+load_time1 = 0.018413859
+version = "1.4.1"
+
+[results.AzManagers]
+precompile_time = 1.330541764
+install_time = 0.246812173
+load_time1 = 0.01740211
+version = "3.16.0"
+
+[results.Calculus]
+precompile_time = 0.529420014
+install_time = 0.217685969
+load_time1 = 0.002007284
+version = "0.5.2"
+
+[results.InfiniteArrays]
+precompile_time = 1.268165981
+install_time = 0.270443684
+load_time1 = 0.039182371
+version = "0.15.6"
+
+[results.PeriodicTable]
+precompile_time = 1.765593703
+install_time = 0.28951215
+load_time1 = 0.006516028
+version = "1.2.1"
+
+[results.MathProgBase]
+precompile_time = 0.770383798
+install_time = 0.124329804
+load_time1 = 0.002043877
+version = "0.7.8"
+
+[results.SymbolicIndexingInterface]
+precompile_time = 1.192331139
+install_time = 0.282533994
+load_time1 = 0.004462436
+version = "0.3.39"
+
+[results.GenericSchur]
+precompile_time = 0.864251415
+install_time = 0.228761675
+load_time1 = 0.008328283
+version = "0.5.5"
+
+[results.SpecialFunctions]
+precompile_time = 3.451175156
+install_time = 0.122133012
+load_time1 = 0.008789642
+version = "2.5.0"
+
+[results.ANSIColoredPrinters]
+precompile_time = 0.352701897
+install_time = 0.105318656
+load_time1 = 0.001283003
+version = "0.0.1"
+
+[results.BoundaryValueDiffEqShooting]
+precompile_time = 4.483802988
+install_time = 0.783928033
+load_time1 = 0.002582587
+version = "1.6.0"
+
+[results.MCMCChains]
+precompile_time = 2.433810298
+install_time = 0.646017213
+load_time1 = 0.00606552
+version = "6.0.7"
+
+[results.libevent_jll]
+precompile_time = 0.468472817
+install_time = 0.503281092
+load_time1 = 0.001185139
+version = "2.1.15+0"
+
+[results.BoundaryValueDiffEqMIRKN]
+precompile_time = 4.57319527
+install_time = 0.646005633
+load_time1 = 0.002322776
+version = "1.5.0"
+
+[results.Xorg_libXau_jll]
+precompile_time = 0.425159484
+install_time = 0.134730665
+load_time1 = 0.004212507
+version = "1.0.13+0"
+
+[results.Libepoxy_jll]
+precompile_time = 0.468648517
+install_time = 0.287099295
+load_time1 = 0.00166271
+version = "1.5.10+0"
+
+[results.SQLite]
+precompile_time = 1.819161279
+install_time = 0.170630482
+load_time1 = 0.012911958
+version = "1.6.1"
+
+[results.BioAlignments]
+precompile_time = 1.419713064
+install_time = 0.266027989
+load_time1 = 0.012928998
+version = "3.1.0"
+
+[results.EnzymeCore]
+precompile_time = 0.787723544
+install_time = 0.103253748
+load_time1 = 0.028947616
+version = "0.8.8"
+
+[results.Giflib_jll]
+precompile_time = 0.443763655
+install_time = 0.157186888
+load_time1 = 0.004164788
+version = "5.2.3+0"
+
+[results.LsqFit]
+precompile_time = 1.053051325
+install_time = 0.613863021
+load_time1 = 0.001456045
+version = "0.15.1"
+
+[results.dSFMT_jll]
+precompile_time = 0.001659183
+install_time = 0.004102173
+load_time1 = 0.001101096
+version = "2.2.4+4"
+
+[results.FFMPEG]
+precompile_time = 3.389052448
+install_time = 20.474420991
+load_time1 = 0.000951428
+version = "0.2.4"
+
+[results.Nettle_jll]
+precompile_time = 0.451452699
+install_time = 0.612534898
+load_time1 = 0.004843408
+version = "3.10.1+0"
+
+[results.FunctionalCollections]
+precompile_time = 0.460173101
+install_time = 0.113870318
+load_time1 = 0.003640225
+version = "nothing"
+
+[results.PlotThemes]
+precompile_time = 2.635431891
+install_time = 0.257313509
+load_time1 = 0.017426335
+version = "3.3.0"
+
+[results.SciMLSensitivity]
+precompile_time = 63.77944673
+install_time = 4.223101509
+load_time1 = 0.013439995
+version = "7.76.0"
+
+[results.Libffi_jll]
+precompile_time = 0.406723738
+install_time = 0.135846703
+load_time1 = 0.003988531
+version = "3.4.7+0"
+
+[results.LLVMOpenMP_jll]
+precompile_time = 0.405639223
+install_time = 0.18245627
+load_time1 = 0.004156443
+version = "18.1.7+0"
+
+[results.PDMats]
+precompile_time = 0.681764446
+install_time = 0.09849524
+load_time1 = 0.009642928
+version = "0.11.34"
+
+[results.BitIntegers]
+precompile_time = 0.555610366
+install_time = 0.113130504
+load_time1 = 0.009059329
+version = "0.3.5"
+
+[results.GroupsCore]
+precompile_time = 0.370758445
+install_time = 0.123652116
+load_time1 = 0.00292818
+version = "0.5.2"
+
+[results.LayoutPointers]
+precompile_time = 0.481241667
+install_time = 0.232020642
+load_time1 = 0.002417096
+version = "0.1.17"
+
+[results.Libtask]
+precompile_time = 0.625439702
+install_time = 0.129693772
+load_time1 = 0.004194375
+version = "0.8.8"
+
+[results.GridLayoutBase]
+precompile_time = 5.176128128
+install_time = 0.267066852
+load_time1 = 0.039000743
+version = "0.11.1"
+
+[results.ImageShow]
+precompile_time = 1.189659619
+install_time = 0.33326284
+load_time1 = 0.001983726
+version = "0.3.8"
+
+[results.GenericFFT]
+precompile_time = 0.656113724
+install_time = 0.177952759
+load_time1 = 0.007174585
+version = "0.1.6"
+
+[results.JSONSchema]
+precompile_time = 0.533570321
+install_time = 0.125305607
+load_time1 = 0.001345288
+version = "1.4.1"
+
+[results.DocStringExtensions]
+precompile_time = 0.476371158
+install_time = 0.092347162
+load_time1 = 0.001933042
+version = "0.9.4"
+
+[results.Enzyme]
+precompile_time = 192.041154629
+install_time = 1.779103493
+load_time1 = 0.262258253
+version = "0.13.35"
+
+[results.TableTraitsUtils]
+precompile_time = 0.967673108
+install_time = 0.119837583
+load_time1 = 0.001084924
+version = "1.0.2"
+
+[results.RCall]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.PositiveFactorizations]
+precompile_time = 0.395213162
+install_time = 0.096912032
+load_time1 = 0.001225527
+version = "0.2.4"
+
+[results.NameResolution]
+precompile_time = 0.334081038
+install_time = 0.114497348
+load_time1 = 0.000912556
+version = "0.1.5"
+
+[results.FilePaths]
+precompile_time = 0.457950712
+install_time = 0.124324005
+load_time1 = 0.000780681
+version = "0.9.0"
+
+[results.WeightInitializers]
+precompile_time = 2.327420101
+install_time = 0.332216979
+load_time1 = 0.007830534
+version = "1.1.1"
+
+[results.Nettle]
+precompile_time = 0.699465193
+install_time = 0.124231231
+load_time1 = 0.006208104
+version = "1.0.0"
+
+[results.UnitfulAtomic]
+precompile_time = 1.768390026
+install_time = 0.251158989
+load_time1 = 0.08294978
+version = "1.0.0"
+
+[results.InlineStrings]
+precompile_time = 0.903672129
+install_time = 0.195522197
+load_time1 = 0.03491692
+version = "1.4.3"
+
+[results.Xorg_xcb_util_image_jll]
+precompile_time = 0.412087362
+install_time = 0.154331564
+load_time1 = 0.001391595
+version = "0.4.0+1"
+
+[results.TableOperations]
+precompile_time = 0.4799656
+install_time = 0.232336616
+load_time1 = 0.006243372
+version = "1.2.0"
+
+[results.Libmount_jll]
+precompile_time = 0.416013555
+install_time = 0.522363224
+load_time1 = 0.003934069
+version = "2.41.0+0"
+
+[results.libaom_jll]
+precompile_time = 0.453419114
+install_time = 0.514427083
+load_time1 = 0.004678283
+version = "3.11.0+0"
+
+[results.SimpleUnPack]
+precompile_time = 0.30608296
+install_time = 0.098366592
+load_time1 = 0.000969652
+version = "1.1.0"
+
+[results.LaTeXStrings]
+precompile_time = 0.315590371
+install_time = 0.089457208
+load_time1 = 0.001284417
+version = "1.4.0"
+
+[results.Vega]
+precompile_time = 1.720877167
+install_time = 4.636737616
+load_time1 = 0.505930448
+version = "2.7.0"
+
+[results.JSONRPC]
+precompile_time = 0.503183845
+install_time = 0.132137807
+load_time1 = 0.001977303
+version = "2.0.1"
+
+[results.NCDatasets]
+precompile_time = 4.197076522
+install_time = 3.457132574
+load_time1 = 0.030660227
+version = "0.14.7"
+
+[results.BlockArrays]
+precompile_time = 2.401308673
+install_time = 0.140154209
+load_time1 = 0.136343022
+version = "1.6.1"
+
+[results.libpng_jll]
+precompile_time = 0.40174058
+install_time = 0.172121934
+load_time1 = 0.003841027
+version = "1.6.47+0"
+
+[results.Random123]
+precompile_time = 0.758853755
+install_time = 0.104251078
+load_time1 = 0.002657629
+version = "1.7.0"
+
+[results.RecursiveFactorization]
+precompile_time = 6.904445213
+install_time = 0.220188646
+load_time1 = 0.126722643
+version = "0.2.23"
+
+[results.Blosc_jll]
+precompile_time = 0.425286422
+install_time = 0.174607072
+load_time1 = 0.001053638
+version = "1.21.7+0"
+
+[results.FixedPointDecimals]
+precompile_time = 0.831032729
+install_time = 0.337645796
+load_time1 = 0.009752032
+version = "0.6.3"
+
+[results.AzSessions]
+precompile_time = 0.718968377
+install_time = 0.13791318
+load_time1 = 0.00147494
+version = "2.1.8"
+
+[results.LoggingFormats]
+precompile_time = 0.461095066
+install_time = 0.134093047
+load_time1 = 0.001163512
+version = "1.5.0"
+
+[results.Deno_jll]
+precompile_time = 0.431303086
+install_time = 2.672231671
+load_time1 = 0.0041876
+version = "2.2.6+0"
+
+[results.AxisArrays]
+precompile_time = 0.686977357
+install_time = 0.229337355
+load_time1 = 0.007875741
+version = "0.4.7"
+
+[results.Netpbm]
+precompile_time = 1.256102262
+install_time = 0.239831464
+load_time1 = 0.00094218
+version = "1.1.1"
+
+[results.Libgcrypt_jll]
+precompile_time = 0.434376873
+install_time = 0.251923633
+load_time1 = 0.001068724
+version = "1.11.1+0"
+
+[results.JetPack]
+precompile_time = 1.173182362
+install_time = 0.690833001
+load_time1 = 0.002277602
+version = "1.1.2"
+
+[results.CompilerSupportLibraries_jll]
+precompile_time = 0.003521235
+install_time = 0.008389963
+load_time1 = 0.005758132
+version = "1.1.1+0"
+
+[results.Bessels]
+precompile_time = 1.513229692
+install_time = 0.115840936
+load_time1 = 0.007097682
+version = "0.2.8"
+
+[results.Chemfiles_jll]
+precompile_time = 0.448631655
+install_time = 0.278185715
+load_time1 = 0.004951511
+version = "0.10.4+0"
+
+[results.JLFzf]
+precompile_time = 0.312285213
+install_time = 0.100412919
+load_time1 = 0.00063481
+version = "0.1.10"
+
+[results.DualNumbers]
+precompile_time = 0.752515046
+install_time = 0.107574318
+load_time1 = 0.007379439
+version = "0.6.9"
+
+[results.CloudSeis]
+precompile_time = 1.098402677
+install_time = 0.170088199
+load_time1 = 0.012707553
+version = "1.16.0"
+
+[results.FoldingTrees]
+precompile_time = 0.370286045
+install_time = 0.130349551
+load_time1 = 0.001966353
+version = "1.2.2"
+
+[results.Makie]
+precompile_time = 162.185912574
+install_time = 5.978435852
+load_time1 = 0.982118941
+version = "0.19.0"
+
+[results.FeatureSelection]
+precompile_time = 0.549807888
+install_time = 0.628608282
+load_time1 = 0.001455135
+version = "0.2.2"
+
+[results.DensityInterface]
+precompile_time = 0.443789761
+install_time = 0.093702081
+load_time1 = 0.001276262
+version = "0.4.0"
+
+[results.GeometryBasics]
+precompile_time = 9.612248323
+install_time = 0.23831576
+load_time1 = 0.174205209
+version = "0.5.7"
+
+[results.SplittablesBase]
+precompile_time = 0.682112485
+install_time = 0.479837813
+load_time1 = 0.003036991
+version = "0.1.15"
+
+[results.SIMDDualNumbers]
+precompile_time = 0.596987329
+install_time = 0.683756798
+load_time1 = 0.003486138
+version = "0.1.1"
+
+[results.PrettyTables]
+precompile_time = 15.22472868
+install_time = 0.134524986
+load_time1 = 0.078230238
+version = "2.4.0"
+
+[results.Xorg_xcb_util_cursor_jll]
+precompile_time = 0.429630448
+install_time = 0.165032724
+load_time1 = 0.001111686
+version = "0.1.4+0"
+
+[results.CSV]
+precompile_time = 14.838310167
+install_time = 0.557312247
+load_time1 = 0.082281323
+version = "0.10.15"
+
+[results.Debugger]
+precompile_time = 0.863842891
+install_time = 0.50341333
+load_time1 = 0.002941887
+version = "0.7.10"
+
+[results.VertexSafeGraphs]
+precompile_time = 0.800917129
+install_time = 0.126230635
+load_time1 = 0.00093078
+version = "0.2.0"
+
+[results.RecurrenceRelationships]
+precompile_time = 0.388190767
+install_time = 0.159815821
+load_time1 = 0.531616403
+version = "0.2.0"
+
+[results.GeoFormatTypes]
+precompile_time = 0.360837948
+install_time = 0.099730621
+load_time1 = 0.005212386
+version = "0.4.4"
+
+[results.OrdinaryDiffEqExplicitRK]
+precompile_time = 2.341560616
+install_time = 0.811671778
+load_time1 = 0.010334721
+version = "1.1.0"
+
+[results.CPLEX]
+precompile_time = nan
+install_time = nan
+load_time1 = nan
+version = "nothing"
+
+[results.OrdinaryDiffEqFeagin]
+precompile_time = 2.312471346
+install_time = 0.62316212
+load_time1 = 0.002766461
+version = "1.1.0"
+
+[results.MPFR_jll]
+precompile_time = 0.015822857
+install_time = 0.032734074
+load_time1 = 0.000847735
+version = "4.2.0+1"
+
+[results.Hiccup]
+precompile_time = 0.532798164
+install_time = 0.113879795
+load_time1 = 0.00159296
+version = "nothing"
+
+[results.LinearAlgebraX]
+precompile_time = 0.881842027
+install_time = 0.271527392
+load_time1 = 0.001621223
+version = "0.2.10"
+
+[results.cuDNN]
+precompile_time = 8.066141742
+install_time = 4.182590982
+load_time1 = 0.024157043
+version = "1.4.2"
+
+[results.InputBuffers]
+precompile_time = 0.307030611
+install_time = 0.159643144
+load_time1 = 0.001013051
+version = "1.0.1"
+
+[results.Xorg_xcb_util_wm_jll]
+precompile_time = 0.44159028
+install_time = 0.279504376
+load_time1 = 0.001133988
+version = "0.4.1+1"
+
+[results.SimplePolynomials]
+precompile_time = 0.936429549
+install_time = 0.290811852
+load_time1 = 0.003458016
+version = "0.2.18"
+
+[results.Mmap]
+precompile_time = 0.000931521
+install_time = 0.002616381
+load_time1 = 0.000245336
+version = "nothing"
+
+[results.Profile]
+precompile_time = 0.002414195
+install_time = 0.003969195
+load_time1 = 0.034280382
+version = "nothing"
+
+[results.Preferences]
+precompile_time = 0.54034274
+install_time = 0.243817647
+load_time1 = 0.010478599
+version = "1.4.3"
+
+[results.CPUTime]
+precompile_time = 0.315257226
+install_time = 0.252440277
+load_time1 = 0.000983608
+version = "1.0.0"
+
+[results.LRUCache]
+precompile_time = 0.726596293
+install_time = 0.115052622
+load_time1 = 0.037855986
+version = "1.6.2"
+
+[results.Bonito]
+precompile_time = 4.034962018
+install_time = 2.775474663
+load_time1 = 0.027469133
+version = "4.0.3"
+
+[results.Transducers]
+precompile_time = 2.491368288
+install_time = 0.260280697
+load_time1 = 0.01430335
+version = "0.4.84"
+
+[results.Mongoc]
+precompile_time = 0.997570999
+install_time = 0.187375717
+load_time1 = 0.015672589
+version = "0.9.2"
+
+[results.Documenter]
+precompile_time = 22.311463269
+install_time = 0.482885666
+load_time1 = 0.139899429
+version = "1.10.1"
+
+[results.libsixel_jll]
+precompile_time = 0.432060506
+install_time = 0.177145421
+load_time1 = 0.001190372
+version = "1.10.5+0"
+
+[results.DiffResults]
+precompile_time = 0.325680563
+install_time = 0.095838958
+load_time1 = 0.001369916
+version = "1.1.0"
+
+[results.Dierckx_jll]
+precompile_time = 0.460786069
+install_time = 0.182388044
+load_time1 = 0.004523699
+version = "0.2.0+0"
+
+[results.CommonMark]
+precompile_time = 7.296953485
+install_time = 0.136901954
+load_time1 = 0.053817393
+version = "0.9.0"
+
+[results.LogDensityProblems]
+precompile_time = 0.657389395
+install_time = 0.699410594
+load_time1 = 0.000868433
+version = "2.1.2"
+
+[results.StableHashTraits]
+precompile_time = 0.53436007
+install_time = 0.140880133
+load_time1 = 0.002600573
+version = "2.0.0"
+
+[results.Libtiff_jll]
+precompile_time = 0.442822882
+install_time = 0.412029546
+load_time1 = 0.001121424
+version = "4.7.1+0"
+
+[results.Cassette]
+precompile_time = 0.778676021
+install_time = 0.144629681
+load_time1 = 0.010672772
+version = "0.3.14"
+
+[results.OptimizationOptimJL]
+precompile_time = 15.505111055
+install_time = 0.760911835
+load_time1 = 0.152486198
+version = "0.4.1"
+
+[results.MixedModels]
+precompile_time = 48.699189222
+install_time = 0.750538429
+load_time1 = 0.47985151
+version = "4.34.1"
+
+[results.PkgVersion]
+precompile_time = 0.505928302
+install_time = 0.1129092
+load_time1 = 0.012750183
+version = "0.3.3"
+
+[results.RDatasets]
+precompile_time = 4.560443164
+install_time = 1.210649396
+load_time1 = 0.001956876
+version = "0.7.7"
+
+[results.MongoC_jll]
+precompile_time = 0.488626188
+install_time = 0.400860479
+load_time1 = 0.001616594
+version = "1.28.1+0"
+
+[results.LLVMLoopInfo]
+precompile_time = 0.310512864
+install_time = 0.421278184
+load_time1 = 0.000949252
+version = "1.0.0"
+
+[results.FastRounding]
+precompile_time = 0.35054457
+install_time = 0.117347717
+load_time1 = 0.000926101
+version = "0.3.1"
+
+[results.DefaultApplication]
+precompile_time = 0.342657827
+install_time = 0.124209815
+load_time1 = 0.000871901
+version = "1.1.0"
+
+[results.HypertextLiteral]
+precompile_time = 0.509013317
+install_time = 0.106298766
+load_time1 = 0.002875332
+version = "0.9.5"
+
+[results.MicroCollections]
+precompile_time = 0.554329989
+install_time = 0.254098981
+load_time1 = 0.00324368
+version = "0.2.0"
+
+[results.ArgCheck]
+precompile_time = 0.385918709
+install_time = 0.099317788
+load_time1 = 0.001315916
+version = "2.5.0"
+
+[results.PolygonAlgorithms]
+precompile_time = 0.782383346
+install_time = 0.144938298
+load_time1 = 0.003536763
+version = "0.3.2"
+
+[results.OpenMPI_jll]
+precompile_time = 0.667923737
+install_time = 0.907947728
+load_time1 = 0.000803642
+version = "5.0.7+2"
+
+[results.ZeroMQ_jll]
+precompile_time = 0.435208665
+install_time = 0.159657603
+load_time1 = 0.00103924
+version = "4.3.6+0"
+
+[results.Xorg_libXi_jll]
+precompile_time = 0.430499712
+install_time = 0.274255675
+load_time1 = 0.00138277
+version = "1.8.2+0"
