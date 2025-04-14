@@ -1,3 +1,18 @@
+// This Netlify Function serves a JSON file index.
+// Looks like:
+/*
+
+{
+  "files": [
+    "2025-04-14_10-54-53-231_julia_1.9.4/pkg_load_times.toml",
+    "2025-04-14_10-54-53-231_julia_1.9.4/top_packages_sorted.txt",
+    "2025-04-14_10-54-53-231_julia_1.9.4/top_packages_sorted_with_deps.txt",
+    "2025-04-14_10-54-53-757_julia_1.10.9/pkg_load_times.toml",
+  ]
+}
+*/
+
+
 const fs = require('fs');
 const path = require('path');
 
