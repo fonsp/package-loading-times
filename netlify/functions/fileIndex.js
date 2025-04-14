@@ -6,11 +6,11 @@ function getFilePaths(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   const files = entries
     .filter(file => !file.isDirectory())
-    .map(file => path.join(dir, file));
+    .map(file => path.join(dir, file.name)); // Use .name to get the string path
   const folders = entries.filter(folder => folder.isDirectory());
 
   for (const folder of folders) {
-    files.push(...getFilePaths(path.join(dir, folder.name)));
+    files.push(...getFilePaths(path.join(dir, folder.name))); // Use .name here as well
   }
 
   return files;
