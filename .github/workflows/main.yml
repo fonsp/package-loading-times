@@ -2,11 +2,6 @@ name: Measure loading times
 on:
     workflow_dispatch:
 
-# When two jobs run in parallel, cancel the older ones
-concurrency:
-    group: pluto-export
-    cancel-in-progress: true
-
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
