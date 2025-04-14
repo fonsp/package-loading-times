@@ -27,7 +27,7 @@ jobs:
               run: |
                 julia -e '
                   import Dates
-                  out = replace(string(Dates.now()), r"[:.]" => "-", r"[TZ"] => "_") * " julia " * string(VERSION)
+                  out = replace(string(Dates.now()), r"[:.]" => "-", r"[TZ]" => "_") * "_julia_" * string(VERSION)
                   write("out", out)'
                 echo "FOLDER_NAME=$(cat out)" >> $GITHUB_ENV
 
@@ -73,7 +73,7 @@ jobs:
                 path: most_downloaded_packages.html
             
             - name: Clear Julia depot
-              run: rm -rf ${{ steps.finddepot.outputs.JULIA_DEPOT }}
+              run: rm -rf ${{ env.JULIA_DEPOT }}
 
             - name: 🚀
               run: julia measure_loading_times.jl
@@ -88,7 +88,7 @@ jobs:
             - uses: actions/upload-artifact@v4
               if: always()
               with:
-                name: ${{ steps.computefilename.outputs.FOLDER_NAME }}
+                name: ${{ env.FOLDER_NAME }}
                 path: output/*
 
 

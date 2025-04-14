@@ -60,7 +60,7 @@ d(x,y,z,v) = Dict(
 peakflops_result = peakflops()
 start_time = Dates.now()
 
-filename = "pkg_load_times.toml"
+filename = joinpath("output", "pkg_load_times.toml")
 function submit()
     s = sprint() do io
         TOML.print(io, Dict(
@@ -141,7 +141,7 @@ for (i,line) in enumerate(lines)
     catch e
         @error "Failed to do package!" package exception=(e, catch_backtrace())
         
-        data[package] = d(NaN, NaN, NaN, nothing)
+        data[package] = d(NaN, NaN, NaN, string(nothing))
         submit()
     end
         
