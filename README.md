@@ -17,7 +17,7 @@ The second script, https://github.com/fonsp/package-loading-times/blob/main/meas
 
 For each package, we set up a temporary environment where we load all the dependencies first. Then, we can measure the installation (i.e. download), precompilation and first load of the single package in isolation.
 
-> The result is a csv file that looks like this: https://julia-loading-times-test.netlify.app/pkg_load_times.csv
+> The result is a TOML file that looks like this: https://github.com/fonsp/package-loading-times/blob/results-v1/2025-04-14_10-54-53-757_julia_1.10.9/pkg_load_times.toml (TODO this is a test run with only the top 20 packages)
 
 # Use in Pluto.jl
 This data is used by Pluto to give an estimate for installation time:
