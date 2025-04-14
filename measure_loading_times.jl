@@ -1,16 +1,5 @@
-import Pkg
-Pkg.activate(;temp=true)
 
-ENV["JULIA_PKG_PRECOMPILE_AUTO"] = "false"
-
-lines = readlines("top_packages_sorted_with_deps.txt")
-
-# test
-# lines = lines[1:50]
-
-# We add Example.jl at the start to take the blame for precompilation of Pkg.jl, since people never load this package in the real world.
-lines = ["Example", lines...]
-
+@warn "Reminder: you need to manually clear your `.julia` caches for this script to work. See comment below."
 
 
 
@@ -39,14 +28,58 @@ lines = ["Example", lines...]
 # ➜  Documents sudo rm -rf ~/.julia/packages  
 
 
-filename = "pkg_load_times.csv"
 
-file_output = Ref("name,install_time,precompile_time,load_time1\n")
+import Pkg
+import TOML
+import Dates
+using InteractiveUtils
+Pkg.activate(;temp=true)
+
+ENV["JULIA_PKG_PRECOMPILE_AUTO"] = "false"
+
+
+mkpath("output")
+
+lines = readlines(joinpath("output", "top_packages_sorted_with_deps.txt"))
+
+
+# We add Pkg.jl at the start, this will "take the blame" for the JIT overhead of calling Pkg.add & Pkg.precompile etc.
+lines = ["Pkg", lines...]
 
 
 
+data = Dict{String,Any}()
 
-for line in lines
+d(x,y,z) = Dict(
+    "install_time" => x,
+    "precompile_time" => y,
+    "load_time1" => z,
+)
+
+peakflops_result = peakflops()
+start_time = Dates.now()
+
+filename = "pkg_load_times.toml"
+function submit()
+    s = sprint() do io
+        TOML.print(io, Dict(
+            "time" => start_time,
+            "julia_version" => string(VERSION),
+            "versioninfo" => sprint(versioninfo),
+            "machine" => Sys.MACHINE,
+            "os" => Sys.iswindows() ? "Windows" : Sys.isapple() ? "macOS" : Sys.KERNEL,
+            "peakflops" => peakflops_result,
+            "version" => 1,
+            "results" => data,
+        ))
+    end
+    
+    write(filename, s)
+end
+
+
+
+for (i,line) in enumerate(lines)
     package, deps... = split(line,",")
     filter!(!isequal("julia"), deps)
 
@@ -88,17 +121,20 @@ for line in lines
         
         # @info "Second load time"
         # load_time2 = load_time()
+        # (I found that this always equals load_time1)
+        
+        
         
         
         @info "time" install_time precompile_time load_time1
         
-        file_output[] *= "$(package),$install_time,$precompile_time,$load_time1\n"
-        write(filename, file_output[])
+        data[package] = d(install_time, precompile_time, load_time1)
+        submit()
     catch e
         @error "Failed to do package!" package exception=(e, catch_backtrace())
         
-        file_output[] *= "$(package),NaN,NaN,NaN\n"
-        write(filename, file_output[])
+        data[package] = d(NaN, NaN, NaN)
+        submit()
     end
         
 end
