@@ -115,7 +115,7 @@ const Entry = Union{PkgEntry, StdlibEntry}
 vs = collect(keys(perw))
 
 # ╔═╡ d32adabf-5bdf-4622-ac42-f31bff1d007b
-top_uuids = popular[ 1:1000, :package_uuid]
+top_uuids = popular[ 1:20, :package_uuid]
 
 # ╔═╡ 1a18c3e7-aaf3-4a21-9a06-a94e37650f9a
 top_entries = vcat(
