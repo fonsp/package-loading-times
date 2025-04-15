@@ -27,7 +27,7 @@ jobs:
               run: |
                 julia -e '
                   import Dates
-                  out = replace(string(Dates.now()), r"[:.]" => "-", r"[TZ]" => "_") * "_julia_" * string(VERSION)
+                  out = replace(replace(string(Dates.now()), r"[:.]" => "-"), r"[TZ]" => "_") * "_julia_" * string(VERSION)
                   write("out", out)'
                 echo "FOLDER_NAME=$(cat out)" >> $GITHUB_ENV
 
