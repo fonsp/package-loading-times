@@ -59,6 +59,11 @@ d(x,y,z,v) = Dict(
 
 peakflops_result = peakflops()
 start_time = Dates.now()
+jloptions = try
+    Base.JLOptions() |> string
+catch
+    ""
+end
 
 filename = joinpath("output", "pkg_load_times.toml")
 function submit()
@@ -70,6 +75,7 @@ function submit()
             "machine" => string(Sys.MACHINE),
             "os" => Sys.iswindows() ? "Windows" : Sys.isapple() ? "macOS" : string(Sys.KERNEL),
             "peakflops" => peakflops_result,
+            "jloptions" => jloptions,
             "version" => 1,
             "results" => data,
         ))
