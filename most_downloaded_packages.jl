@@ -31,6 +31,22 @@ using RegistryInstances
 # ╔═╡ 85d985fa-4c03-40e9-99d6-6b0517d02d8a
 using UUIDs
 
+# ╔═╡ b667a59a-c2fe-4275-ae4b-d7c58618d2cb
+md"""
+# List of packages
+
+This script will get the list of 1000 most downloaded packages, based on the [public Pkg server download stats](https://discourse.julialang.org/t/announcing-package-download-stats/69073).
+
+We also want to take **package dependencies** into account. The measuring script works by measuring all packages in _dependency order_. This means that all dependencies of a package will be measured before the package itself. This allows us to isolate the package installation time from its dependencies (which have already been installed before).
+
+The result is a `.txt` file. Each line starts with a package name, followed by a comma-separated list of its dependencies. Lines are in order of popularity, and (stable) sorted on package dependency.
+"""
+
+# ╔═╡ f104364b-c1d6-414f-b9be-ac4818416a91
+md"""
+# Code
+"""
+
 # ╔═╡ 8d70b100-2df2-11ed-20da-8d38fabd643a
 url = "https://julialang-logs.s3.amazonaws.com/public_outputs/current/package_requests.csv.gz"
 
@@ -123,26 +139,18 @@ top_entries = vcat(
 	[general_registry.pkgs[UUID(u)] for u in top_uuids],
 )
 
-# ╔═╡ 13ef21b6-fcf9-466f-a1c2-352ddc41c797
+# ╔═╡ 9c971663-05c9-4f13-a0b6-792b397a4e4c
+output_path = joinpath(mkpath("output"), "top_packages_sorted.txt")
 
+# ╔═╡ 9acf12c7-7f48-41e1-b4be-b91f66b0033c
+md"""
+# Output
 
-# ╔═╡ e7f15d37-165a-40fb-bc2f-5742441c7bfb
-
-
-# ╔═╡ 14077034-878e-4bcd-9468-fb6f9141aaad
-# dependencies(stdlib_entries[15]) |> collect
-
-# ╔═╡ 05cf4427-ff70-473b-ab32-74ef28f26404
-# TOML.parsefile(joinpath(Pkg.Types.stdlib_path("LinearAlgebra"), "Project.toml"))
-
-# ╔═╡ cae907f9-2976-4899-9070-8c433e541ef4
-general_registry
+The following will be written to the **$(output_path)** file.
+"""
 
 # ╔═╡ b27c0478-6669-402d-ab60-dfb8edde788c
 RegistryInstances.registry_info(top_entries[800]).deps
-
-# ╔═╡ 43223cc7-3af8-4780-a5cc-289b31851fee
-getindex
 
 # ╔═╡ fee23f41-5427-440f-8e3c-9a4509873219
 latest_version(entry::PkgEntry) = RegistryInstances.registry_info(entry).version_info |> keys |> maximum
@@ -254,10 +262,7 @@ end
 sorted_top_names = [p.name for p in sorted_top]
 
 # ╔═╡ e1bff052-a0a2-41a4-ac75-495e6d2d62a9
-let
-	mkpath("output")
-	write(joinpath("output", "top_packages_sorted.txt"), join(sorted_top_names, "\n"))
-end
+write(output_path, join(sorted_top_names, "\n"))
 
 # ╔═╡ 50aeef93-d2b6-464e-8aed-2fab5a6d172f
 Text(join(sorted_top_names, "\n"))
@@ -285,9 +290,6 @@ end
 # ╔═╡ 1fa4d8c9-d631-4cbb-a1f8-9789b465af0d
 general_registry.in_memory_registry[top_entries[800].path *"/Deps.toml"] |> TOML.parse
 
-
-# ╔═╡ 94c2ae47-7350-42e8-abb9-7be7e624110a
-methodswith(PkgEntry)
 
 # ╔═╡ 9836a44e-2eab-4e4d-be75-2e7d801198c7
 filter(r -> r.name ∈ ("Plots","Pluto"), popular)
@@ -318,7 +320,7 @@ Tables = "~1.11.1"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.4"
+julia_version = "1.11.5"
 manifest_format = "2.0"
 project_hash = "11bde5c78684d1929e9ff8216a6c233e20a66ef0"
 
@@ -723,6 +725,10 @@ version = "17.4.0+2"
 """
 
 # ╔═╡ Cell order:
+# ╟─b667a59a-c2fe-4275-ae4b-d7c58618d2cb
+# ╟─9acf12c7-7f48-41e1-b4be-b91f66b0033c
+# ╠═da6c519b-f35b-48d2-a897-dbbe58a69711
+# ╟─f104364b-c1d6-414f-b9be-ac4818416a91
 # ╠═8d70b100-2df2-11ed-20da-8d38fabd643a
 # ╠═352bb1f4-50f9-4450-a6f5-ca342eaaafe2
 # ╠═66b19454-86e2-44ad-8367-c661acaaddd3
@@ -748,8 +754,8 @@ version = "17.4.0+2"
 # ╠═d5b284e8-48e4-45ff-b60e-897441ec1a79
 # ╠═6df36e65-b8e7-4aca-a916-2844e700f33e
 # ╠═f0b251d4-c538-472b-9ce3-e2b1ea8d3481
-# ╠═e1818210-c67c-420b-a4e1-64df56c64fc2
-# ╠═3a04e925-7c34-4ef1-acbe-dea9199033d9
+# ╟─e1818210-c67c-420b-a4e1-64df56c64fc2
+# ╟─3a04e925-7c34-4ef1-acbe-dea9199033d9
 # ╠═76f026c3-3610-4fab-81b6-8380f35fb1c2
 # ╠═b8592dff-07d0-4ae4-b69e-64cc74bd17cc
 # ╠═5fcb704e-5878-4674-bc75-f4d4a70aed63
@@ -761,21 +767,15 @@ version = "17.4.0+2"
 # ╠═4252936f-5435-4d62-a5a2-c5dacc936c6f
 # ╠═b31351ba-59e9-46e2-be48-09204c56c20d
 # ╠═bacc149e-46c1-4fa9-8daa-86e119bf8399
+# ╠═9c971663-05c9-4f13-a0b6-792b397a4e4c
 # ╠═e1bff052-a0a2-41a4-ac75-495e6d2d62a9
 # ╠═50aeef93-d2b6-464e-8aed-2fab5a6d172f
 # ╠═1aebde1a-1221-43f4-8c3b-e7ae54c3528e
-# ╠═da6c519b-f35b-48d2-a897-dbbe58a69711
 # ╠═2161f2d2-858d-4edf-ae33-eca9d9ef4980
-# ╠═13ef21b6-fcf9-466f-a1c2-352ddc41c797
-# ╠═e7f15d37-165a-40fb-bc2f-5742441c7bfb
-# ╠═14077034-878e-4bcd-9468-fb6f9141aaad
-# ╠═05cf4427-ff70-473b-ab32-74ef28f26404
 # ╠═57312b16-9296-40cb-ac9a-861f38433d44
-# ╠═cae907f9-2976-4899-9070-8c433e541ef4
 # ╠═b27c0478-6669-402d-ab60-dfb8edde788c
 # ╠═1fa4d8c9-d631-4cbb-a1f8-9789b465af0d
 # ╠═e447c427-e63b-464f-bbb4-4d2104f2a32e
-# ╠═43223cc7-3af8-4780-a5cc-289b31851fee
 # ╠═fee23f41-5427-440f-8e3c-9a4509873219
 # ╠═f0fa3338-bd47-4841-8f9b-4723ed00b30c
 # ╠═f2fb2e4f-5862-49d4-9fc1-a15f76e2da48
@@ -783,7 +783,6 @@ version = "17.4.0+2"
 # ╠═876da4cd-23e4-4caa-ae8f-e32d994f8f20
 # ╠═8bef7abd-963c-4edf-aca2-bbcbf22099cf
 # ╠═75f9cb1d-85c5-4c2b-82e4-bcba298ca950
-# ╠═94c2ae47-7350-42e8-abb9-7be7e624110a
 # ╠═9836a44e-2eab-4e4d-be75-2e7d801198c7
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
