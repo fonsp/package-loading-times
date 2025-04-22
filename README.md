@@ -1,5 +1,5 @@
 # package-loading-times
-Automated script to measure the **precompilation, installation and loading** time of every package, and a tool to estimate **how long a set of packages will take to install**.
+Automated script to measure the **precompilation, installation and loading** time of every package.
 
 
 # How it works
@@ -26,11 +26,6 @@ This data is used by Pluto to give an estimate for installation time:
 
 *See the [PR](https://github.com/fonsp/Pluto.jl/pull/2672) for more information*.
 
-
-# Demo of calculator
-The notebook `estimate.jl` can give you an estimate of how long a given set of dependencies will take to install. You need to have the files in your repository for this to work - you can generate them or download them.
-
-https://user-images.githubusercontent.com/6933510/196949551-be77cf07-2539-4ebf-8270-e38b08cff5b5.mov
 
 # Results
 I am still working on a nice/automatic way to make the results public.

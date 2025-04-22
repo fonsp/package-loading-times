@@ -42,6 +42,12 @@ jobs:
 
 
 
+            # Running the notebook most_downloaded_packages.jl will generate the file 
+            # output/top_packages_sorted_with_deps.txt
+            # 
+            # We could just run the notebook directly (`julia most_downloaded_packages.jl`)... 
+            # But we run it with PlutoSliderServer to also get an HTML export of the Pluto notebook
+            # which gets uploaded as github action artifact, which can help with debugging if something goes wrong.
             - name: Get most downloaded packages
               run: |
                 julia -e 'using Pkg
